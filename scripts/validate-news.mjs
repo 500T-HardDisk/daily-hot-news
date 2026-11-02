@@ -6,7 +6,7 @@
  *   node scripts/validate-news.mjs            # 有错误时退出码为 1
  *   node scripts/validate-news.mjs --strict   # 警告也视为错误（CI 推荐）
  */
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -277,6 +277,21 @@ if (index && Array.isArray(index.days)) {
         if (points.filter((p) => typeof p === 'string' && p.trim()).length < 3) {
           error(`${label} 的全球股市板块需要至少 3 条 points 热点罗列`);
         }
+      }
+    }
+  }
+
+  // 历史新闻保留：data 目录下的文件都应登记在 index.json 中
+  const dataDir = join(NEWS, 'data');
+  if (existsSync(dataDir)) {
+    const referenced = new Set(
+      index.days
+        .filter((d) => d && typeof d.file === 'string')
+        .map((d) => join(NEWS, d.file).toLowerCase())
+    );
+    for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json'))) {
+      if (!referenced.has(join(dataDir, file).toLowerCase())) {
+        warn(`news/data/${file} 未在 index.json 的 days 中登记（历史新闻应保留并登记）`);
       }
     }
   }

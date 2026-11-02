@@ -45,6 +45,7 @@ export function buildHtml(
       </div>
       <div class="topbar-actions">
         <select id="date-select" class="date-select" title="切换日期" hidden></select>
+        <button id="btn-latest" class="latest-btn" title="回到最新新闻" hidden>最新</button>
         ${
           mode === 'sidebar'
             ? '<button id="btn-panel" class="icon-btn" title="在编辑器中打开" aria-label="在编辑器中打开">⤢</button>'

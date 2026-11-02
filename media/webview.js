@@ -11,7 +11,8 @@
 
   const state = {
     data: null,
-    date: saved.date || null,
+    // 不恢复上次选择的日期：每次打开默认查看最新新闻
+    date: null,
     category: saved.category || null,
     query: typeof saved.query === 'string' ? saved.query : '',
     selectedId: null,
@@ -21,7 +22,7 @@
   /* ---------------- 工具函数 ---------------- */
 
   function persist() {
-    vscode.setState({ date: state.date, category: state.category, query: state.query });
+    vscode.setState({ category: state.category, query: state.query });
   }
 
   function post(message) {
@@ -58,6 +59,31 @@
     const d = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
     const weekday = isNaN(d.getTime()) ? '' : ` ${WEEKDAYS[d.getDay()]}`;
     return `${date}${weekday}`;
+  }
+   
+
+  function daysBetween(later, earlier) {
+    const a = new Date(`${later}T00:00:00`);
+    const b = new Date(`${earlier}T00:00:00`);
+    if (isNaN(a.getTime()) || isNaN(b.getTime())) {
+      return NaN;
+    }
+    return Math.round((a - b) / 86400000);
+  }
+
+  /** 日期下拉的展示文案：最新 / 昨天 / 前天 / 星期几。 */
+  function dateOptionLabel(date, latest) {
+    const diff = daysBetween(latest, date);
+    if (diff === 0) {
+      return `${date} · 最新`;
+    }
+    if (diff === 1) {
+      return `${date} · 昨天`;
+    }
+    if (diff === 2) {
+      return `${date} · 前天`;
+    }
+    return formatDate(date);
   }
 
   function toast(message) {
@@ -144,16 +170,28 @@
     }
 
     const select = $('date-select');
+    const latest = data.dates && data.dates.length ? data.dates[0] : null;
     if (data.dates && data.dates.length > 1) {
       select.innerHTML = data.dates
-        .map((d) => `<option value="${esc(d)}"${d === state.date ? ' selected' : ''}>${esc(d)}</option>`)
+        .map(
+          (d) =>
+            `<option value="${esc(d)}"${d === state.date ? ' selected' : ''}>${esc(
+              dateOptionLabel(d, latest)
+            )}</option>`
+        )
         .join('');
       select.hidden = false;
+      select.title = `共 ${data.dates.length} 天，默认展示最新（${latest}）`;
     } else {
       select.hidden = true;
     }
 
-    $('footer-label').textContent = `共 ${data.total} 条 · 更新于 ${data.updatedAt ? data.updatedAt.replace('T', ' ').slice(0, 16) : '--'}`;
+    const latestBtn = $('btn-latest');
+    if (latestBtn) {
+      latestBtn.hidden = !latest || state.date === latest;
+    }
+
+    $('footer-label').textContent = `共 ${data.total} 条 · 更新于 ${data.updatedAt ? data.updatedAt.replace('T', ' ').slice(0, 16) : '--'}${latest ? ` · 历史共 ${data.dates.length} 天` : ''}`;
   }
 
   function renderChips() {
@@ -353,6 +391,10 @@
     $('headline').hidden = true;
     $('categories').innerHTML = '';
     $('date-select').hidden = true;
+    const latestBtn = $('btn-latest');
+    if (latestBtn) {
+      latestBtn.hidden = true;
+    }
     $('footer-label').textContent = '数据加载失败';
     $('list').innerHTML = `<div class="empty"><span class="big">⚠️</span>${esc(
       message || '未知错误'
@@ -475,6 +517,16 @@
   $('date-select').addEventListener('change', (event) => {
     post({ type: 'selectDate', date: event.target.value });
   });
+
+  const latestButton = $('btn-latest');
+  if (latestButton) {
+    latestButton.addEventListener('click', () => {
+      const dates = (state.data && state.data.dates) || [];
+      if (dates.length) {
+        post({ type: 'selectDate', date: dates[0] });
+      }
+    });
+  }
 
   $('btn-refresh').addEventListener('click', () => post({ type: 'refresh' }));
 

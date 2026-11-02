@@ -55,6 +55,7 @@ function html(mode) {
         </div>
         <div class="topbar-actions">
           <select id="date-select" hidden></select>
+          <button id="btn-latest" hidden></button>
           ${mode === 'sidebar' ? '<button id="btn-panel"></button>' : ''}
           <button id="btn-refresh"></button>
         </div>
@@ -71,7 +72,7 @@ function html(mode) {
   </body></html>`;
 }
 
-function boot(mode, initialPayload) {
+function boot(mode, initialPayload, savedState) {
   const dom = new JSDOM(html(mode), {
     runScripts: 'outside-only',
     pretendToBeVisual: true,
@@ -84,7 +85,7 @@ function boot(mode, initialPayload) {
       posted.push(message);
     },
     getState() {
-      return undefined;
+      return savedState;
     },
     setState() {},
   });
@@ -156,6 +157,15 @@ console.log('侧边栏模式：');
     assert.equal(posted.at(-1).type, 'selectDate');
   });
 
+  check('日期选项带相对标签且默认最新', () => {
+    const options = [...document.querySelectorAll('#date-select option')].map((o) => o.textContent);
+    assert.ok(options[0].includes('最新'), options[0]);
+    if (options.length > 1) {
+      assert.ok(options[1].includes('昨天'), options[1]);
+    }
+    assert.equal(document.getElementById('btn-latest').hidden, true);
+  });
+
   check('搜索过滤（含清空）', async () => {
     // 由宿主通过消息重置分类
     send({ type: 'setCategory', category: 'all' });
@@ -172,6 +182,36 @@ console.log('侧边栏模式：');
   check('面板按钮发送 openPanel', () => {
     document.getElementById('btn-panel').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     assert.equal(posted.at(-1).type, 'openPanel');
+  });
+}
+
+/* 历史新闻与默认最新 */
+console.log('历史新闻：');
+{
+  const staleState = { date: dates.at(-1), category: 'all', query: '' };
+  const { document } = boot('sidebar', payload, staleState);
+
+  check('忽略上次选中的历史日期，默认展示最新', () => {
+    assert.ok(document.getElementById('date-label').textContent.startsWith(date));
+    assert.ok(document.querySelector('.chip[data-category="all"].active'));
+  });
+}
+
+{
+  const older = dates.at(-1);
+  const olderPayload = { ...payload, date: older };
+  const { window, document, posted } = boot('sidebar', olderPayload);
+
+  check('查看历史日期时显示“最新”按钮', () => {
+    assert.equal(document.getElementById('btn-latest').hidden, false);
+    assert.ok(document.getElementById('date-label').textContent.startsWith(older));
+  });
+
+  check('点击“最新”跳回最新日期', () => {
+    document.getElementById('btn-latest').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    const message = posted.at(-1);
+    assert.equal(message.type, 'selectDate');
+    assert.equal(message.date, dates[0]);
   });
 }
 

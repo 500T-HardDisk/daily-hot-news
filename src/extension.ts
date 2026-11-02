@@ -161,6 +161,8 @@ class SidebarProvider implements vscode.WebviewViewProvider {
     });
     view.onDidDispose(() => {
       this.view = undefined;
+      // 关闭视图后再次打开，默认回到最新日期
+      this.date = undefined;
     });
   }
 
@@ -238,6 +240,13 @@ class SidebarProvider implements vscode.WebviewViewProvider {
 
   async setQuery(query: string): Promise<void> {
     await this.post({ type: 'setQuery', query });
+    await vscode.commands.executeCommand(`${VIEW_ID}.focus`);
+  }
+
+  /** 跳转到指定日期（历史新闻），并聚焦侧边栏。 */
+  async openDate(date: string): Promise<void> {
+    this.date = date;
+    await this.push();
     await vscode.commands.executeCommand(`${VIEW_ID}.focus`);
   }
 
@@ -420,6 +429,54 @@ async function pickCategory(): Promise<void> {
   }
 }
 
+function relativeDateLabel(date: string, latest: string): string {
+  const diff = Math.round(
+    (Date.parse(`${latest}T00:00:00`) - Date.parse(`${date}T00:00:00`)) / 86400000
+  );
+  if (!Number.isFinite(diff) || diff <= 0) {
+    return '最新';
+  }
+  if (diff === 1) {
+    return '昨天';
+  }
+  if (diff === 2) {
+    return '前天';
+  }
+  return `${diff} 天前`;
+}
+
+/** 日期跳转：默认最新，可查看任一天的历史新闻。 */
+async function pickDate(): Promise<void> {
+  try {
+    const payload = await loadPayload(sidebar?.currentDate, 'sidebar');
+    const latest = payload.dates[0];
+    if (!latest) {
+      return;
+    }
+
+    const picks: Array<vscode.QuickPickItem & { date: string }> = payload.dates.map((date) => ({
+      date,
+      label: `$(calendar) ${date} · ${relativeDateLabel(date, latest)}`,
+      description: date === latest ? '默认展示' : '历史新闻',
+      detail: date === latest ? '打开插件时默认看到最新一天' : '历史数据已保留，可随时回看',
+    }));
+
+    const picked = await vscode.window.showQuickPick(picks, {
+      placeHolder: `选择要查看的新闻日期（共 ${payload.dates.length} 天，默认最新）`,
+      matchOnDescription: true,
+      matchOnDetail: true,
+    });
+    if (!picked) {
+      return;
+    }
+
+    await sidebar?.openDate(picked.date);
+    await panel?.push(picked.date);
+  } catch (error) {
+    reportError(error);
+  }
+}
+
 async function searchNews(): Promise<void> {
   const query = await vscode.window.showInputBox({
     title: '搜索热点新闻',
@@ -544,6 +601,7 @@ export function activate(context: vscode.ExtensionContext): void {
 
   context.subscriptions.push(
     vscode.commands.registerCommand('hotNews.openPanel', () => openPanel(sidebar?.currentDate)),
+    vscode.commands.registerCommand('hotNews.selectDate', () => pickDate()),
     vscode.commands.registerCommand('hotNews.selectCategory', () => pickCategory()),
     vscode.commands.registerCommand('hotNews.search', () => searchNews()),
     vscode.commands.registerCommand('hotNews.refresh', async () => {

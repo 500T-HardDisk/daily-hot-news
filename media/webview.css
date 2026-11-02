@@ -88,7 +88,7 @@ body[data-mode='panel'] {
 }
 
 .date-select {
-  max-width: 110px;
+  max-width: 140px;
   height: 24px;
   border: 1px solid var(--vscode-dropdown-border, transparent);
   background: var(--vscode-dropdown-background);
@@ -97,6 +97,23 @@ body[data-mode='panel'] {
   font-size: 11px;
   padding: 0 4px;
   outline: none;
+}
+
+.latest-btn {
+  border: 1px solid var(--vscode-button-border, rgba(128, 128, 128, 0.35));
+  background: var(--vscode-button-secondaryBackground, transparent);
+  color: var(--vscode-button-secondaryForeground, var(--vscode-foreground));
+  border-radius: 999px;
+  height: 20px;
+  padding: 0 8px;
+  font-size: 10.5px;
+  font-family: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.latest-btn:hover {
+  background: var(--vscode-button-secondaryHoverBackground, var(--vscode-toolbar-hoverBackground));
 }
 
 /* ---------- 今日概览 ---------- */

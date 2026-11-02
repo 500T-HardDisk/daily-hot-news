@@ -181,9 +181,10 @@ async function check(label, fn) {
 (async () => {
   console.log('扩展激活：');
 
-  await check('注册了 6 个命令', () => {
+  await check('注册了 7 个命令', () => {
     const expected = [
       'hotNews.openPanel',
+      'hotNews.selectDate',
       'hotNews.selectCategory',
       'hotNews.search',
       'hotNews.refresh',
@@ -258,6 +259,16 @@ async function check(label, fn) {
   });
 
   console.log('\n命令：');
+  quickPickResult = { date: '2026-11-02' };
+  await commands['hotNews.selectDate']();
+  await wait();
+
+  await check('日期跳转命令切换到所选日期', () => {
+    const data = lastData();
+    assert.equal(data.date, '2026-11-02');
+    assert.equal(data.dates[0], '2026-11-02');
+  });
+
   quickPickResult = { id: 'tech', label: '💻 科技' };
   await commands['hotNews.selectCategory']();
   await wait();
