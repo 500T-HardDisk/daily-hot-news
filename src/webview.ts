@@ -40,7 +40,7 @@ export function buildHtml(
   <div id="app">
     <header class="topbar">
       <div class="title-block">
-        <h1 class="app-title">${mode === 'panel' ? '热点头条' : '今日热点'}</h1>
+        <h1 class="app-title">G-要点</h1>
         <div class="meta"><span id="date-label">加载中…</span><span class="dot">·</span><span id="meta-label"></span></div>
       </div>
       <div class="topbar-actions">

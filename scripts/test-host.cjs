@@ -204,7 +204,7 @@ async function check(label, fn) {
   await wait(150);
 
   await check('状态栏显示当天条数', () => {
-    assert.match(lastStatusBarText, /热点 \d+/);
+    assert.match(lastStatusBarText, /G-要点 \d+/);
   });
 
   console.log('\n侧边栏数据：');
@@ -294,7 +294,7 @@ async function check(label, fn) {
 
   await check('打开面板并设置标题', () => {
     assert.equal(panels.length, 1);
-    assert.match(panels[0].title, /热点头条/);
+    assert.match(panels[0].title, /G-要点/);
     assert.match(panels[0].webview.html, /data-mode="panel"/);
     assert.ok(panels[0].webview.html.includes('btn-refresh'));
   });
