@@ -181,9 +181,8 @@ async function check(label, fn) {
 (async () => {
   console.log('扩展激活：');
 
-  await check('注册了 7 个命令', () => {
+  await check('注册了 6 个命令', () => {
     const expected = [
-      'hotNews.openPanel',
       'hotNews.selectDate',
       'hotNews.selectCategory',
       'hotNews.search',
@@ -293,48 +292,9 @@ async function check(label, fn) {
   });
 
   console.log('\n编辑器面板：');
-  await commands['hotNews.openPanel']();
-  await wait();
-
-  await check('打开面板并设置标题', () => {
-    assert.equal(panels.length, 1);
-    assert.match(panels[0].title, /热点头条/);
-    assert.match(panels[0].webview.html, /data-mode="panel"/);
-    assert.ok(panels[0].webview.html.includes('btn-refresh'));
-  });
-
-  panels[0].webview._onMessage({ type: 'ready' });
-  await wait();
-
-  await check('面板收到 mode=panel 的数据', () => {
-    const data = lastData();
-    assert.equal(data.mode, 'panel');
-    assert.ok(data.items.length > 0);
-  });
-
-  await check('再次打开面板时复用而非新建', async () => {
-    await commands['hotNews.openPanel']();
-    await wait();
-    assert.equal(panels.length, 1);
-    assert.ok(panels[0].revealed >= 1);
-  });
-
-  panels[0].webview._onMessage({ type: 'refresh' });
-  await wait();
-
-  await check('面板刷新后仍能收到数据', () => {
-    const data = [...posted].reverse().find((m) => m.type === 'data' && m.payload.mode === 'panel');
-    assert.ok(data, '未收到面板 data');
-    assert.ok(data.payload.items.length > 0);
-  });
-
-  await check('侧边栏打开新闻时面板聚焦对应条目', async () => {
-    const target = lastData().items[0];
-    view.webview._onMessage({ type: 'openItem', id: target.id, date: target.date });
-    await wait();
-    const data = [...posted].reverse().find((m) => m.type === 'data' && m.payload.mode === 'panel');
-    assert.equal(data.payload.focusId, target.id);
-    assert.ok(data.payload.items.some((item) => item.id === target.id));
+  await check('不再注册面板命令', () => {
+    assert.equal(commands['hotNews.openPanel'], undefined);
+    assert.equal(panels.length, 0);
   });
 
   extension.deactivate();

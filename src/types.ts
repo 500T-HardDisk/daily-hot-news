@@ -103,7 +103,7 @@ export interface NewsItemView extends NewsItem {
 
 /** 传给 Webview 的完整数据包。 */
 export interface WebviewPayload {
-  mode: 'sidebar' | 'panel';
+  mode: 'sidebar';
   categories: CategoryDef[];
   date: string;
   dates: string[];
@@ -124,9 +124,7 @@ export type WebviewInMessage =
   | { type: 'ready' }
   | { type: 'refresh' }
   | { type: 'selectDate'; date: string }
-  | { type: 'openItem'; id: string; date: string }
-  | { type: 'copyItem'; id: string; full?: boolean; titleOnly?: boolean }
-  | { type: 'openPanel' };
+  | { type: 'copyItem'; id: string; full?: boolean; titleOnly?: boolean };
 
 /** 扩展宿主 -> Webview 的消息。 */
 export type WebviewOutMessage =

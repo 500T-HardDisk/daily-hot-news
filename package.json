@@ -2,7 +2,7 @@
   "name": "daily-hot-news",
   "displayName": "每日热点新闻",
   "description": "内置每日热点新闻（17 个板块，纯文字，离线可读）：历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "publisher": "500TSSD",
   "license": "MIT",
   "engines": {
@@ -36,7 +36,6 @@
   "main": "./out/extension.js",
   "activationEvents": [
     "onView:hotNews.sidebar",
-    "onCommand:hotNews.openPanel",
     "onCommand:hotNews.selectDate",
     "onCommand:hotNews.selectCategory",
     "onCommand:hotNews.search",
@@ -64,12 +63,6 @@
       ]
     },
     "commands": [
-      {
-        "command": "hotNews.openPanel",
-        "title": "打开热点头条面板",
-        "category": "热点新闻",
-        "icon": "$(preview)"
-      },
       {
         "command": "hotNews.selectDate",
         "title": "跳转到指定日期",
@@ -115,11 +108,6 @@
           "group": "navigation@1"
         },
         {
-          "command": "hotNews.openPanel",
-          "when": "view == hotNews.sidebar",
-          "group": "navigation@2"
-        },
-        {
           "command": "hotNews.selectDate",
           "when": "view == hotNews.sidebar",
           "group": "navigation@3"
@@ -137,7 +125,7 @@
         "hotNews.defaultCategory": {
           "type": "string",
           "default": "all",
-          "description": "打开面板时默认选中的分类 id（all 表示全部）。分类 id 见 news/index.json。"
+          "description": "打开视图时默认选中的分类 id（all 表示全部）。分类 id 见 news/index.json。"
         },
         "hotNews.summaryLines": {
           "type": "number",

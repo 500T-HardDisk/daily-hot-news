@@ -147,14 +147,14 @@ console.log('侧边栏模式：');
     assert.ok(document.querySelector('.item.expanded .inline-detail'), '内容未展开');
   });
 
-  check('内联“在编辑器中打开”发送 openItem', () => {
-    const button = document.querySelector('[data-open-panel]');
-    assert.ok(button, '缺少“在编辑器中打开”按钮');
+  check('展开区只保留“复制全文”', () => {
+    const button = document.querySelector('.inline-detail [data-copy]');
+    assert.ok(button, '缺少复制全文按钮');
+    assert.equal(document.querySelector('[data-open-panel]'), null, '不应再有打开面板按钮');
     button.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     const message = posted.at(-1);
-    assert.equal(message.type, 'openItem');
-    assert.ok(message.id);
-    assert.equal(message.date, date);
+    assert.equal(message.type, 'copyItem');
+    assert.equal(message.full, true);
   });
 
   check('再次点击同一条新闻收起内容', () => {
@@ -193,10 +193,6 @@ console.log('侧边栏模式：');
     assert.equal(posted.at(-1).type, 'refresh');
   });
 
-  check('面板按钮发送 openPanel', () => {
-    document.getElementById('btn-panel').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-    assert.equal(posted.at(-1).type, 'openPanel');
-  });
 }
 
 /* 历史新闻与默认最新 */

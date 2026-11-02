@@ -4,13 +4,10 @@ import { NewsItemView, WebviewInMessage, WebviewOutMessage, WebviewPayload } fro
 import { buildHtml } from './webview';
 
 const VIEW_ID = 'hotNews.sidebar';
-const PANEL_VIEW_TYPE = 'hotNews.panel';
 
 let extensionContext: vscode.ExtensionContext;
-let extensionUri: vscode.Uri;
 let store: NewsStore;
 let sidebar: SidebarProvider | undefined;
-let panel: PanelController | undefined;
 let output: vscode.OutputChannel;
 let statusBar: vscode.StatusBarItem;
 
@@ -20,7 +17,7 @@ let statusBar: vscode.StatusBarItem;
 
 async function loadPayload(
   date: string | undefined,
-  mode: 'sidebar' | 'panel',
+  mode: 'sidebar',
   focusId?: string
 ): Promise<WebviewPayload> {
   const index = await store.index();
@@ -83,7 +80,7 @@ async function loadPayload(
 
 async function findItemById(id: string): Promise<NewsItemView | undefined> {
   const date = id.split('|')[0];
-  const payload = await loadPayload(date, 'panel');
+  const payload = await loadPayload(date, 'sidebar');
   return payload.items.find((item) => item.id === id);
 }
 
@@ -128,7 +125,6 @@ async function copyItem(id: string, titleOnly = false): Promise<void> {
 
 function broadcast(message: WebviewOutMessage): void {
   void sidebar?.post(message);
-  void panel?.post(message);
 }
 
 /* ------------------------------------------------------------------ */
@@ -195,7 +191,7 @@ class SidebarProvider implements vscode.WebviewViewProvider {
         break;
       case 'refresh':
         store.invalidate();
-        await Promise.all([this.push(), panel?.push()]);
+        await this.push();
         broadcast({ type: 'toast', message: '数据已刷新' });
         void refreshStatusBar();
         break;
@@ -203,15 +199,8 @@ class SidebarProvider implements vscode.WebviewViewProvider {
         this.date = message.date;
         await this.push();
         break;
-      case 'openItem':
-        this.date = message.date;
-        await openPanel(message.date, message.id);
-        break;
       case 'copyItem':
         await copyItem(message.id, message.titleOnly);
-        break;
-      case 'openPanel':
-        await openPanel(this.date);
         break;
       default:
         break;
@@ -279,134 +268,6 @@ class SidebarProvider implements vscode.WebviewViewProvider {
   refresh(): void {
     void this.push();
   }
-}
-
-/* ------------------------------------------------------------------ */
-/* 编辑器面板                                                          */
-/* ------------------------------------------------------------------ */
-
-class PanelController {
-  private disposed = false;
-  private pending: WebviewOutMessage[] = [];
-  private ready = false;
-
-  constructor(
-    private readonly webviewPanel: vscode.WebviewPanel,
-    context: vscode.ExtensionContext,
-    private date?: string,
-    private focusId?: string
-  ) {
-    const { webview } = webviewPanel;
-    webview.options = {
-      enableScripts: true,
-      localResourceRoots: [vscode.Uri.joinPath(context.extensionUri, 'media')],
-    };
-    webview.html = buildHtml(webview, context.extensionUri, 'panel', '热点头条');
-    webview.onDidReceiveMessage((message: WebviewInMessage) => {
-      void this.onMessage(message);
-    });
-    webviewPanel.onDidDispose(() => {
-      this.disposed = true;
-      if (panel === this) {
-        panel = undefined;
-      }
-    });
-  }
-
-  private async onMessage(message: WebviewInMessage): Promise<void> {
-    switch (message.type) {
-      case 'ready':
-        this.ready = true;
-        await this.push(this.date, this.focusId);
-        this.focusId = undefined;
-        break;
-      case 'refresh':
-        store.invalidate();
-        await Promise.all([this.push(), sidebar?.push()]);
-        void refreshStatusBar();
-        break;
-      case 'selectDate':
-        this.date = message.date;
-        await this.push(this.date);
-        break;
-      case 'copyItem':
-        await copyItem(message.id, message.titleOnly);
-        break;
-      default:
-        break;
-    }
-  }
-
-  async push(date?: string, focusId?: string): Promise<void> {
-    if (this.disposed) {
-      return;
-    }
-    try {
-      const payload = await loadPayload(date ?? this.date, 'panel', focusId);
-      this.date = payload.date;
-      this.webviewPanel.title = `热点头条 · ${payload.date}`;
-      await this.webviewPanel.webview.postMessage({ type: 'data', payload } satisfies WebviewOutMessage);
-      await this.flushPending();
-    } catch (error) {
-      reportError(error);
-      await this.post({
-        type: 'error',
-        message: error instanceof Error ? error.message : String(error),
-      });
-    }
-  }
-
-  async post(message: WebviewOutMessage): Promise<void> {
-    if (this.disposed) {
-      return;
-    }
-    if (!this.ready) {
-      this.pending.push(message);
-      return;
-    }
-    await this.webviewPanel.webview.postMessage(message);
-  }
-
-  private async flushPending(): Promise<void> {
-    if (!this.pending.length || this.disposed) {
-      return;
-    }
-    const queue = this.pending;
-    this.pending = [];
-    for (const message of queue) {
-      await this.webviewPanel.webview.postMessage(message);
-    }
-  }
-
-  reveal(): void {
-    this.webviewPanel.reveal();
-  }
-
-  async setQuery(query: string): Promise<void> {
-    await this.post({ type: 'setQuery', query });
-  }
-}
-
-async function openPanel(date?: string, focusId?: string): Promise<void> {
-  if (panel) {
-    panel.reveal();
-    await panel.push(date, focusId);
-    return;
-  }
-
-  const webviewPanel = vscode.window.createWebviewPanel(
-    PANEL_VIEW_TYPE,
-    '热点头条',
-    vscode.ViewColumn.One,
-    {
-      enableScripts: true,
-      retainContextWhenHidden: true,
-      localResourceRoots: [vscode.Uri.joinPath(extensionUri, 'media')],
-    }
-  );
-
-  const controller = new PanelController(webviewPanel, extensionContext, date, focusId);
-  panel = controller;
 }
 
 /* ------------------------------------------------------------------ */
@@ -493,7 +354,6 @@ async function pickDate(): Promise<void> {
     }
 
     await sidebar?.openDate(picked.date);
-    await panel?.push(picked.date);
   } catch (error) {
     reportError(error);
   }
@@ -511,7 +371,6 @@ async function searchNews(): Promise<void> {
   }
 
   await sidebar?.setQuery(query);
-  await panel?.setQuery(query);
 
   if (query.trim()) {
     void vscode.window.setStatusBarMessage(`热点新闻：正在搜索“${query}”`, 2500);
@@ -605,13 +464,12 @@ async function refreshStatusBar(): Promise<void> {
 
 export function activate(context: vscode.ExtensionContext): void {
   extensionContext = context;
-  extensionUri = context.extensionUri;
   store = new NewsStore(context.extensionUri);
   output = vscode.window.createOutputChannel('热点新闻');
   context.subscriptions.push(output);
 
   statusBar = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
-  statusBar.command = 'hotNews.openPanel';
+  statusBar.command = 'hotNews.sidebar.focus';
   context.subscriptions.push(statusBar);
 
   sidebar = new SidebarProvider(context);
@@ -622,13 +480,12 @@ export function activate(context: vscode.ExtensionContext): void {
   );
 
   context.subscriptions.push(
-    vscode.commands.registerCommand('hotNews.openPanel', () => openPanel(sidebar?.currentDate)),
     vscode.commands.registerCommand('hotNews.selectDate', () => pickDate()),
     vscode.commands.registerCommand('hotNews.selectCategory', () => pickCategory()),
     vscode.commands.registerCommand('hotNews.search', () => searchNews()),
     vscode.commands.registerCommand('hotNews.refresh', async () => {
       store.invalidate();
-      await Promise.all([sidebar?.push(), panel?.push()]);
+      await sidebar?.push();
       broadcast({ type: 'toast', message: '数据已刷新' });
       void refreshStatusBar();
       void vscode.window.setStatusBarMessage('热点新闻：数据已刷新', 2000);
@@ -644,7 +501,6 @@ export function activate(context: vscode.ExtensionContext): void {
       }
       store.invalidate();
       sidebar?.refresh();
-      void panel?.push();
       void refreshStatusBar();
     })
   );
@@ -653,6 +509,5 @@ export function activate(context: vscode.ExtensionContext): void {
 }
 
 export function deactivate(): void {
-  panel = undefined;
   sidebar = undefined;
 }

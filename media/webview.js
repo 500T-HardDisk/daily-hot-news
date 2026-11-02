@@ -280,8 +280,7 @@
     parts.push(renderTable(item.table));
     parts.push(
       `<div class="inline-actions">` +
-        `<button class="btn primary" data-open-panel="${esc(item.id)}">在编辑器中打开</button>` +
-        `<button class="btn" data-copy="${esc(item.id)}">复制全文</button>` +
+        `<button class="btn primary" data-copy="${esc(item.id)}">复制全文</button>` +
         `</div>`
     );
 
@@ -581,13 +580,6 @@
   });
 
   $('list').addEventListener('click', (event) => {
-    const openBtn = event.target.closest('[data-open-panel]');
-    if (openBtn) {
-      state.selectedId = openBtn.dataset.openPanel;
-      post({ type: 'openItem', id: openBtn.dataset.openPanel, date: state.date });
-      return;
-    }
-
     const copyBtn = event.target.closest('[data-copy]');
     if (copyBtn) {
       post({ type: 'copyItem', id: copyBtn.dataset.copy, full: true });
@@ -691,11 +683,6 @@
   }
 
   $('btn-refresh').addEventListener('click', () => post({ type: 'refresh' }));
-
-  const panelBtn = $('btn-panel');
-  if (panelBtn) {
-    panelBtn.addEventListener('click', () => post({ type: 'openPanel' }));
-  }
 
   document.addEventListener('keydown', (event) => {
     const tag = (event.target.tagName || '').toLowerCase();
