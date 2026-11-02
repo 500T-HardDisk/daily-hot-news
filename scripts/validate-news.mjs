@@ -22,6 +22,8 @@ const warn = (msg) => warnings.push(msg);
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const ID_RE = /^[a-z0-9][a-z0-9-]*$/;
 const TIME_RE = /^([01]\d|2[0-3]):[0-5]\d$/;
+const MARKET_SET = new Set(['US', 'HK', 'CN', 'KR', 'EU', 'JP', 'OTHER']);
+const STAGE_SET = new Set(['listed', 'pre-ipo']);
 
 function readJson(file, label) {
   if (!existsSync(file)) {
@@ -197,8 +199,51 @@ if (index && Array.isArray(index.days)) {
               }
             });
           }
+        }        if (item.highlights !== undefined) {
+          if (!Array.isArray(item.highlights)) {
+            error(`${at}.highlights 必须是数组`);
+          } else {
+            item.highlights.forEach((h, j) => {
+              if (!h || typeof h !== 'object') {
+                error(`${at}.highlights[${j}] 必须是对象`);
+                return;
+              }
+              if (typeof h.title !== 'string' || !h.title.trim()) {
+                error(`${at}.highlights[${j}].title 不能为空`);
+              }
+              if (h.detail !== undefined && typeof h.detail !== 'string') {
+                error(`${at}.highlights[${j}].detail 必须是字符串`);
+              }
+              if (h.market !== undefined && !MARKET_SET.has(h.market)) {
+                error(`${at}.highlights[${j}].market 非法：${h.market}`);
+              }
+              if (h.stage !== undefined && !STAGE_SET.has(h.stage)) {
+                error(`${at}.highlights[${j}].stage 非法：${h.stage}`);
+              }
+            });
+          }
         }
-        if (item.table !== undefined) {
+        if (item.pointItems !== undefined) {
+          if (!Array.isArray(item.pointItems)) {
+            error(`${at}.pointItems 必须是数组`);
+          } else {
+            item.pointItems.forEach((p, j) => {
+              if (!p || typeof p !== 'object') {
+                error(`${at}.pointItems[${j}] 必须是对象`);
+                return;
+              }
+              if (typeof p.text !== 'string' || !p.text.trim()) {
+                error(`${at}.pointItems[${j}].text 不能为空`);
+              }
+              if (p.market !== undefined && !MARKET_SET.has(p.market)) {
+                error(`${at}.pointItems[${j}].market 非法：${p.market}`);
+              }
+              if (p.stage !== undefined && !STAGE_SET.has(p.stage)) {
+                error(`${at}.pointItems[${j}].stage 非法：${p.stage}`);
+              }
+            });
+          }
+        }        if (item.table !== undefined) {
           const table = item.table;
           if (!table || typeof table !== 'object' || Array.isArray(table)) {
             error(`${at}.table 必须是对象`);
@@ -242,10 +287,24 @@ if (index && Array.isArray(index.days)) {
           return sum;
         }
         const points = Array.isArray(item.points) ? item.points.join('') : '';
+        const highlights = Array.isArray(item.highlights)
+          ? item.highlights.map((h) => `${h?.title || ''}${h?.detail || ''}`).join('')
+          : '';
+        const pointItems = Array.isArray(item.pointItems)
+          ? item.pointItems.map((p) => String(p?.text || '')).join('')
+          : '';
         const table = item.table
           ? `${item.table.caption || ''}${(item.table.rows || []).flat().join('')}`
           : '';
-        return sum + String(item.title || '').length + String(item.summary || '').length + points.length + table.length;
+        return (
+          sum +
+          String(item.title || '').length +
+          String(item.summary || '').length +
+          points.length +
+          highlights.length +
+          pointItems.length +
+          table.length
+        );
       }, 0);
 
       if (list.length && textLength < 1000) {
@@ -276,6 +335,45 @@ if (index && Array.isArray(index.days)) {
         const points = stocks.flatMap((it) => (Array.isArray(it?.points) ? it.points : []));
         if (points.filter((p) => typeof p === 'string' && p.trim()).length < 3) {
           error(`${label} 的全球股市板块需要至少 3 条 points 热点罗列`);
+        }
+      }
+    }
+
+    // AI 与股市：10 条要闻 + 20 条要点，美股占比 ≥ 60%，含已上市与拟上市公司
+    if (categoryIds.includes('aistocks')) {
+      const aiStocks = day.categories.aistocks;
+      if (!Array.isArray(aiStocks) || !aiStocks.length) {
+        error(`${label} 缺少“aistocks（AI 与股市）”板块内容`);
+      } else {
+        const highlights = aiStocks.flatMap((it) =>
+          Array.isArray(it?.highlights) ? it.highlights : []
+        );
+        const pointItems = aiStocks.flatMap((it) =>
+          Array.isArray(it?.pointItems) ? it.pointItems : []
+        );
+
+        if (highlights.length !== 10) {
+          error(`${label} 的 aiStocks 需要 10 条 highlights（当前 ${highlights.length} 条）`);
+        }
+        if (pointItems.length !== 20) {
+          error(`${label} 的 aiStocks 需要 20 条 pointItems（当前 ${pointItems.length} 条）`);
+        }
+
+        const all = [...highlights, ...pointItems];
+        const us = all.filter((x) => x && x.market === 'US');
+        const ratio = all.length ? us.length / all.length : 0;
+        if (ratio < 0.6) {
+          error(
+            `${label} 的 aiStocks 美股占比 ${(ratio * 100).toFixed(0)}%，要求至少 60%（当前 ${us.length}/${all.length}）`
+          );
+        }
+
+        const stages = new Set(us.map((x) => x && x.stage));
+        if (!stages.has('listed')) {
+          error(`${label} 的 aiStocks 美股内容需包含已上市公司（stage: listed）`);
+        }
+        if (!stages.has('pre-ipo')) {
+          error(`${label} 的 aiStocks 美股内容需包含拟上市公司（stage: pre-ipo）`);
         }
       }
     }

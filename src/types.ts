@@ -24,6 +24,30 @@ export interface NewsTable {
   rows: string[][];
 }
 
+/** 市场标记，用于统计美股占比与展示角标。 */
+export type NewsMarket = 'US' | 'HK' | 'CN' | 'KR' | 'EU' | 'JP' | 'OTHER';
+
+/** 上市阶段：已上市 / 拟上市（IPO 进程中）。 */
+export type NewsStage = 'listed' | 'pre-ipo';
+
+/** 顶部重要新闻（AI 与股市板块固定 10 条）。 */
+export interface NewsHighlight {
+  title: string;
+  detail?: string;
+  market?: NewsMarket;
+  stage?: NewsStage;
+  /** 股票代码，可选。 */
+  ticker?: string;
+}
+
+/** 详细新闻要点（AI 与股市板块固定 20 条）。 */
+export interface NewsPoint {
+  text: string;
+  market?: NewsMarket;
+  stage?: NewsStage;
+  ticker?: string;
+}
+
 /** 单条新闻（纯文字，url 可选，插件不强制联网）。 */
 export interface NewsItem {
   title: string;
@@ -32,8 +56,12 @@ export interface NewsItem {
   /** 发布时间，格式 HH:mm。 */
   time?: string;
   tags?: string[];
+  /** 顶部重要新闻列表（用于“10 条要闻”板块）。 */
+  highlights?: NewsHighlight[];
   /** 热点罗列，每条一句话。 */
   points?: string[];
+  /** 详细新闻要点（支持市场标记，用于“20 条要点”板块）。 */
+  pointItems?: NewsPoint[];
   /** 结构化表格，例如美股/港股/A股/韩股行情。 */
   table?: NewsTable;
   /** 可选原文链接，仅用于手动复制，不会自动打开。 */

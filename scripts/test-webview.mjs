@@ -277,6 +277,22 @@ console.log('面板模式：');
     );
   });
 
+  const aiStockItem = items.find((i) => i.categoryId === 'aistocks');
+  check('AI 股市板块渲染 10 条要闻与 20 条要点', () => {
+    assert.ok(aiStockItem && aiStockItem.highlights && aiStockItem.pointItems);
+    const node = document.querySelector(`.item[data-id="${aiStockItem.id}"]`);
+    assert.ok(node, '列表中缺少 AI 与股市板块');
+    node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    assert.equal(document.querySelectorAll('.highlight-list li').length, 10);
+    assert.equal(document.querySelectorAll('.point-items li').length, 20);
+  });
+
+  check('十条要闻排在 20 条要点之前', () => {
+    const html = document.getElementById('detail').innerHTML;
+    assert.ok(html.indexOf('十条重要新闻') >= 0);
+    assert.ok(html.indexOf('十条重要新闻') < html.indexOf('20 条相关新闻要点'));
+  });
+
   check('复制全文发送 copyItem(full)', () => {
     document.querySelector('[data-copy]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     const message = posted.at(-1);
@@ -285,6 +301,11 @@ console.log('面板模式：');
   });
 
   check('同类更多可切换条目', () => {
+    // AI 与股市板块只有 1 条，切换到有多条新闻的科技板块验证“同类更多”
+    const techItem = items.find((i) => i.categoryId === 'tech');
+    document
+      .querySelector(`.item[data-id="${techItem.id}"]`)
+      .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     const related = document.querySelector('[data-related]');
     assert.ok(related, '应存在同类新闻');
     related.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));

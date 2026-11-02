@@ -68,6 +68,33 @@ if (existsSync(dayFile) && !force) {
 
 const categories = {};
 for (const cat of index.categories) {
+  if (cat.id === 'aistocks') {
+    categories[cat.id] = [
+      {
+        time: '17:00',
+        title: '（示例）AI 与股市：10 条要闻 + 20 条要点',
+        summary:
+          '请填写约 600 字综述：AI 资本开支、算力供需、上市公司业绩与拟上市公司融资/IPO 进程，并说明美股在其中的主导地位与主要风险。',
+        source: '示例数据，不构成投资建议',
+        tags: ['AI', '美股', 'IPO'],
+        highlights: Array.from({ length: 10 }, (_, i) => ({
+          title: `（示例）要闻 ${i + 1}：请填写标题`,
+          detail: '请填写一句话说明，建议 30 至 60 字。',
+          market: i < 8 ? 'US' : i === 8 ? 'HK' : 'CN',
+          stage: i < 6 ? 'listed' : 'pre-ipo',
+          ticker: '',
+        })),
+        pointItems: Array.from({ length: 20 }, (_, i) => ({
+          text: `（示例）要点 ${i + 1}：请填写公司、事件与影响，建议 40 至 80 字。`,
+          market: i < 15 ? 'US' : i < 17 ? 'HK' : 'CN',
+          stage: i < 11 ? 'listed' : 'pre-ipo',
+          ticker: '',
+        })),
+      },
+    ];
+    continue;
+  }
+
   if (cat.id === 'stocks') {
     categories[cat.id] = [
       {

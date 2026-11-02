@@ -86,6 +86,16 @@ async function copyItem(id: string, titleOnly = false): Promise<void> {
   const meta = `—— ${item.categoryName}${item.source ? ` · ${item.source}` : ''} ${item.date}${
     item.time ? ` ${item.time}` : ''
   }`;
+  const highlights = item.highlights?.length
+    ? `【十条重要新闻】\n${item.highlights
+        .map((h, i) => `${i + 1}. ${h.title}${h.detail ? `：${h.detail}` : ''}`)
+        .join('\n')}`
+    : '';
+  const pointItems = item.pointItems?.length
+    ? `【20 条相关新闻要点】\n${item.pointItems
+        .map((p, i) => `${i + 1}. ${p.text}`)
+        .join('\n')}`
+    : '';
   const points = item.points?.length ? item.points.map((point, i) => `${i + 1}. ${point}`).join('\n') : '';
   const table = item.table?.columns?.length
     ? [
@@ -98,7 +108,9 @@ async function copyItem(id: string, titleOnly = false): Promise<void> {
     : '';
   const text = titleOnly
     ? item.title
-    : [item.title, item.summary, points, table, meta, item.url].filter(Boolean).join('\n\n');
+    : [item.title, highlights, item.summary, pointItems, points, table, meta, item.url]
+        .filter(Boolean)
+        .join('\n\n');
 
   await vscode.env.clipboard.writeText(text);
   broadcast({ type: 'toast', message: titleOnly ? '标题已复制' : '全文已复制到剪贴板' });

@@ -482,6 +482,128 @@ mark {
   color: var(--vscode-charts-yellow, #d7ba7d);
 }
 
+.tag-highlight {
+  color: var(--vscode-charts-blue, #4daafc);
+}
+
+/* ---------- 十条要闻与要点 ---------- */
+.section-block {
+  margin: 18px 0 6px;
+}
+
+.section-title {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--vscode-textLink-foreground);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+}
+
+.highlight-list {
+  margin: 0;
+  padding-left: 22px;
+  max-width: 78ch;
+}
+
+.highlight-list li {
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  border-bottom: 1px dashed var(--vscode-panel-border, rgba(128, 128, 128, 0.18));
+  line-height: 1.65;
+}
+
+.highlight-list li::marker {
+  color: var(--vscode-textLink-foreground);
+  font-weight: 600;
+}
+
+.highlight-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.highlight-title {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.highlight-detail {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--vscode-descriptionForeground);
+  word-break: break-word;
+}
+
+.point-items li {
+  margin-bottom: 8px;
+}
+
+.market-badge {
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 4px;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 600;
+  vertical-align: 1px;
+  background: var(--vscode-badge-background);
+  color: var(--vscode-badge-foreground);
+}
+
+.market-us {
+  background: rgba(56, 139, 253, 0.22);
+  color: #79b8ff;
+}
+
+.market-hk {
+  background: rgba(255, 159, 67, 0.22);
+  color: #ffb86b;
+}
+
+.market-cn {
+  background: rgba(255, 99, 99, 0.2);
+  color: #ff8a8a;
+}
+
+.market-kr {
+  background: rgba(187, 134, 252, 0.22);
+  color: #d2a8ff;
+}
+
+.ticker {
+  font-family: var(--vscode-editor-font-family, monospace);
+  font-size: 10.5px;
+  padding: 0 4px;
+  border-radius: 3px;
+  border: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.3));
+  color: var(--vscode-descriptionForeground);
+}
+
+.stage-badge {
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 4px;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 16px;
+  border: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.35));
+  color: var(--vscode-descriptionForeground);
+}
+
 .detail-actions {
   display: flex;
   gap: 8px;

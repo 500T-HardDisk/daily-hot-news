@@ -221,6 +221,9 @@
       .map((t) => `<span class="tag">#${esc(t)}</span>`)
       .join('');
     const tableTag = item.table ? '<span class="tag tag-table">📊 表格</span>' : '';
+    const highlightTag = item.highlights
+      ? `<span class="tag tag-highlight">📌 ${item.highlights.length}+${(item.pointItems || []).length}</span>`
+      : '';
     return `<article class="item${selected}" data-id="${esc(item.id)}" data-date="${esc(item.date)}" tabindex="0">
       <div class="item-head">
         ${item.time ? `<span class="time">${esc(item.time)}</span>` : ''}
@@ -229,7 +232,7 @@
       </div>
       <h3 class="item-title">${highlight(item.title, query)}</h3>
       ${summary}
-      ${tags || tableTag ? `<div class="tags">${tableTag}${tags}</div>` : ''}
+      ${tags || tableTag || highlightTag ? `<div class="tags">${highlightTag}${tableTag}${tags}</div>` : ''}
     </article>`;
   }
 
@@ -331,6 +334,77 @@
       .join('')}</ul>`;
   }
 
+  const MARKET_LABELS = {
+    US: '美股',
+    HK: '港股',
+    CN: 'A股',
+    KR: '韩股',
+    EU: '欧洲',
+    JP: '日本',
+    OTHER: '其他',
+  };
+
+  function marketBadge(market) {
+    const label = market && MARKET_LABELS[market];
+    if (!label) {
+      return '';
+    }
+    return `<span class="market-badge market-${esc(String(market).toLowerCase())}">${label}</span>`;
+  }
+
+  const STAGE_LABELS = { listed: '已上市', 'pre-ipo': '拟上市' };
+
+  function stageBadge(stage) {
+    const label = stage && STAGE_LABELS[stage];
+    if (!label) {
+      return '';
+    }
+    return `<span class="stage-badge">${label}</span>`;
+  }
+
+  function renderHighlights(list) {
+    if (!Array.isArray(list) || !list.length) {
+      return '';
+    }
+    const items = list
+      .map(
+        (h) => `<li>
+          <div class="highlight-head">
+            <span class="highlight-title">${esc(h.title)}</span>
+            ${marketBadge(h.market)}
+            ${stageBadge(h.stage)}
+            ${h.ticker ? `<span class="ticker">${esc(h.ticker)}</span>` : ''}
+          </div>
+          ${h.detail ? `<p class="highlight-detail">${esc(h.detail)}</p>` : ''}
+        </li>`
+      )
+      .join('');
+    return `<div class="section-block">
+      <h3 class="section-title">十条重要新闻</h3>
+      <ol class="highlight-list">${items}</ol>
+    </div>`;
+  }
+
+  function renderPointItems(list) {
+    if (!Array.isArray(list) || !list.length) {
+      return '';
+    }
+    const items = list
+      .map(
+        (p) => `<li>
+          ${marketBadge(p.market)}
+          ${stageBadge(p.stage)}
+          ${p.ticker ? `<span class="ticker">${esc(p.ticker)}</span>` : ''}
+          <span>${esc(p.text)}</span>
+        </li>`
+      )
+      .join('');
+    return `<div class="section-block">
+      <h3 class="section-title">20 条相关新闻要点</h3>
+      <ol class="detail-points point-items">${items}</ol>
+    </div>`;
+  }
+
   function renderDetail() {
     if (mode !== 'panel') {
       return;
@@ -356,8 +430,10 @@
         <span>${esc(formatDate(item.date))}</span>
         ${item.tags && item.tags.length ? `<span>${item.tags.map((t) => '#' + esc(t)).join(' ')}</span>` : ''}
       </div>
+      ${renderHighlights(item.highlights)}
       <div class="detail-body">${esc(item.summary || item.title)}</div>
       ${renderTable(item.table)}
+      ${renderPointItems(item.pointItems)}
       ${renderPoints(item.points)}
       ${item.url ? `<div class="detail-body" style="font-size:11.5px;opacity:.7;margin-top:10px">原文链接（可复制）：${esc(item.url)}</div>` : ''}
       <div class="detail-actions">

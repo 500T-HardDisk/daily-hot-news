@@ -116,6 +116,203 @@
         ]
       }
     ],
+    "aistocks": [
+      {
+        "time": "17:10",
+        "title": "AI 与股市：10 条要闻 + 20 条要点，财报与 IPO 窗口成焦点",
+        "summary": "隔夜 AI 板块进入财报前的观望期，资金从高波动算力租赁转向现金流更稳的云与芯片龙头。美股方面，市场等待英伟达、微软等公司的资本开支与订单指引，同时关注存储、光模块与服务器代工的拉货节奏；一级市场中，OpenAI、Anthropic 的融资进展与 Cerebras 的上市进程，继续为 AI 资产提供估值锚。港股与 A 股更多跟随产业链映射，阿里云的 AI 收入、国产算力订单与光模块出口是主要观察点，但估值对美股情绪较为敏感。风险方面，需要关注资本开支增速、折旧压力、出口限制与电力供给约束。以下为 10 条要闻与 20 条细分要点，美股标的占比约七成，覆盖已上市与拟上市公司。",
+        "source": "示例数据，不构成投资建议",
+        "tags": ["AI", "美股", "IPO", "财报"],
+        "highlights": [
+          {
+            "title": "英伟达财报前瞻：市场聚焦数据中心增速与毛利率",
+            "detail": "订单能见度仍高，但供给瓶颈与客户集中度是争议点，指引比单季业绩更重要。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "NVDA"
+          },
+          {
+            "title": "微软 AI 资本开支指引上调，云业务增速受关注",
+            "detail": "自研芯片与第三方 GPU 并行采购，折旧摊销对利润率的影响开始显现。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MSFT"
+          },
+          {
+            "title": "谷歌云 AI 订单增长，TPU 外供传闻引发讨论",
+            "detail": "若对外供应加速，可能改变加速卡竞争格局；广告业务的 AI 提效提供现金流。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "GOOGL"
+          },
+          {
+            "title": "亚马逊 Trainium 三代流片，云客户试用范围扩大",
+            "detail": "自研芯片的目标是降低推理成本，生态成熟度与开发者迁移意愿是关键。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMZN"
+          },
+          {
+            "title": "Meta 广告 AI 工具覆盖扩大，资本开支维持高位",
+            "detail": "推荐与生成式创意工具提升转化率，市场关注投入与广告收入增长的匹配度。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "META"
+          },
+          {
+            "title": "特斯拉 AI 训练集群扩容，自动驾驶监管进展受关注",
+            "detail": "算力投入与数据闭环是自动驾驶迭代基础，监管许可与安全事故影响估值。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "TSLA"
+          },
+          {
+            "title": "OpenAI 企业版收入增长，IPO 时间表仍待明确",
+            "detail": "企业 API 与算力合作贡献增量，治理结构与长期算力承诺影响上市定价。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "title": "Cerebras 推进上市进程，晶圆级芯片订单受关注",
+            "detail": "差异化架构在推理场景具备优势，客户集中度与量产能力是上市审核重点。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "title": "阿里云 AI 相关收入连续增长，资本开支上调",
+            "detail": "云业务结构改善，但电商竞争与投入回报周期仍影响利润表现。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "9988.HK"
+          },
+          {
+            "title": "三星 HBM 认证进展，AI 存储供应链再平衡",
+            "detail": "认证通过有望提升份额，但价格谈判与产能爬坡决定实际利润贡献。",
+            "market": "KR",
+            "stage": "listed",
+            "ticker": "005930.KS"
+          }
+        ],
+        "pointItems": [
+          {
+            "text": "英伟达：CoWoS 与 HBM 供给仍是瓶颈，关注数据中心收入结构与下季指引。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "NVDA"
+          },
+          {
+            "text": "微软：资本开支与折旧节奏决定利润弹性，Azure AI 订单储备是核心指标。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MSFT"
+          },
+          {
+            "text": "谷歌：TPU 外供若落地将扩大生态，云订单与广告提效共同支撑现金流。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "GOOGL"
+          },
+          {
+            "text": "亚马逊：Trainium 的性价比与工具链成熟度，决定云客户迁移速度。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMZN"
+          },
+          {
+            "text": "Meta：广告 AI 工具的渗透率提升，需观察资本开支指引是否继续上修。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "META"
+          },
+          {
+            "text": "AMD：MI 系列在推理市场的份额提升取决于软件生态与大客户验证。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMD"
+          },
+          {
+            "text": "博通：定制 ASIC 与网络芯片订单能见度高，交付节奏影响单季确认。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AVGO"
+          },
+          {
+            "text": "台积电 ADR：先进制程与 CoWoS 扩产，是 AI 芯片供给的决定性环节。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "TSM"
+          },
+          {
+            "text": "美光：HBM 价格与良率决定毛利，传统存储复苏提供额外弹性。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MU"
+          },
+          {
+            "text": "戴尔与超微：AI 服务器订单与交付能力受关注，毛利率与应收账款质量是关键。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "DELL/SMCI"
+          },
+          {
+            "text": "甲骨文：云基础设施 backlog 增长较快，资本开支与融资成本影响自由现金流。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "ORCL"
+          },
+          {
+            "text": "OpenAI：融资规模、企业收入与治理安排，是判断 IPO 窗口的核心线索。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "Anthropic：企业客户与安全合规是差异化优势，云合作深度决定算力供给。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "xAI：数据中心扩建与模型迭代速度，决定其融资估值与上市预期。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "Databricks：数据平台 AI 变现进展与 IPO 传闻并存，需关注收入质量。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "阿里巴巴：云业务 AI 收入占比提升，资本开支回报周期影响估值修复。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "9988.HK"
+          },
+          {
+            "text": "腾讯：混元模型与广告推荐提效，游戏与金融科技提供现金流支撑。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "0700.HK"
+          },
+          {
+            "text": "寒武纪：国产算力订单改善，交付与回款节奏决定业绩兑现程度。",
+            "market": "CN",
+            "stage": "listed",
+            "ticker": "688256.SH"
+          },
+          {
+            "text": "中际旭创：800G 与 1.6T 光模块需求延续，海外客户拉货节奏是业绩关键。",
+            "market": "CN",
+            "stage": "listed",
+            "ticker": "300308.SZ"
+          },
+          {
+            "text": "ASML：先进制程设备订单与出口限制，影响全球 AI 芯片扩产节奏。",
+            "market": "EU",
+            "stage": "listed",
+            "ticker": "ASML"
+          }
+        ]
+      }
+    ],
     "gold": [
       {
         "time": "15:00",

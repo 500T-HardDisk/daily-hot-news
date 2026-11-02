@@ -225,7 +225,7 @@ async function check(label, fn) {
     const data = lastData();
     assert.ok(data, '未收到 data 消息');
     assert.equal(data.date, '2026-11-02');
-    assert.equal(data.categories.length, 15);
+    assert.equal(data.categories.length, 16);
     assert.ok(data.total >= 30, `条数异常：${data.total}`);
     assert.equal(data.items.length, data.total);
     assert.equal(data.items[0].id.split('|').length, 3);

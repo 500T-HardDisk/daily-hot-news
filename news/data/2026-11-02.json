@@ -116,6 +116,203 @@
         ]
       }
     ],
+    "aistocks": [
+      {
+        "time": "17:00",
+        "title": "AI 与股市：10 条要闻 + 20 条要点，美股 AI 标的是定价中心",
+        "summary": "AI 交易已经从单一算力叙事扩展为“资本开支—电力—应用变现”的完整链条。美股仍是定价中心：英伟达、微软、博通、AMD 等公司给出资本开支与订单线索，CoreWeave、美光则反映算力租赁与存储的景气度；一级市场中，OpenAI、Anthropic 的融资与上市预期，持续影响二级市场对 AI 长期空间的定价。港股与 A 股更多体现为产业链映射：阿里云的 AI 收入、国产算力订单与光模块需求跟随美股情绪波动，但估值与业绩兑现节奏并不同步。需要警惕三类风险：资本开支增速见顶后的订单下修、折旧与融资成本对利润的侵蚀，以及监管与出口限制带来的不确定性。以下先列 10 条要闻，再给出 20 条细分要点，其中美股标的占比超过七成，覆盖已上市公司与拟上市公司。",
+        "source": "示例数据，不构成投资建议",
+        "tags": ["AI", "美股", "IPO", "算力"],
+        "highlights": [
+          {
+            "title": "英伟达数据中心指引超预期，下一代加速卡产能受关注",
+            "detail": "公司维持高出货节奏，供应链关注 CoWoS 与 HBM 供给；市场同时担忧客户集中度与毛利率回落。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "NVDA"
+          },
+          {
+            "title": "微软扩大自研 AI 芯片部署，云资本开支维持高位",
+            "detail": "Azure AI 需求带动资本开支，自研芯片主要用于推理降本，折旧周期成为利润讨论焦点。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MSFT"
+          },
+          {
+            "title": "博通定制 ASIC 订单能见度提升，AI 网络业务同步增长",
+            "detail": "超大规模客户自研芯片需求延续，订单排产与交付节奏是判断业绩的关键。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AVGO"
+          },
+          {
+            "title": "AMD 新一代加速卡进入客户验证，软件生态决定放量速度",
+            "detail": "硬件参数之外，ROCm 生态与集群稳定性是客户迁移的前提，市场关注推理市场份额。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMD"
+          },
+          {
+            "title": "CoreWeave 财报后波动加大，算力租赁需求与折旧压力并存",
+            "detail": "长期合同提供收入能见度，但高资本开支与融资成本压制自由现金流，估值对利率敏感。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "CRWV"
+          },
+          {
+            "title": "美光 HBM 产能被预订，存储周期与 AI 需求共振",
+            "detail": "HBM 价格与良率决定毛利率弹性，传统存储需求复苏节奏仍存在不确定性。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MU"
+          },
+          {
+            "title": "OpenAI 融资与上市预期升温，算力合同成为估值核心",
+            "detail": "收入结构从订阅向企业 API 与算力合作扩展，治理结构与长期算力承诺是关键变量。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "title": "Anthropic 推进新一轮融资，企业客户增长支撑估值",
+            "detail": "聚焦企业级与安全合规，云厂商合作带来算力与渠道，但收入规模与亏损情况仍待披露。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "title": "阿里巴巴云业务 AI 收入增速回升，资本开支上调",
+            "detail": "电商基本盘与云业务表现分化，AI 相关收入占比提升，市场关注投入回报周期。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "9988.HK"
+          },
+          {
+            "title": "国产算力链订单改善，寒武纪等公司受关注",
+            "detail": "国产替代与地方算力中心建设带来订单，估值波动较大，交付与回款节奏影响业绩兑现。",
+            "market": "CN",
+            "stage": "listed",
+            "ticker": "688256.SH"
+          }
+        ],
+        "pointItems": [
+          {
+            "text": "英伟达：CoWoS 与 HBM 供给仍是出货瓶颈，关注季度指引、客户集中度与毛利率变化。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "NVDA"
+          },
+          {
+            "text": "微软：AI 资本开支的折旧摊销开始影响利润率，云增速与订单储备是判断投入回报的关键。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MSFT"
+          },
+          {
+            "text": "亚马逊：AWS 的 AI 服务与自研 Trainium 芯片进展，决定云业务能否重新加速。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMZN"
+          },
+          {
+            "text": "谷歌：TPU 与云订单双线推进，广告业务的 AI 提效为资本开支提供现金流支撑。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "GOOGL"
+          },
+          {
+            "text": "Meta：推理成本下降带动广告转化，资本开支指引与回购节奏是股价的两大变量。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "META"
+          },
+          {
+            "text": "AMD：ROCm 生态与集群稳定性决定加速卡放量，重点跟踪大客户验证与软件适配进度。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AMD"
+          },
+          {
+            "text": "博通：定制 ASIC 项目排产至明年，网络交换芯片受益于集群规模扩张。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "AVGO"
+          },
+          {
+            "text": "台积电 ADR：先进制程与 CoWoS 扩产节奏，是 AI 芯片供给端最核心的变量。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "TSM"
+          },
+          {
+            "text": "美光：HBM 供需紧张延续，价格与良率决定毛利率弹性，需关注后续扩产计划。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "MU"
+          },
+          {
+            "text": "甲骨文：云基础设施订单与资本开支同步上升，融资安排与自由现金流影响估值。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "ORCL"
+          },
+          {
+            "text": "Palantir：企业 AI 订单增长较快，政府与商业客户结构决定续费率与收入质量。",
+            "market": "US",
+            "stage": "listed",
+            "ticker": "PLTR"
+          },
+          {
+            "text": "OpenAI：算力合同、企业 API 收入与治理结构，是 IPO 定价的核心变量，上市时间表仍待明确。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "Anthropic：企业级安全合规优势明显，融资节奏与云合作深度决定扩张速度。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "xAI：数据中心扩建与模型迭代加速，市场关注其融资规模与上市时间表。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "Databricks：数据平台的 AI 变现与 IPO 传闻并存，收入质量比增速更值得关注。",
+            "market": "US",
+            "stage": "pre-ipo"
+          },
+          {
+            "text": "阿里巴巴：云业务 AI 收入占比提升，资本开支回报周期是估值修复的关键。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "9988.HK"
+          },
+          {
+            "text": "腾讯：混元模型与广告推荐提效，游戏与金融科技提供稳定现金流。",
+            "market": "HK",
+            "stage": "listed",
+            "ticker": "0700.HK"
+          },
+          {
+            "text": "寒武纪：国产算力订单改善，交付与回款节奏影响业绩兑现，估值波动较大。",
+            "market": "CN",
+            "stage": "listed",
+            "ticker": "688256.SH"
+          },
+          {
+            "text": "中际旭创：800G 与 1.6T 光模块需求延续，海外客户拉货节奏是业绩关键。",
+            "market": "CN",
+            "stage": "listed",
+            "ticker": "300308.SZ"
+          },
+          {
+            "text": "三星电子：HBM 认证与代工订单进展，决定其在 AI 存储供应链中的份额。",
+            "market": "KR",
+            "stage": "listed",
+            "ticker": "005930.KS"
+          }
+        ]
+      }
+    ],
     "gold": [
       {
         "time": "15:00",
