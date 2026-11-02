@@ -1,0 +1,168 @@
+{
+  "name": "daily-hot-news",
+  "displayName": "每日热点新闻",
+  "description": "内置每日热点新闻（12 类，纯文字，离线可读）：新闻数据随插件仓库同步更新，安装后无需联网即可查看。",
+  "version": "1.0.0",
+  "publisher": "500TSSD",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "news",
+    "新闻",
+    "热点",
+    "每日",
+    "offline",
+    "产品动态"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0B2A6B",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/500T-HardDisk/daily-hot-news.git"
+  },
+  "bugs": {
+    "url": "https://github.com/500T-HardDisk/daily-hot-news/issues"
+  },
+  "homepage": "https://github.com/500T-HardDisk/daily-hot-news#readme",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onView:hotNews.sidebar",
+    "onCommand:hotNews.openPanel",
+    "onCommand:hotNews.selectCategory",
+    "onCommand:hotNews.search",
+    "onCommand:hotNews.refresh",
+    "onCommand:hotNews.openDataFile",
+    "onCommand:hotNews.about"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "hotNews",
+          "title": "热点新闻",
+          "icon": "media/activity-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "hotNews": [
+        {
+          "type": "webview",
+          "id": "hotNews.sidebar",
+          "name": "今日热点"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "hotNews.openPanel",
+        "title": "打开热点头条面板",
+        "category": "热点新闻",
+        "icon": "$(preview)"
+      },
+      {
+        "command": "hotNews.selectCategory",
+        "title": "选择新闻分类",
+        "category": "热点新闻",
+        "icon": "$(list-unordered)"
+      },
+      {
+        "command": "hotNews.search",
+        "title": "搜索热点新闻",
+        "category": "热点新闻",
+        "icon": "$(search)"
+      },
+      {
+        "command": "hotNews.refresh",
+        "title": "刷新新闻数据",
+        "category": "热点新闻",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "hotNews.openDataFile",
+        "title": "打开新闻数据文件",
+        "category": "热点新闻",
+        "icon": "$(json)"
+      },
+      {
+        "command": "hotNews.about",
+        "title": "关于与数据统计",
+        "category": "热点新闻",
+        "icon": "$(info)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "hotNews.refresh",
+          "when": "view == hotNews.sidebar",
+          "group": "navigation@1"
+        },
+        {
+          "command": "hotNews.openPanel",
+          "when": "view == hotNews.sidebar",
+          "group": "navigation@2"
+        },
+        {
+          "command": "hotNews.selectCategory",
+          "when": "view == hotNews.sidebar",
+          "group": "navigation@3"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "热点新闻",
+      "properties": {
+        "hotNews.defaultCategory": {
+          "type": "string",
+          "default": "all",
+          "description": "打开面板时默认选中的分类 id（all 表示全部）。分类 id 见 news/index.json。"
+        },
+        "hotNews.summaryLines": {
+          "type": "number",
+          "default": 2,
+          "minimum": 0,
+          "maximum": 6,
+          "description": "列表中每条新闻摘要显示的最大行数（0 表示不显示摘要）。"
+        },
+        "hotNews.localDataPath": {
+          "type": "string",
+          "default": "",
+          "description": "可选的本地新闻数据目录（绝对路径或工作区相对路径）。留空则使用插件自带的 news 目录。维护新闻时可指向仓库中的 news 目录进行预览。"
+        },
+        "hotNews.showStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否在状态栏显示“热点 N”入口。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./",
+    "pretest": "npm run compile",
+    "news:new": "node scripts/new-day.mjs",
+    "news:validate": "node scripts/validate-news.mjs",
+    "news:freshness": "node scripts/check-freshness.mjs",
+    "icon": "node scripts/make-icon.mjs",
+    "test": "node scripts/validate-news.mjs --strict && node scripts/test-webview.mjs && node scripts/test-host.cjs",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "~1.85.0",
+    "@vscode/vsce": "^2.32.0",
+    "jsdom": "^30.1.3",
+    "typescript": "^5.4.5"
+  }
+}

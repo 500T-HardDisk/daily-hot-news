@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-02T07:55:00+08:00",
+  "categories": [
+    { "id": "tech", "name": "科技", "emoji": "💻", "description": "芯片、终端、互联网平台与通信" },
+    { "id": "ai", "name": "人工智能", "emoji": "🤖", "description": "大模型、智能体与行业落地" },
+    { "id": "finance", "name": "财经", "emoji": "💰", "description": "宏观经济、市场与公司动态" },
+    { "id": "global", "name": "国际", "emoji": "🌍", "description": "全球局势与国际关系" },
+    { "id": "society", "name": "社会", "emoji": "🏙️", "description": "民生、城市与公共服务" },
+    { "id": "sports", "name": "体育", "emoji": "🏆", "description": "赛事、球队与运动员" },
+    { "id": "entertainment", "name": "娱乐", "emoji": "🎬", "description": "影视、音乐与演出市场" },
+    { "id": "health", "name": "健康", "emoji": "🩺", "description": "医疗、营养与运动健康" },
+    { "id": "education", "name": "教育", "emoji": "🎓", "description": "升学、职场学习与校园" },
+    { "id": "auto", "name": "汽车", "emoji": "🚗", "description": "新能源、智能驾驶与出行" },
+    { "id": "game", "name": "游戏", "emoji": "🎮", "description": "新游、电竞与产业动态" },
+    { "id": "culture", "name": "文化", "emoji": "📚", "description": "阅读、展览与传统文化" }
+  ],
+  "days": [
+    {
+      "date": "2026-11-02",
+      "file": "data/2026-11-02.json",
+      "counts": {
+        "tech": 3,
+        "ai": 3,
+        "finance": 3,
+        "global": 3,
+        "society": 3,
+        "sports": 3,
+        "entertainment": 3,
+        "health": 3,
+        "education": 3,
+        "auto": 3,
+        "game": 3,
+        "culture": 3
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "file": "data/2026-11-01.json",
+      "counts": {
+        "tech": 2,
+        "ai": 2,
+        "finance": 2,
+        "global": 2,
+        "society": 2,
+        "sports": 2,
+        "entertainment": 2,
+        "health": 2,
+        "education": 2,
+        "auto": 2,
+        "game": 2,
+        "culture": 2
+      }
+    }
+  ]
+}

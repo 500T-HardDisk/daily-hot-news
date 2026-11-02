@@ -1,0 +1,29 @@
+name: Validate news data
+
+on:
+  push:
+    paths:
+      - 'news/**'
+      - 'scripts/**'
+      - '.github/workflows/validate-news.yml'
+  pull_request:
+    paths:
+      - 'news/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 校验新闻数据
+        run: node scripts/validate-news.mjs --strict
+
+      - name: 检查数据新鲜度（允许落后 1 天）
+        run: node scripts/check-freshness.mjs --max-age=1
