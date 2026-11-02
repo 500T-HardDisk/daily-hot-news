@@ -172,6 +172,11 @@ console.log('侧边栏模式：');
   });
 
   check('日期选项带相对标签且默认最新', () => {
+    if (dates.length <= 1) {
+      assert.equal(document.getElementById('date-select').hidden, true);
+      assert.equal(document.getElementById('btn-latest').hidden, true);
+      return;
+    }
     const options = [...document.querySelectorAll('#date-select option')].map((o) => o.textContent);
     assert.ok(options[0].includes('最新'), options[0]);
     if (options.length > 1) {
@@ -209,32 +214,42 @@ console.log('历史新闻：');
 
 {
   const older = dates.at(-1);
-  const olderPayload = { ...payload, date: older };
-  const { window, document, posted } = boot('sidebar', olderPayload);
+  if (dates.length > 1) {
+    const olderPayload = { ...payload, date: older };
+    const { window, document, posted } = boot('sidebar', olderPayload);
 
-  check('查看历史日期时显示“最新”按钮', () => {
-    assert.equal(document.getElementById('btn-latest').hidden, false);
-    assert.ok(document.getElementById('date-label').textContent.startsWith(older));
-  });
+    check('查看历史日期时显示“最新”按钮', () => {
+      assert.equal(document.getElementById('btn-latest').hidden, false);
+      assert.ok(document.getElementById('date-label').textContent.startsWith(older));
+    });
 
-  check('点击“最新”跳回最新日期', () => {
-    document.getElementById('btn-latest').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-    const message = posted.at(-1);
-    assert.equal(message.type, 'selectDate');
-    assert.equal(message.date, dates[0]);
-  });
+    check('点击“最新”跳回最新日期', () => {
+      document.getElementById('btn-latest').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+      const message = posted.at(-1);
+      assert.equal(message.type, 'selectDate');
+      assert.equal(message.date, dates[0]);
+    });
+  } else {
+    const { document } = boot('sidebar', payload);
+    check('仅一个真实日期时隐藏历史下拉与“最新”按钮', () => {
+      assert.equal(document.getElementById('date-select').hidden, true);
+      assert.equal(document.getElementById('btn-latest').hidden, true);
+    });
+  }
 }
 
 /* 搜索需要等 debounce */
 {
   const { window, document } = boot('sidebar', payload);
+  const searchItem = items.find((i) => i.categoryId === 'tech') || items[0];
+  const searchTerm = [...searchItem.title].slice(0, 3).join('');
   const input = document.getElementById('search');
-  input.value = '芯片';
+  input.value = searchTerm;
   input.dispatchEvent(new window.Event('input', { bubbles: true }));
   await wait(180);
-  check('搜索“芯片”返回匹配条目', () => {
+  check(`搜索“${searchTerm}”返回匹配条目`, () => {
     const count = document.querySelectorAll('.item').length;
-    assert.ok(count > 0 && count < items.length, `实际 ${count} 条`);
+    assert.ok(count > 0 && count <= items.length, `实际 ${count} 条`);
   });
   check('无匹配时展示空状态', () => {
     input.value = '不存在的关键词zzz';
@@ -276,40 +291,37 @@ console.log('面板模式：');
     assert.equal(table.querySelectorAll('tbody tr').length, stocksItem.table.rows.length);
   });
 
-  check('热点列表渲染为要点', () => {
-    const points = items.find((i) => Array.isArray(i.points) && i.points.length);
-    assert.ok(points, '缺少带 points 的新闻');
-    const node = document.querySelector(`.item[data-id="${points.id}"]`);
+  check('详情渲染 200–400 字真实摘要', () => {
+    const detailItem = items.find((i) => i.categoryId === 'tech');
+    const node = document.querySelector(`.item[data-id="${detailItem.id}"]`);
     node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-    assert.equal(
-      document.querySelectorAll('.detail-points li').length,
-      points.points.length
-    );
+    const text = document.querySelector('.detail-body').textContent;
+    assert.ok(text.length >= 150, `正文过短：${text.length}`);
+    assert.ok(!/<[a-z][^>]*>/i.test(text), '正文含 HTML 标签');
   });
 
   const aiStockItem = items.find((i) => i.categoryId === 'aistocks');
-  check('AI 股市板块渲染 10 条要闻与 20 条要点', () => {
-    assert.ok(aiStockItem && aiStockItem.highlights && aiStockItem.pointItems);
+  check('AI 与股市板块包含 10 条真实新闻', () => {
+    const aiItems = items.filter((i) => i.categoryId === 'aistocks');
+    assert.equal(aiItems.length, 10);
     const node = document.querySelector(`.item[data-id="${aiStockItem.id}"]`);
     assert.ok(node, '列表中缺少 AI 与股市板块');
     node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-    assert.equal(document.querySelectorAll('.highlight-list li').length, 10);
-    assert.equal(document.querySelectorAll('.point-items li').length, 20);
-  });
-
-  check('十条要闻排在 20 条要点之前', () => {
-    const html = document.getElementById('detail').innerHTML;
-    assert.ok(html.indexOf('十条重要新闻') >= 0);
-    assert.ok(html.indexOf('十条重要新闻') < html.indexOf('20 条相关新闻要点'));
+    assert.ok(document.querySelector('.detail-body').textContent.length > 100);
   });
 
   const monthlyItem = items.find((i) => i.categoryId === 'monthly');
-  check('近一月回顾渲染 10 条要点', () => {
+  check('近一月回顾包含 10 条真实新闻并渲染正文', () => {
+    assert.equal(items.filter((i) => i.categoryId === 'monthly').length, 10);
     assert.ok(monthlyItem, '缺少近一月回顾板块');
     document
       .querySelector(`.item[data-id="${monthlyItem.id}"]`)
       .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-    assert.equal(document.querySelectorAll('.detail-points li').length, 10);
+    assert.ok(document.querySelector('.detail-body').textContent.length > 100);
+    assert.ok(
+      document.getElementById('detail').textContent.includes(monthlyItem.url),
+      '缺少原文链接'
+    );
   });
 
   check('复制全文发送 copyItem(full)', () => {

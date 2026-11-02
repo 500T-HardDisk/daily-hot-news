@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T17:18:14.444Z",
+  "updatedAt": "2026-11-02T17:40:37.677Z",
   "categories": [
     {
       "id": "hotsearch",
@@ -36,7 +36,7 @@
       "id": "aistocks",
       "name": "AI 与股市",
       "emoji": "📊",
-      "description": "10 条 AI 股市要闻 + 20 条要点，聚焦美股上市与拟上市公司"
+      "description": "10 条 AI 公司与资本市场真实新闻"
     },
     {
       "id": "gold",
@@ -108,56 +108,32 @@
       "id": "monthly",
       "name": "近一月回顾",
       "emoji": "🗓️",
-      "description": "16 个领域的近一月要点汇总，每领域 10 条"
+      "description": "近一月 10 条真实要闻回顾"
     }
   ],
   "days": [
     {
-      "date": "2026-11-02",
-      "file": "data/2026-11-02.json",
+      "date": "2026-11-03",
+      "file": "data/2026-11-03.json",
       "counts": {
-        "tech": 3,
-        "ai": 3,
-        "finance": 3,
-        "stocks": 2,
-        "aistocks": 1,
-        "gold": 2,
-        "global": 3,
-        "geopolitics": 3,
-        "society": 3,
-        "sports": 3,
-        "entertainment": 3,
-        "health": 3,
-        "education": 3,
-        "auto": 3,
-        "game": 3,
-        "culture": 3,
-        "monthly": 16,
-        "hotsearch": 30
-      }
-    },
-    {
-      "date": "2026-11-01",
-      "file": "data/2026-11-01.json",
-      "counts": {
-        "tech": 3,
-        "ai": 3,
-        "finance": 3,
-        "stocks": 2,
-        "aistocks": 1,
-        "gold": 2,
-        "global": 3,
-        "geopolitics": 4,
-        "society": 3,
-        "sports": 3,
-        "entertainment": 3,
-        "health": 3,
-        "education": 3,
-        "auto": 3,
-        "game": 3,
-        "culture": 3,
-        "monthly": 0,
-        "hotsearch": 0
+        "hotsearch": 30,
+        "tech": 10,
+        "ai": 10,
+        "finance": 10,
+        "stocks": 10,
+        "aistocks": 10,
+        "gold": 10,
+        "global": 10,
+        "geopolitics": 10,
+        "society": 10,
+        "sports": 10,
+        "entertainment": 10,
+        "health": 10,
+        "education": 10,
+        "auto": 10,
+        "game": 10,
+        "culture": 10,
+        "monthly": 10
       }
     }
   ]

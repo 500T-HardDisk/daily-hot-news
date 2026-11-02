@@ -157,6 +157,9 @@ if (index && Array.isArray(index.days)) {
         error(`${label} 的 categories.${id} 必须是数组`);
         continue;
       }
+      if (id !== 'hotsearch' && list.length !== 10) {
+        error(`${label} 的 categories.${id} 需要 10 条真实新闻（当前 ${list.length} 条）`);
+      }
 
       const expected = entry.counts?.[id];
       if (typeof expected === 'number' && expected !== list.length) {
@@ -180,10 +183,30 @@ if (index && Array.isArray(index.days)) {
         if (item.summary !== undefined && typeof item.summary !== 'string') {
           error(`${at}.summary 必须是字符串`);
         }
+        if (id !== 'hotsearch') {
+          const summary = String(item.summary || '');
+          const length = [...summary].length;
+          if (length < 200 || length > 400) {
+            error(`${at}.summary 长度为 ${length}，要求 200–400 字`);
+          }
+          if (/<\/?[a-z][^>]*>/i.test(summary)) {
+            error(`${at}.summary 含未清理的 HTML 标签`);
+          }
+          if (!/^https?:\/\//.test(String(item.url || ''))) {
+            error(`${at}.url 缺失或不是 http(s) 链接`);
+          }
+          if (!item.source) {
+            error(`${at}.source 不能为空`);
+          }
+        }
         if (item.source !== undefined && typeof item.source !== 'string') {
           error(`${at}.source 必须是字符串`);
         }
-        if (item.time !== undefined && !TIME_RE.test(item.time)) {
+        if (
+          item.time !== undefined &&
+          !TIME_RE.test(item.time) &&
+          !(id === 'monthly' && /^\d{2}-\d{2}$/.test(item.time))
+        ) {
           warn(`${at}.time 建议使用 HH:mm 格式：${item.time}`);
         }
         if (item.tags !== undefined && !Array.isArray(item.tags)) {
@@ -281,38 +304,7 @@ if (index && Array.isArray(index.days)) {
         totalItems += 1;
       }
 
-      // 每个板块的文字量：标题 + 摘要 + 热点 + 表格文字
-      const textLength = list.reduce((sum, item) => {
-        if (!item || typeof item !== 'object') {
-          return sum;
-        }
-        const points = Array.isArray(item.points) ? item.points.join('') : '';
-        const highlights = Array.isArray(item.highlights)
-          ? item.highlights.map((h) => `${h?.title || ''}${h?.detail || ''}`).join('')
-          : '';
-        const pointItems = Array.isArray(item.pointItems)
-          ? item.pointItems.map((p) => String(p?.text || '')).join('')
-          : '';
-        const table = item.table
-          ? `${item.table.caption || ''}${(item.table.rows || []).flat().join('')}`
-          : '';
-        return (
-          sum +
-          String(item.title || '').length +
-          String(item.summary || '').length +
-          points.length +
-          highlights.length +
-          pointItems.length +
-          table.length
-        );
-      }, 0);
-
-      if (id !== 'hotsearch' && list.length && textLength < 1000) {
-        warn(
-          `${label} 的 categories.${id} 文字量约 ${textLength} 字，建议每类不少于 1000 字` +
-            (id === 'geopolitics' ? '（全球局势要求 1000 字以上）' : '')
-        );
-      }
+      // 真实数据模式：不再统计 1000 字，改为上面的 200–400 字摘要校验
     }
 
     // 全球股市必须保留固定结构：行情表格 + 热点罗列
@@ -333,8 +325,8 @@ if (index && Array.isArray(index.days)) {
           }
         }
         const points = stocks.flatMap((it) => (Array.isArray(it?.points) ? it.points : []));
-        if (points.filter((p) => typeof p === 'string' && p.trim()).length < 3) {
-          error(`${label} 的全球股市板块需要至少 3 条 points 热点罗列`);
+        if (!points.length) {
+          // 真实 RSS 模式只展示行情表与新闻摘要，不强制 points
         }
       }
     }
@@ -373,44 +365,7 @@ if (index && Array.isArray(index.days)) {
       }
     }
 
-    // AI 与股市：10 条要闻 + 20 条要点，美股占比 ≥ 60%，含已上市与拟上市公司
-    if (categoryIds.includes('aistocks')) {
-      const aiStocks = day.categories.aistocks;
-      if (!Array.isArray(aiStocks) || !aiStocks.length) {
-        error(`${label} 缺少“aistocks（AI 与股市）”板块内容`);
-      } else {
-        const highlights = aiStocks.flatMap((it) =>
-          Array.isArray(it?.highlights) ? it.highlights : []
-        );
-        const pointItems = aiStocks.flatMap((it) =>
-          Array.isArray(it?.pointItems) ? it.pointItems : []
-        );
-
-        if (highlights.length !== 10) {
-          error(`${label} 的 aiStocks 需要 10 条 highlights（当前 ${highlights.length} 条）`);
-        }
-        if (pointItems.length !== 20) {
-          error(`${label} 的 aiStocks 需要 20 条 pointItems（当前 ${pointItems.length} 条）`);
-        }
-
-        const all = [...highlights, ...pointItems];
-        const us = all.filter((x) => x && x.market === 'US');
-        const ratio = all.length ? us.length / all.length : 0;
-        if (ratio < 0.6) {
-          error(
-            `${label} 的 aiStocks 美股占比 ${(ratio * 100).toFixed(0)}%，要求至少 60%（当前 ${us.length}/${all.length}）`
-          );
-        }
-
-        const stages = new Set(us.map((x) => x && x.stage));
-        if (!stages.has('listed')) {
-          error(`${label} 的 aiStocks 美股内容需包含已上市公司（stage: listed）`);
-        }
-        if (!stages.has('pre-ipo')) {
-          error(`${label} 的 aiStocks 美股内容需包含拟上市公司（stage: pre-ipo）`);
-        }
-      }
-    }
+    // AI 与股市：真实数据模式下与其他板块一致，固定 10 条新闻
   }
 
   // 历史新闻保留：data 目录下的文件都应登记在 index.json 中

@@ -1,0 +1,2359 @@
+{
+  "date": "2026-11-03",
+  "updatedAt": "2026-11-02T17:40:37.676Z",
+  "headline": "今日 17 个真实新闻板块已更新：科技、AI、财经、股市、黄金、国际、局势、社会、体育、娱乐等",
+  "categories": {
+    "hotsearch": [
+      {
+        "time": "01:40",
+        "title": "新华社发文：国乒男队怎么了",
+        "summary": "热度 15,864,012 · 今日头条热榜第 1 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 15864012,
+        "rank": 1,
+        "url": "https://www.toutiao.com/trending/7703574649028018214/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703574649028018214%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%96%B0%E5%8D%8E%E7%A4%BE%E5%8F%91%E6%96%87%EF%BC%9A%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F%E6%80%8E%E4%B9%88%E4%BA%86%22%7D&rank=&style_id=40132&topic_id=7703574649028018214"
+      },
+      {
+        "time": "01:40",
+        "title": "男子彩票中1113万过期2天兑奖被拒",
+        "summary": "热度 14,354,351 · 今日头条热榜第 2 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 14354351,
+        "rank": 2,
+        "url": "https://www.toutiao.com/trending/7703435058945802259/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703435058945802259%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E5%BD%A9%E7%A5%A8%E4%B8%AD1113%E4%B8%87%E8%BF%87%E6%9C%9F2%E5%A4%A9%E5%85%91%E5%A5%96%E8%A2%AB%E6%8B%92%22%7D&rank=&style_id=40132&topic_id=7703435058945802259"
+      },
+      {
+        "time": "01:40",
+        "title": "一批重大工程建设正酣",
+        "summary": "热度 12,988,354 · 今日头条热榜第 3 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 12988354,
+        "rank": 3,
+        "url": "https://www.toutiao.com/article/7703481173737030184"
+      },
+      {
+        "time": "01:40",
+        "title": "伊朗最高领袖赋予政府谈判权限",
+        "summary": "热度 11,752,349 · 今日头条热榜第 4 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 11752349,
+        "rank": 4,
+        "url": "https://www.toutiao.com/trending/7703576385864008201/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703576385864008201%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E8%B5%8B%E4%BA%88%E6%94%BF%E5%BA%9C%E8%B0%88%E5%88%A4%E6%9D%83%E9%99%90%22%7D&rank=&style_id=40132&topic_id=7703576385864008201"
+      },
+      {
+        "time": "01:40",
+        "title": "A股将迎千亿级增量资金",
+        "summary": "热度 10,633,965 · 今日头条热榜第 5 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 10633965,
+        "rank": 5,
+        "url": "https://www.toutiao.com/trending/7703570400688475689/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703570400688475689%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E5%B0%86%E8%BF%8E%E5%8D%83%E4%BA%BF%E7%BA%A7%E5%A2%9E%E9%87%8F%E8%B5%84%E9%87%91%22%7D&rank=&style_id=40132&topic_id=7703570400688475689"
+      },
+      {
+        "time": "01:40",
+        "title": "社保欠缴处罚有了全国统一尺度",
+        "summary": "热度 9,622,009 · 今日头条热榜第 6 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 9622009,
+        "rank": 6,
+        "url": "https://www.toutiao.com/trending/7702819330320531498/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702819330320531498%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%A4%BE%E4%BF%9D%E6%AC%A0%E7%BC%B4%E5%A4%84%E7%BD%9A%E6%9C%89%E4%BA%86%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E5%B0%BA%E5%BA%A6%22%7D&rank=&style_id=40132&topic_id=7702819330320531498"
+      },
+      {
+        "time": "01:40",
+        "title": "俄3000亿欧元海外资产还能拿回来吗",
+        "summary": "热度 8,706,354 · 今日头条热榜第 7 名 · interpretation · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "interpretation"
+        ],
+        "heat": 8706354,
+        "rank": 7,
+        "url": "https://www.toutiao.com/trending/7703566699894672959/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703566699894672959%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BF%843000%E4%BA%BF%E6%AC%A7%E5%85%83%E6%B5%B7%E5%A4%96%E8%B5%84%E4%BA%A7%E8%BF%98%E8%83%BD%E6%8B%BF%E5%9B%9E%E6%9D%A5%E5%90%97%22%7D&rank=&style_id=40132&topic_id=7703566699894672959"
+      },
+      {
+        "time": "01:40",
+        "title": "我国已达到世界地空导弹武器系统前列",
+        "summary": "热度 7,877,835 · 今日头条热榜第 8 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 7877835,
+        "rank": 8,
+        "url": "https://www.toutiao.com/trending/7703393254695551514/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703393254695551514%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%88%91%E5%9B%BD%E5%B7%B2%E8%BE%BE%E5%88%B0%E4%B8%96%E7%95%8C%E5%9C%B0%E7%A9%BA%E5%AF%BC%E5%BC%B9%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F%E5%89%8D%E5%88%97%22%7D&rank=&style_id=40132&topic_id=7703393254695551514"
+      },
+      {
+        "time": "01:40",
+        "title": "牛弹琴：内塔尼亚胡很可能被赶下台",
+        "summary": "热度 7,128,160 · 今日头条热榜第 9 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 7128160,
+        "rank": 9,
+        "url": "https://www.toutiao.com/trending/7702474317904445481/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702474317904445481%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%9B%E5%BC%B9%E7%90%B4%EF%BC%9A%E5%86%85%E5%A1%94%E5%B0%BC%E4%BA%9A%E8%83%A1%E5%BE%88%E5%8F%AF%E8%83%BD%E8%A2%AB%E8%B5%B6%E4%B8%8B%E5%8F%B0%22%7D&rank=&style_id=40132&topic_id=7702474317904445481"
+      },
+      {
+        "time": "01:40",
+        "title": "导演江小鱼去世 年仅56岁",
+        "summary": "热度 6,449,826 · 今日头条热榜第 10 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 6449826,
+        "rank": 10,
+        "url": "https://www.toutiao.com/trending/7703012723939934246/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703012723939934246%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%AF%BC%E6%BC%94%E6%B1%9F%E5%B0%8F%E9%B1%BC%E5%8E%BB%E4%B8%96+%E5%B9%B4%E4%BB%8556%E5%B2%81%22%7D&rank=&style_id=40132&topic_id=7703012723939934246"
+      },
+      {
+        "time": "01:40",
+        "title": "网民编造花260万登顶珠峰被罚",
+        "summary": "热度 5,836,043 · 今日头条热榜第 11 名 · refuteRumors · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "refuteRumors"
+        ],
+        "heat": 5836043,
+        "rank": 11,
+        "url": "https://www.toutiao.com/trending/7703391910693748772/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703391910693748772%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BD%91%E6%B0%91%E7%BC%96%E9%80%A0%E8%8A%B1260%E4%B8%87%E7%99%BB%E9%A1%B6%E7%8F%A0%E5%B3%B0%E8%A2%AB%E7%BD%9A%22%7D&rank=&style_id=40132&topic_id=7703391910693748772"
+      },
+      {
+        "time": "01:40",
+        "title": "汪峰晒和四个孩子的合照",
+        "summary": "热度 5,280,670 · 今日头条热榜第 12 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 5280670,
+        "rank": 12,
+        "url": "https://www.toutiao.com/trending/7703489014783655963/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703489014783655963%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B1%AA%E5%B3%B0%E6%99%92%E5%92%8C%E5%9B%9B%E4%B8%AA%E5%AD%A9%E5%AD%90%E7%9A%84%E5%90%88%E7%85%A7%22%7D&rank=&style_id=40132&topic_id=7703489014783655963"
+      },
+      {
+        "time": "01:40",
+        "title": "黄金价格暴跌背后的全球资本巨变",
+        "summary": "热度 4,778,148 · 今日头条热榜第 13 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 4778148,
+        "rank": 13,
+        "url": "https://www.toutiao.com/trending/7703560216603790867/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703560216603790867%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%BB%84%E9%87%91%E4%BB%B7%E6%A0%BC%E6%9A%B4%E8%B7%8C%E8%83%8C%E5%90%8E%E7%9A%84%E5%85%A8%E7%90%83%E8%B5%84%E6%9C%AC%E5%B7%A8%E5%8F%98%22%7D&rank=&style_id=40132&topic_id=7703560216603790867"
+      },
+      {
+        "time": "01:40",
+        "title": "股票回购增持再贷款率降至1%",
+        "summary": "热度 4,323,447 · 今日头条热榜第 14 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 4323447,
+        "rank": 14,
+        "url": "https://www.toutiao.com/trending/7703107226365853750/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703107226365853750%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%82%A1%E7%A5%A8%E5%9B%9E%E8%B4%AD%E5%A2%9E%E6%8C%81%E5%86%8D%E8%B4%B7%E6%AC%BE%E7%8E%87%E9%99%8D%E8%87%B31%25%22%7D&rank=&style_id=40132&topic_id=7703107226365853750"
+      },
+      {
+        "time": "01:40",
+        "title": "比亚迪102万员工意味着什么",
+        "summary": "热度 3,912,017 · 今日头条热榜第 15 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 3912017,
+        "rank": 15,
+        "url": "https://www.toutiao.com/trending/7703511333857136138/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703511333857136138%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%AF%94%E4%BA%9A%E8%BF%AA102%E4%B8%87%E5%91%98%E5%B7%A5%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88%22%7D&rank=&style_id=40132&topic_id=7703511333857136138"
+      },
+      {
+        "time": "01:40",
+        "title": "普京批准中俄一项铁路共建协定",
+        "summary": "热度 3,539,739 · 今日头条热榜第 16 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 3539739,
+        "rank": 16,
+        "url": "https://www.toutiao.com/trending/7703337778645368859/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703337778645368859%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%99%AE%E4%BA%AC%E6%89%B9%E5%87%86%E4%B8%AD%E4%BF%84%E4%B8%80%E9%A1%B9%E9%93%81%E8%B7%AF%E5%85%B1%E5%BB%BA%E5%8D%8F%E5%AE%9A%22%7D&rank=&style_id=40132&topic_id=7703337778645368859"
+      },
+      {
+        "time": "01:40",
+        "title": "中国为何不大规模扫货俄罗斯低价粮",
+        "summary": "热度 3,202,888 · 今日头条热榜第 17 名 · interpretation · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "interpretation"
+        ],
+        "heat": 3202888,
+        "rank": 17,
+        "url": "https://www.toutiao.com/trending/7703518629349821994/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703518629349821994%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E5%9B%BD%E4%B8%BA%E4%BD%95%E4%B8%8D%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%89%AB%E8%B4%A7%E4%BF%84%E7%BD%97%E6%96%AF%E4%BD%8E%E4%BB%B7%E7%B2%AE%22%7D&rank=&style_id=40132&topic_id=7703518629349821994"
+      },
+      {
+        "time": "01:40",
+        "title": "月嫂阿姨下户前最后一次哄睡宝宝",
+        "summary": "热度 2,898,093 · 今日头条热榜第 18 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2898093,
+        "rank": 18,
+        "url": "https://www.toutiao.com/trending/7703433370277232676/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703433370277232676%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9C%88%E5%AB%82%E9%98%BF%E5%A7%A8%E4%B8%8B%E6%88%B7%E5%89%8D%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E5%93%84%E7%9D%A1%E5%AE%9D%E5%AE%9D%22%7D&rank=&style_id=40132&topic_id=7703433370277232676"
+      },
+      {
+        "time": "01:40",
+        "title": "电诈团伙已转移到非洲",
+        "summary": "热度 2,622,303 · 今日头条热榜第 19 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2622303,
+        "rank": 19,
+        "url": "https://www.toutiao.com/trending/7703111473890951218/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703111473890951218%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B5%E8%AF%88%E5%9B%A2%E4%BC%99%E5%B7%B2%E8%BD%AC%E7%A7%BB%E5%88%B0%E9%9D%9E%E6%B4%B2%22%7D&rank=&style_id=40132&topic_id=7703111473890951218"
+      },
+      {
+        "time": "01:40",
+        "title": "老人家门口离世 邻居用衣服轻轻盖住",
+        "summary": "热度 2,372,758 · 今日头条热榜第 20 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2372758,
+        "rank": 20,
+        "url": "https://www.toutiao.com/trending/7703036537876857395/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703036537876857395%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%80%81%E4%BA%BA%E5%AE%B6%E9%97%A8%E5%8F%A3%E7%A6%BB%E4%B8%96+%E9%82%BB%E5%B1%85%E7%94%A8%E8%A1%A3%E6%9C%8D%E8%BD%BB%E8%BD%BB%E7%9B%96%E4%BD%8F%22%7D&rank=&style_id=40132&topic_id=7703036537876857395"
+      },
+      {
+        "time": "01:40",
+        "title": "中国第一大肝病已经不是乙肝了",
+        "summary": "热度 2,146,960 · 今日头条热榜第 21 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2146960,
+        "rank": 21,
+        "url": "https://www.toutiao.com/trending/7703383774964334642/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703383774964334642%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%B8%80%E5%A4%A7%E8%82%9D%E7%97%85%E5%B7%B2%E7%BB%8F%E4%B8%8D%E6%98%AF%E4%B9%99%E8%82%9D%E4%BA%86%22%7D&rank=&style_id=40132&topic_id=7703383774964334642"
+      },
+      {
+        "time": "01:40",
+        "title": "医生提醒床虱极易误诊",
+        "summary": "热度 1,942,650 · 今日头条热榜第 22 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1942650,
+        "rank": 22,
+        "url": "https://www.toutiao.com/trending/7703162892316803081/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703162892316803081%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92%E5%BA%8A%E8%99%B1%E6%9E%81%E6%98%93%E8%AF%AF%E8%AF%8A%22%7D&rank=&style_id=40132&topic_id=7703162892316803081"
+      },
+      {
+        "time": "01:40",
+        "title": "10岁女孩身高1米8 爸爸回应",
+        "summary": "热度 1,757,782 · 今日头条热榜第 23 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1757782,
+        "rank": 23,
+        "url": "https://www.toutiao.com/trending/7702385499272691721/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702385499272691721%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2210%E5%B2%81%E5%A5%B3%E5%AD%A9%E8%BA%AB%E9%AB%981%E7%B1%B38+%E7%88%B8%E7%88%B8%E5%9B%9E%E5%BA%94%22%7D&rank=&style_id=40132&topic_id=7702385499272691721"
+      },
+      {
+        "time": "01:40",
+        "title": "演员邵万林去世",
+        "summary": "热度 1,590,507 · 今日头条热榜第 24 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1590507,
+        "rank": 24,
+        "url": "https://www.toutiao.com/trending/7703082950388465683/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703082950388465683%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%BC%94%E5%91%98%E9%82%B5%E4%B8%87%E6%9E%97%E5%8E%BB%E4%B8%96%22%7D&rank=&style_id=40132&topic_id=7703082950388465683"
+      },
+      {
+        "time": "01:40",
+        "title": "王虹在香港领取求是杰出科学家奖",
+        "summary": "热度 1,439,150 · 今日头条热榜第 25 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1439150,
+        "rank": 25,
+        "url": "https://www.toutiao.com/trending/7703541649397465610/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703541649397465610%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%8E%8B%E8%99%B9%E5%9C%A8%E9%A6%99%E6%B8%AF%E9%A2%86%E5%8F%96%E6%B1%82%E6%98%AF%E6%9D%B0%E5%87%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%A5%96%22%7D&rank=&style_id=40132&topic_id=7703541649397465610"
+      },
+      {
+        "time": "01:40",
+        "title": "胡明轩拿下23分2板4助",
+        "summary": "热度 1,302,197 · 今日头条热榜第 26 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1302197,
+        "rank": 26,
+        "url": "https://www.toutiao.com/trending/7702834446407532595/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702834446407532595%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%83%A1%E6%98%8E%E8%BD%A9%E6%8B%BF%E4%B8%8B23%E5%88%862%E6%9D%BF4%E5%8A%A9%22%7D&rank=&style_id=40132&topic_id=7702834446407532595"
+      },
+      {
+        "time": "01:40",
+        "title": "A股放量反攻是反弹还是反转",
+        "summary": "热度 1,178,276 · 今日头条热榜第 27 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1178276,
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7703579399072779795/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703579399072779795%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E6%94%BE%E9%87%8F%E5%8F%8D%E6%94%BB%E6%98%AF%E5%8F%8D%E5%BC%B9%E8%BF%98%E6%98%AF%E5%8F%8D%E8%BD%AC%22%7D&rank=&style_id=40132&topic_id=7703579399072779795"
+      },
+      {
+        "time": "01:40",
+        "title": "暴跌三成后谁在偷偷抄底黄金",
+        "summary": "热度 1,066,149 · 今日头条热榜第 28 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1066149,
+        "rank": 28,
+        "url": "https://www.toutiao.com/trending/7703407618089291300/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703407618089291300%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9A%B4%E8%B7%8C%E4%B8%89%E6%88%90%E5%90%8E%E8%B0%81%E5%9C%A8%E5%81%B7%E5%81%B7%E6%8A%84%E5%BA%95%E9%BB%84%E9%87%91%22%7D&rank=&style_id=40132&topic_id=7703407618089291300"
+      },
+      {
+        "time": "01:40",
+        "title": "《影之刃零》吸金超10亿",
+        "summary": "热度 964,691 · 今日头条热榜第 29 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 964691,
+        "rank": 29,
+        "url": "https://www.toutiao.com/trending/7703543904976506431/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703543904976506431%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B%E5%90%B8%E9%87%91%E8%B6%8510%E4%BA%BF%22%7D&rank=&style_id=40132&topic_id=7703543904976506431"
+      },
+      {
+        "time": "01:40",
+        "title": "时隔两年金融监管部门再次护盘",
+        "summary": "热度 872,889 · 今日头条热榜第 30 名 · 抓取于 01:40",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 872889,
+        "rank": 30,
+        "url": "https://www.toutiao.com/trending/7703579185251356201/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703579185251356201%22%2C%22hot_board_impr_id%22%3A%22202611030140379327BEFF6CE7D3A83587%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%97%B6%E9%9A%94%E4%B8%A4%E5%B9%B4%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E9%83%A8%E9%97%A8%E5%86%8D%E6%AC%A1%E6%8A%A4%E7%9B%98%22%7D&rank=&style_id=40132&topic_id=7703579185251356201"
+      }
+    ],
+    "tech": [
+      {
+        "time": "22:50",
+        "title": "一体化电视全国推广部署推进会召开，加快落实终端适配",
+        "summary": "11 月 2 日，国家广播电视总局联合工业和信息化部、中央广播电视总台召开一体化电视全国推广部署推进会。 会议要求，各地区各部门各单位要坚定信心、下定决心，攻坚克难、奋力冲刺，确保圆满完成全年目标任务。 一是锚定目标、细化台账，狠抓推进落实。要加快推进设备采购、安装部署、宣传推广等，确保年底前完成全部部署工作。要完整准确执行一体化电视标准，严格遵循直播优先、专网传输技术要求，严格落实“专网 + 一体化电视 App+ 适配器 + 单电源通用遥控器”产品形态，严格遵守检测、认证等管理要求，确保规范发展、运行平稳、体验一致。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/276.htm"
+      },
+      {
+        "time": "21:45",
+        "title": "联想“LOQ 25-10”24.5 英寸显示器上市：1080P 280Hz，599 元",
+        "summary": "联想旗下 LOQ 25-10 显示器现已在京东上架，该机采用 24.5\" 防眩光 IPS WLED 面板，支持 FHD (1920×1080) 分辨率、280Hz 刷新率，定价为 599 元。 LOQ 25-10 亮度典型值 300nits，静态对比度典型值 1100:1；GtG 响应时间 1ms、MPRT 响应时间 0.5ms；色深 8bit+FRC，色域 99% sRGB。 其提供 2 个 HDMI 2.1 (TMDS)、1 个 DisplayPort 1.4 (HBR2)；",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/273.htm"
+      },
+      {
+        "time": "21:41",
+        "title": "市场监管总局：淘天、京东、拼多多、小红书、抖音等 22 家平台企业签署网售重点工业产品自律公约",
+        "summary": "据市场监管总局，10 月 28 日，全国网络销售重点工业产品合规提质现场活动在浙江省平湖市举办。此次活动以“学新规明准则守安全提品质”为主题，旨在宣贯《网络销售重点工业产品质量安全监督管理规定》，督促电子商务经营者增强合规意识，落实网络销售重点工业产品质量安全义务，提升网售产品质量安全水平。 公告称，加强网售工业产品质量安全治理，是守护人民群众线上消费安全的重要举措，也是推动平台经济健康发展的必然要求。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/272.htm"
+      },
+      {
+        "time": "18:01",
+        "title": "3299 → 728 元再降价：石头 A30 Max 智能洗地机 25000Pa 大吸力 + 180° 躺平",
+        "summary": "石头 A30 Max 智能洗地机官方定价 3299 元，支持 180° 躺平 + 25000Pa 大吸力，基站支持 95°C 热风自烘干 + 95°C 高温自清洁。 今日按下方步骤下单，仅需 728 元即可入手。 先领 88VIP 家电 1500-150 元消费券： 点此领券。 下单前需咨询客服“返现金额”备注后下单，实付大于 1380 元， 晒单返 680 元。 按下方步骤下单实付 1408 元，返现后折合 728 元破冰新低。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/020/786.htm"
+      },
+      {
+        "time": "21:01",
+        "title": "狼蛛推出 GS8 蓝牙音箱“京东专供款”：采用幻梦紫配色，首发价 179 元",
+        "summary": "狼蛛现已在京东上架一款 GS8 蓝牙音箱“京东专供款”，该版本采用了“幻梦紫”配色，定价为 223 元，首发价 179 元。 京东狼蛛 GS8 桌面音箱 179 元领 10 元券该音箱整体尺寸为 409 x 84 x 68mm，正面采用贯穿式高透光学镜面设计，内部配备约 1680 万色的 RGB 动态灯效组，支持四种专属灯光模式，机身设有实体功能按键用于日常操控。 该音箱的额定功率为 30W，峰值功率可达 40W，搭载双 57mm 的全频驱动单元、双 24mm 高音喇叭单元以及双复合低音振膜。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/265.htm"
+      },
+      {
+        "time": "20:50",
+        "title": "消息称罗马仕“重生计划”因债务搁浅，拟按三折清偿",
+        "summary": "IT之家 11 月 2 日消息。近日，据蓝鲸科技从知情人士处获悉，计划搁浅的核心症结仍在于债务：投资方要等罗马仕把现有债务处理得差不多之后才会投。与此同时，罗马仕当前给供应商的债务处理方案是“按三折折扣以清偿”。 业内人士李翔向记者分析称，三折意味着债权人要先行确认超过六成的损失，而“盈利后清偿”对一家停工停产已逾一年、产品尚未恢复上架的企业而言， 更像一张兑现期限不明的远期支票。事实上，“三折方案”之所以难以推进，不只是价格问题，而是投资交割前债务能否“干净化”的前置条件。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/264.htm"
+      },
+      {
+        "time": "20:35",
+        "title": "消息称 SpaceX 洽谈收购 Boost Mobile，挑战美国电信三巨头",
+        "summary": "《华盛顿邮报》周一报道，SpaceX 正在洽谈收购 EchoStar 旗下无线业务 Boost Mobile，或是获取该品牌的网络使用权；Boost Mobile 本身向 AT&T 和 T-Mobile 租用网络资源运营。 报道援引知情谈判人士消息称，近几个月 SpaceX 一直在和电信运营商 EchoStar 磋商，计划依托这笔合作推出自有品牌无线服务。 此举是为了支撑马斯克这家公司通过 Starlink Mobile 打造星地混合移动网络的规划：把卫星星座和地面基础设施结合起来，向美国无线巨头 AT&T、Verizon、T-Mobile 发起挑战。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/262.htm"
+      },
+      {
+        "time": "20:25",
+        "title": "我国第二艘国产大型邮轮“爱达 · 花城号”将于 11 月 6 日在上海完成交付",
+        "summary": "据新华社报道，第二艘国产大型邮轮“爱达 · 花城号”即将于 2026 年 11 月 6 日在上海完成交付，该船将从广州南沙国际邮轮母港开启首航季。 公开信息显示，“爱达 · 花城号”全长 341 米，总吨位 14.19 万吨，拥有 2130 间客房和套房，满载可容纳 5232 名宾客。邮轮在空间设计、餐饮娱乐与智能科技上进行了全面升级，提供 28 家餐厅酒吧、8 大主题酒吧、4 场原创歌舞大秀。 该船将于 2027 年全面展开香港母港航季，预计营运近 20 个邮轮航次。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/259.htm"
+      },
+      {
+        "time": "19:58",
+        "title": "英特尔 FCLGA1954 平台落地先声：W980、Z970 主板现身海关舱单记录",
+        "summary": "根据纽佰德 (NBD) 收集的数据，1 款 W980 主板、2 款 Z970 主板现身该第三方海关舱单数据库，显示主板制造商正为英特尔酷睿 Ultra 4000S \"Nova Lake S\" 处理器和配套的 FCLGA1954 平台进行准备。 上述 5 条记录拥有相同的货物描述格式，进口商、采购地、出口商信息也一致。 记录到的主板型号包括 W980 WS、Z970 LIVEMIXER WIFI、Z970 PRO-A WIFI，其中 Z970 LIVEMIXER WIFI 很明显来自华擎、Z970 PRO-A WIFI 也有对应的华擎前代款式。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/252.htm"
+      },
+      {
+        "time": "19:29",
+        "title": "小米雷军到海尔总部参观，送董事长周云杰车模",
+        "summary": "小米创办人、董事长兼 CEO 雷军今日分享照片，称其今天下午到海尔总部参观学习，对海尔董事长周云杰的盛情款待表示感谢，并赠送给对方一份小米 SU7 Ultra 车模。 IT之家注意到，雷军和周云杰此前有多次交流。去年 6 月，周云杰在谈到小米做家电时表示， 欢迎更多企业参与竞争，将来考虑可以互相兼容生态。周云杰称：“所以我认为竞争是一个常态，而且欢迎更多的企业，参与这种竞争，在竞争中共同去发展，而且未来竞争，不是企业和企业之间的对抗，而是生态和生态的对话，各自生态，将来呢，应该是围绕，为用户创造好的体验，就现在家庭的系统，有苹果的，也有华为的、海尔的，包括小米的米家等等，将来还是要考虑在生态里边，给用户提供一个统一的界面，大家互相可以是兼容的，一定要考虑给用户带来便利，带来好的体验是第一位的。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/244.htm"
+      }
+    ],
+    "ai": [
+      {
+        "time": "23:40",
+        "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
+        "summary": "据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。 记者艾伦・蒂利（Aaron Tilley）表示，该设备原型机将一块 9 英寸屏幕搭载在可旋转机械臂上，整体外观类似苹果早年的 iMac G4，或是皮克斯的经典台灯吉祥物。它保留 FaceTime 通话这类 HomeView 已有的常规功能，同时还能够充分感知周边环境，并自主执行操作。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/280.htm"
+      },
+      {
+        "time": "21:38",
+        "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继",
+        "summary": "埃隆 · 马斯克称，AI 富足时代终将到来，但眼下，Grok Bot 还做不到不限量使用。 这位 SpaceX 首席执行官当地时间上周日在 X 平台发文称：有用户反馈每周额度消耗速度远超往常，对此他表示，该 AI 智能体的服务成本“相对于收入而言高到难以为继”。 Grok Bot 是 SpaceX 在 8 月推出的 AI 智能体，其依托虚拟计算机替人完成购物等各类任务。该产品分多个档位，从免费版到每月 200 美元 （IT之家注：现汇率约合 1,332 元人民币） 套餐不等。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/271.htm"
+      },
+      {
+        "time": "21:16",
+        "title": "亿咖通科技与 Arm 签署合作备忘录，共同开发面向出行领域及跨行业场景的下一代高性能 AI 计算平台",
+        "summary": "亿咖通科技控股今日宣布与 Arm 签署非约束性合作备忘录。双方将以此搭建合作框架，共同探索与开发面向出行领域及跨行业场景的下一代高性能 AI 计算平台。 根据备忘录约定，双方将开展系统层面的联合工程开发，涵盖系统级架构定义、性能调优、软件适配、功能安全、工具链与网络安全验证，并同步推进产业生态共建。 双方团队将针对中国及全球市场打磨定制化技术方案， 除出行场景外，同步拓展至 AI 终端等更多物理 AI 跨行业应用。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/268.htm"
+      },
+      {
+        "time": "21:08",
+        "title": "腾讯混元发布 Hyra 2.0：为模型研发打造可复用工具",
+        "summary": "今日腾讯混元发布了 AI 科研系统 Hyra 2.0，将研发重点从直接用 AI 攻克科学难题，转向让通用 Agent 参与科学模型、研究工作流及软件工具的研发与升级，让一次研发的成果在后续研究中被反复使用，推动科研范式从“刷题解题”走向“造工具”。 此前，Hyra 1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题，验证了“给 AI 明确评判标准的难题并循环尝试”这一路径的可行性。Hyra 2.0 在此基础上进一步提出，工具升级带来的收益可被下游任务反复复用，从而形成智能复利。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/266.htm"
+      },
+      {
+        "time": "20:49",
+        "title": "谷歌上线《塞尔达传说：时之笛》彩蛋，可跳转至 1998 年复古搜索页",
+        "summary": "为庆祝本周《塞尔达传说：时之笛》重制版发售，谷歌搜索上线了一个彩蛋。 这款 Nintendo 64 经典作品的重制版将于 11 月 5 日上线，谷歌为此准备了标志性的隐藏互动彩蛋。 在谷歌主页搜索框输入 zelda 并搜索，屏幕角落就会出现大师剑，悬浮在时之神殿的剑台上方。 原作里，成年林克将大师剑插回剑台时，就会穿越时光变回少年林克。 当大师剑出现后，点击或触摸它，宝剑就会归位，同时响起林克的喊声，搭配画面特效，仿佛你正在穿越时间。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/263.htm"
+      },
+      {
+        "time": "20:09",
+        "title": "研究发现：好奇心或驱动人类大脑形成复杂结构",
+        "summary": "人类大脑为何演化得如此复杂？答案或许可以归结为好奇心。研究人员训练了数千套学习模式各不相同的人工神经网络，他们发现，好奇心最强的网络不仅拥有更复杂、灵活的认知能力，还会自发形成类似人脑的结构。 这些网络会形成相互连通的模块，并且遵循和人类相近的发育规律：比如先长出大量密集神经连接，再逐步修剪精简。剑桥大学的弗朗切斯科 · 波利（Francesco Poli）表示，好奇心通常被视作复杂大脑带来的结果。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/254.htm"
+      },
+      {
+        "time": "19:54",
+        "title": "首届 CMG 世界机器人登泰山大赛收官，宇树斩获 1 金 2 银",
+        "summary": "据新浪科技今日报道，首届 CMG 世界机器人登泰山大赛在山东泰安开赛。赛道从红门至中天门，全程 3.9 公里、3100 余级台阶，以连续石阶、陡坡弯道为核心挑战，考验机器人在复杂山地环境中的运动与自主决策能力。 足式机器人竞速赛中，宇树科技旗下北京灵翌科技队携宇树 A2 机器狗出战，以 41 分 41 秒的实际成绩（IT之家注：最终成绩 43 分 41 秒，罚时 2 分钟）夺得足式机器人竞速赛冠军。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/250.htm"
+      },
+      {
+        "time": "19:53",
+        "title": "黑客研发新型恶意木马 VOLTA，用 AI 分析受害者是否值得入侵",
+        "summary": "据外媒 Tom's Hardware 报道，网络安全团队 Cisco Talos 发现了一款名为 VOLTA 的新型 Windows 恶意木马。该木马整合了 AI 模型，能够分析受害者的个人数据，评估其中的信息价值，并在完成相关操作后尝试自我删除，以降低被发现和追踪的风险。 据报道，VOLTA 能够收集受害者设备上的网页浏览记录、加密货币钱包、浏览器扩展程序、文本文档、聊天记录等各类敏感信息，并将相应文件上传至 Anthropic Claude 等在线 AI 产品分析生成摘要，以供黑客参考。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/249.htm"
+      },
+      {
+        "time": "19:33",
+        "title": "沃顿教授：转行技工难以抵御 AI 冲击，四类核心能力才是破局关键",
+        "summary": "人工智能不会消失。我们该如何与它共存？说得更准确一点：在人工智能时代，我们要靠什么谋生？ 常见的答案无非两种：“学会使用人工智能”，或是找一份人工智能无法替代、不会被自动化取代的职业，最好是动手类工作。 据 Business Insider 报道，伊桑 · 莫利克（Ethan Mollick）并不认为这套办法可行。莫利克是沃顿商学院管理学教授，也是当下颇具影响力的研究者，专注解读人工智能如今能做到什么、以及它对需要和 AI 协同工作的普通人意味着什么。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/246.htm"
+      },
+      {
+        "time": "19:30",
+        "title": "央视揭秘“AI 生成女友”网恋诈骗流水线，15 人被骗 180 余万元",
+        "summary": "据央视新闻报道，上海闵行公安机关近期侦破一起“AI 生成女友”网恋诈骗案。 IT之家参考通报获悉，上海工作的刘先生在刷短视频时，认识了一位叫婷婷的美丽女子，一个月后，婷婷说姨妈得了脑瘤，需要治疗，急需借款。 为了打消刘先生的疑虑，婷婷附上了医院的诊断证明和自己的身份证照片。当天，刘先生就转给婷婷 4 万元。然而在接下来的半个月时间里，姨妈的病情不断恶化，为此，刘先生多次转账，金额累计达 18 万多元。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/245.htm"
+      }
+    ],
+    "finance": [
+      {
+        "time": "23:40",
+        "title": "港交所扩大人民币债券抵押品适用范围首日抵押总值超4亿元人民币",
+        "summary": "中新社香港11月2日电香港交易及结算所有限公司(简称“港交所”)2日宣布，旗下衍生产品结算所香港期货结算有限公司(简称“期货结算公司”)及香港联合交易所期权结算所有限公司(简称“联交所期权结算所”)，已开始接受合资格人民币定息资产作为非现金抵押品，首日共有7家机构提交合资格债券作为抵押品、总值超过人民币4亿元。 -->市场参与者可使用通过债券通“北向通”持有的中国国债及政策性银行债券(统称“债券通证券”)，以及中国财政部在境外发售的债券，满足保证金要求，而不必出售资产或将其转换为现金。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725078.shtml"
+      },
+      {
+        "time": "22:14",
+        "title": "证监会：在风险总体可控的基础上，适度释放融资空间",
+        "summary": "中新网北京11月2日电 (记者陈康亮)关于发挥好融资融券业务逆周期调节功能作用方面，中国证监会有关部门负责人2日晚间表示，在风险总体可控的基础上，根据法定的逆周期调节安排，适度释放融资空间，盘活存量资金，提升市场流动性。 -->负责人表示，融资融券是资本市场重要的基础性制度之一，对平抑非理性波动，促进价格发现，吸引中长期资金入市，满足投资者融资需求具有积极作用。2026年1月，根据当时的市场形势，沪深北交易所将融资保证金比例由80%提高至100%，对减缓杠杆风险顺周期积累、促进理性交易和提前防控风险起到积极作用。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725063.shtml"
+      },
+      {
+        "time": "22:14",
+        "title": "海南多部门细化全岛封关运作有关管理事项",
+        "summary": "中新网海口11月2日电 (记者王子谦)海南省财政厅、海南省发展和改革委员会、海南省商务厅2日联合发布通知，明确海南自由贸易港全岛封关运作有关管理事项。该通知细化明确“一线”的相关管理事项。由境外进入海南自由贸易港内海关特殊监管区域、保税物流中心或保税仓库实施保税仓储，且未发生流转或加工、检测、维修、混兑等各类改变货物状态情形的保税货物，后续进入海南自由贸易港其他区域的，参照海南自由贸易港“一线”进口适用封关政策文件要求。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725057.shtml"
+      },
+      {
+        "time": "22:13",
+        "title": "中国证监会拟从四方面优化护盘式回购",
+        "summary": "中新社北京11月2日电 (记者陈康亮)中国证监会有关部门负责人2日晚间表示，为进一步提高上市公司开展股份回购的便利度，发挥市场内在稳市功能，近期证监会拟对为维护公司价值及股东权益所必需而回购股份(简称护盘式回购)作调整优化。 -->具体内容包括：一是新增股价“破发”作为可以开展护盘式回购的情形之一，规定护盘式回购不适用“公司股票上市已满六个月”的限制，取消护盘式回购中开盘和收盘集合竞价阶段不得申报的限制等。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725054.shtml"
+      },
+      {
+        "time": "22:09",
+        "title": "宁夏落地首笔小时级绿电交易",
+        "summary": "中新网银川11月2日电 (记者于晶)11月2日，记者从宁夏电力交易公司获悉，宁夏完成首笔省内小时级绿电交易电费结算，绿电交易核算模式由此从“按月统计”升级为“按小时核算”，实现绿电电量生产、交易、结算、核销全流程小时级可追溯。 -->本次交易由青铜峡铝业股份有限公司与吴忠六十二光伏电站达成，成交绿电电量3900万千瓦时。风电、光伏出力随光照、气象实时波动，工业企业用电负荷也存在时段差异。传统按月度总量核算的绿电交易，难以精准匹配新能源发电曲线与企业用电曲线。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725005.shtml"
+      },
+      {
+        "time": "22:05",
+        "title": "78个颠覆性健康项目在沪展开角逐展示最新原创成果",
+        "summary": "中新网上海11月2日电(记者陈静)第十五届中国创新创业大赛颠覆性技术创新大赛(未来健康)(下称：赛事)2日在沪开幕。火炬(上海)未来健康颠覆性技术孵化基地与全欧华人专业协会联合会签署战略合作协议。双方将聚焦颠覆性技术项目引育、跨境创新资源协同、高能级创新生态共建等重点方向开展深度联动。本届赛事由中国工业和信息化部火炬高技术产业开发中心和上海市奉贤区人民政府主办，聚焦未来健康领域颠覆性技术创新方向，汇聚全国科创力量共探产业前沿，助力国家未来产业布局与新质生产力培育。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10724995.shtml"
+      },
+      {
+        "time": "21:58",
+        "title": "前三季度陕西税费收入超6300亿元税费红利赋能产业创新发展",
+        "summary": "中新网西安11月2日电 (记者杨英琦)记者2日从陕西省人民政府新闻办公室举办的新闻发布会获悉，2026年前三季度，陕西全省累计组织税费收入超6300亿元(人民币，下同)，同比增长3.2%。该省一系列减税降费、智慧办税等举措落地见效，折射出当地产业升级、创新驱动、民生改善的发展态势。 -->据介绍，在支持产业发展方面，对先进制造、集成电路、工业母机三类企业，该省在原有增值税抵扣基础上，再按一定比例额外减免。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10724983.shtml"
+      },
+      {
+        "time": "21:53",
+        "title": "海外客商齐聚汕头贴身服饰外贸秋交会 “产地直采”拓新局",
+        "summary": "中新社汕头11月2日电 (李怡青林大森)2026汕头贴身服饰首届外贸秋交会暨广交会采购商走进外贸基地供采对接活动2日在汕头贴身服饰交易市场(下称“交易市场”)启幕。活动立足汕头千亿纺织服装产业集群，推动海外客商走进生产一线，探索企业从“展会参展”转向“产地迎客”外贸发展路径。此次活动深度联动第140届广交会，汕头市纺织服装基地(省级外贸转型升级基地)承接全球采购流量，形成“展馆看秀、产地验厂”的双向联动。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10724977.shtml"
+      },
+      {
+        "time": "21:53",
+        "title": "香港金管局推出多项金融科技新举措",
+        "summary": "中新社香港11月2日电 (记者戴小橦)香港金融管理局(简称“金管局”)2日在香港公布一系列金融科技新措施，持续通过数据与支付、人工智能、韧性及代币化，提升香港金融科技实力，惠及企业与市民。在代理式金融方面，金管局推出SAGE(“结合管治与赋能，构建安全可靠的代理式金融”)项目，赋能业界探索拓展代理式金融应用。对此，金管局成立跨界别专家小组，并就银行应用代理式人工智能刊发讨论文件，收集业界监管意见。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725046.shtml"
+      },
+      {
+        "time": "21:51",
+        "title": "中国首批18只主动ETF合计募资已超350亿元",
+        "summary": "中新社北京11月2日电 (记者陈康亮)中国证监会有关部门负责人2日晚间表示，首批18只主动管理交易型开放式股票证券投资基金(下称主动ETF)于10月23日启动募集，整体募集态势良好。截至11月2日，合计募集资金超过350亿元(人民币，下同)。 -->其中，已有16只产品达到20亿元的单只募集规模上限并结束募集。负责人表示，主动ETF是基金经理依托专业投研能力自主开展选股、择时与配置，不以跟踪特定指数为目标，同时可以进行场内实时交易、实物申赎的公募基金产品，兼具普通基金主动管理和ETF交易灵活、透明度高的特点，可满足不同风险偏好投资者的需求，为市场持续引入增量资金。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-02/10725047.shtml"
+      }
+    ],
+    "stocks": [
+      {
+        "time": "00:00",
+        "title": "增量资金有望持续进场",
+        "summary": "沪市首批9只主动ETF完成募集后，部分产品已陆续成立并启动建仓。具体来看，10月28日，摩根大盘成长主动ETF和易方达品质均衡主动ETF正式成立；10月29日，华夏质量甄选主动ETF、平安红利景气主动ETF和华泰柏瑞价值精选主动ETF正式成立；10月30日，汇添富均衡策略智选主动ETF和招商价值智选主动ETF正式成立。据了解，摩根、易方达、华夏、平安等管理人旗下主动ETF已启动建仓，其他产品也将陆续成立并开始建仓。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611013917769336.html",
+        "table": {
+          "caption": "2026-11-03 公开行情快照（来源：腾讯行情 / 东方财富）",
+          "columns": [
+            "市场",
+            "指数",
+            "最新",
+            "涨跌幅",
+            "说明"
+          ],
+          "rows": [
+            [
+              "美股",
+              "道琼斯",
+              "52,245.05",
+              "+0.92%",
+              "公开行情"
+            ],
+            [
+              "美股",
+              "纳斯达克",
+              "25,502.54",
+              "+0.26%",
+              "公开行情"
+            ],
+            [
+              "美股",
+              "标普500",
+              "7,604.04",
+              "+0.32%",
+              "公开行情"
+            ],
+            [
+              "港股",
+              "恒生指数",
+              "23,393.32",
+              "+0.42%",
+              "公开行情"
+            ],
+            [
+              "A股",
+              "上证指数",
+              "3,638.03",
+              "+1.08%",
+              "公开行情"
+            ],
+            [
+              "韩股",
+              "KOSPI",
+              "5,859.08",
+              "+2.24%",
+              "公开行情"
+            ]
+          ]
+        }
+      },
+      {
+        "time": "00:00",
+        "title": "宽基ETF单日成交再放量资金已连续20日借道入场",
+        "summary": "周一宽基ETF成交再度放量，资金仍在入场。11月2日，A股高开高走。截至收盘，上证综指涨1.08%，报3638.03点；深证成指涨1.63%，创业板指涨1.87%。盘面上，宽基ETF放量行情持续发酵。数据显示，当日成交额突破20亿元的股票型ETF多达20只，市场交投极为活跃。其中，科创50ETF华夏以166.95亿元的成交额稳居榜首，较前一交易日（10月30日）的116.24亿元成交额大幅放量。创业板ETF易方达紧随其后，成交额达131.18亿元；",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918830749.html"
+      },
+      {
+        "time": "00:00",
+        "title": "近4700只股飘红！11月首个交易日 A股有这些变化",
+        "summary": "11月2日，市场冲高后小幅回落，创业板指盘中一度涨超3.5%。截至收盘，沪指涨1.08%，深成指涨1.63%，创业板指涨1.87%。盘面上，AI漫剧概念爆发， 白酒概念走强，零售、大金融表现活跃。下跌方面， 贵金属概念震荡调整。全市场近4700只个股上涨，131家涨停。沪深两市成交额1.78万亿元，较上一个交易日放量1092亿。经历上周五（10月30日）“抱摔”后，不少股民心有余悸，但今天A股市场仍给出了偏积极的信号。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918694072.html"
+      },
+      {
+        "time": "00:00",
+        "title": "《影之刃零》三天销售收入破10亿 A股游戏板块大涨",
+        "summary": "11月2日，国产3A游戏《影之刃零》官方宣布，游戏销量在72小时内突破400万。界面新闻按最低268元的标准版定价估算，其对应的销售收入已超过10亿元。受此消息影响，当天A股游戏板块接连大涨。截至当天收盘， 同花顺游戏指数上涨8.91%， 富春股份、 冰川网络分别上涨了14.58%和13.79%， 宝通科技、 凯撒文化、 大晟文化、 游族网络、 巨人网络等分别出现涨停。线上热度方面，截至11月2日，《影之刃零》在Steam平台的最高同时在线人数突破83万，且连续四天走高；",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918693220.html"
+      },
+      {
+        "time": "00:00",
+        "title": "港股公司治理专业强化讲座11月11日武汉开启",
+        "summary": "伴随港交所新版《企业管治守则》全面深化落地，港股企业年度审计披露、董事持续专业发展、信息披露合规、ESG报告提质等要求持续收紧，内地港股及A+H上市公司董事、董秘、财务负责人面临更为集中的履职与合规压力。因此，香港公司治理公会计划于2026年11月11日—13在武汉举办“第九十三期治理专业人士强化持续专业发展讲座”。本次讲座以“年度审计与业绩报告”为核心主题，为期三天，合计15个ECPD培训学时。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919155825.html"
+      },
+      {
+        "time": "00:00",
+        "title": "中金公司研究部国内策略首席分析师李求索：A股市场估值已具备较好投资吸引力",
+        "summary": "近期，A股市场在外部输入性风险与资金面压力下经历明显回调，市场情绪低落。然而，刚刚披露结束的2026年三季报却展现出另一番景象：全部上市公司前三季度净利润同比增长8.2%，跑赢同期名义GDP（国内生产总值）增速；同时，沪深300前向市盈率跌破过去十年均值，股息率升至3.4%。一面是极具吸引力的历史底部估值，另一面是AI（人工智能）产业链与上游资源品展现出的强劲盈利韧性。“近期A股市场在多重外部输入性风险挑战以及资金面压力下明显回调，引发本轮调整的外部扰动因素较多，偏短期和阶段性。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919150537.html"
+      },
+      {
+        "time": "00:00",
+        "title": "金禄电子股价过山车：AI业务尚未放量清远PCB项目或不排除定增募资",
+        "summary": "11月2日， PCB 热门概念股金禄电子 （301282.SZ）经历大幅震荡行情。该股早盘高开一度触及涨停，盘中掉头向下，收盘报34.30元/股，涨幅回落至6.22%。除了金禄电子，多只 PCB 个股纷纷走强。 同花顺行业板块数据显示，11月2日 PCB 板块整体涨幅超4%，板块联动效应凸显。AI 算力概念拉动之外， 金禄电子的短暂涨停与其最近披露的三季报密切相关。最新财报显示，该公司第三季度及前三季度营收和净利润均大幅增长。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919130831.html"
+      },
+      {
+        "time": "00:00",
+        "title": "博盈特焊：前三季度营收逐季提升国际化战略进入收获期",
+        "summary": "上证报中国证券网讯（记者何治民）11月2日晚间， 博盈特焊在投资者关系活动记录表中称，公司的经营数据明显转好，业务结构持续优化，多元化发展取得成效，国际化战略进入收获期，业务增长打开新空间。营收逐季连续提升第三季度环比增长约47.3%2026年第一季度至第三季度， 博盈特焊营业收入分别为0.87亿元、0.91亿元和1.35亿元，逐季连续提升。其中，第三季度环比增长约47.3%，较第一季度增长约54%。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919122098.html"
+      },
+      {
+        "time": "00:00",
+        "title": "业绩“热”、股价“冷”，存储芯片怎么了",
+        "summary": "11月2日，美股存储芯片股盘前多数上涨， SK海力士盘前大涨超4%， 美光科技、 闪迪、AMD等涨超2%，此前持续深度调整的美股存储芯片板块似乎有了一线转机。在A股市场， 存储芯片板块经历了集体大幅回撤，截至11月2日，部分个股自高点的累计跌幅甚至超过70%。与之形成强烈反差的是，A股存储芯片板块却交出了一份份颇具亮点的三季报， 江波龙、 佰维存储、 德明利等利润大幅飙升，随之而来的还有中期分红。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919085074.html"
+      },
+      {
+        "time": "00:00",
+        "title": "沪深A股前三季净利润创新高！芯片最赚钱，生猪养殖亏上百亿",
+        "summary": "截至今年10月31日，沪深两市5223家A股上市企业全部完成三季报披露。据同花顺 iFinD数据，今年前三季度， 沪深两市A股上市企业的净利润总额为5.51万亿元，首次超越5.5万亿元；扣非归母净利润总额为4.80万亿元，首次超越4.5万亿元，净利润总额、扣非归母净利润总额均创2020—2026年同期新高。不过，考虑到2020年三季度末至2026年三季度末，沪深两市新增了1000多家A股上市公司，部分上市企业并不披露未上市前三季报数据，即上述净利润总额新高背后，或存在样本量增加的影响。",
+        "source": "东方财富",
+        "tags": [
+          "全球股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919078792.html"
+      }
+    ],
+    "aistocks": [
+      {
+        "time": "23:02",
+        "title": "Anthropic 第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大 IPO",
+        "summary": "Anthropic PBC 披露，截至 9 月 30 日的第三季度营收接近 170 亿美元 （IT之家注：现汇率约合 1,132.35 亿元人民币），同比暴涨 11 倍，市场对这家 AI 实验室有望创下纪录的 IPO 预期进一步升温。 这家 Claude 大模型背后的公司当地时间周一向美国证券交易委员会（SEC）提交文件显示：截至 9 月末的三个月，净亏损 233 亿美元 （现汇率约合 1,551.98 亿元人民币）；",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/277.htm"
+      },
+      {
+        "time": "20:35",
+        "title": "上汽大众 ID.ERA 5X 将于 11 月 12 日上市，家族首款纯电 SUV",
+        "summary": "据汽车之家今日报道，上汽大众 ID.ERA 5X 将于 11 月 12 日上市。新车已于此前开启盲订，车辆是 ID.ERA 序列下首款纯电 SUV，同时也是大众全球首款 CMP 纯电平台搭配 CEA 电子电气架构的量产车型。 IT之家注意到，该车定位“超能纯电 SUV”，搭载激光雷达、“行云智行”智能辅助驾驶系统，拥有 2815mm 轴距， 配备宁德时代电池。 ID.ERA 5X 配备 192 线激光雷达、地平线征程 6H 芯片、标配 4 纳米 MTK 8676 车规级座舱芯片，搭载“行云智行”智能辅助驾驶系统，具备 420TOPS 辅助驾驶算力。",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/261.htm"
+      },
+      {
+        "time": "20:31",
+        "title": "Lumentum 2027 财年第一财季归母净利润 3.6 亿美元，同比增长 8478.57%",
+        "summary": "Lumentum今日发布 2027 财年（2026年6月28日～2027年7月1日）第一财季（2026年6月28日～2026年9月26日）报告： 营业总收入：12.63 亿美元 （IT之家注：现汇率约合 84.1 亿元人民币），同比增长 136.5%，环比增长 25.5% 毛利润：6.44 亿美元 （现汇率约合 42.9 亿元人民币），同比增长 254.82%，环比增长 34.93% 毛利率：51% 归母净利润：3.6 亿美元 （现汇率约合 24 亿元人民币），同比增长 8478.57%，环比扭亏为盈扣非净利润：4.61 亿美元 （现汇率约合 30.71 亿元人民币），同比增长 433.68%，环比增长 41.31% 基本每股收益：3.9 美元 （现汇率约合 25.98 元人民币），同比增长 6400% 稀释每股收益：3.54 美元 （现汇率约合 23.58 元人民币），同比增长 698。",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/260.htm"
+      },
+      {
+        "time": "20:16",
+        "title": "Marvell 宣布将以全股票交易收购 Lumentum，拓展 AI 光互连版图",
+        "summary": "迈威尔科技（Marvell）与光通信设备制造商 Lumentum 今日宣布达成最终收购协议，迈威尔将通过全股票交易收购 Lumentum，交易隐含企业价值约 1,150 亿美元 （现汇率约合 7,659.98 亿元人民币），对应 Lumentum 每股约 1,132 美元 （现汇率约合 7,540 元人民币），较 2026 年 10 月 28 日两家公司股价受潜在交易传闻影响前的收盘价溢价约 23.9%。",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/255.htm"
+      },
+      {
+        "time": "18:54",
+        "title": "英伟达 DLSS 5 加持下的《马力欧卡丁车͏ 世界》，画质堪比动画电影",
+        "summary": "任天堂 Switch 2 发售一年多之后，在上个月被成功破解。这一下打开了闸门，不仅可以在主机上运行自制程序，还支持提取游戏镜像，进而为在电脑模拟器上运行 Switch 2 游戏铺平了道路。不过在 PC 玩家圈子里，仅仅以更高分辨率跑游戏还远远不够。依托模拟器和英伟达 DLSS 5 神经渲染技术，我们得以窥见任天堂游戏一种相当有意思的未来形态。 IT之家注意到，近日网上流出一段新视频，创作者 ChillyWillMD 演示了在电脑上借助英伟达 DLSS 5 神经渲染运行《马力欧卡丁车͏ 世界》。",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/238.htm"
+      },
+      {
+        "time": "17:46",
+        "title": "Anthropic 以“蚂蚁”为代号冲刺 IPO，昆虫学者有话要说",
+        "summary": "据 BusinessInsider 报道，《雄蚁自断翅膀与蚁后交配》是 BBC 地球频道 YouTube 上一段三分钟的原生态纪实视频。画面里，一只笨重硕大的雄蚁伸出腹部尖刺，割掉自己的右翅，随后数十只体型小得多的雌蚁簇拥着它，一同进入蚁后那泥泞的巢穴。旧金山那些常年超负荷工作、缺少休闲的人工智能研究者，说不定有人看过这段视频，从中寻找灵感。蚂蚁和人工智能的类比，原本似乎到此为止，但 Anthropic 的出现，让这个对比有了新的延伸。",
+        "source": "IT之家",
+        "tags": [
+          "AI 与股市",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/194.htm"
+      },
+      {
+        "time": "00:00",
+        "title": "DeepSeek重构Agent！AI应用加速落地",
+        "summary": "10月31日晚，DeepSeek发布Super-agent架构，把会话编排交给系统，让人回到决策与验收。机构认为， AI应用的价值锚点正从回答问题转向交付结果。Agent从单会话走向多任务并行10月31日晚，DeepSeek Harness团队发布技术文章《Super-agent 设计探索：迈向更自主的Agent系统》，提出以双层架构、事件驱动、异步多信道交互、存算分离与外部Watchdog五大模块重构Agent系统，并将其归纳为连续、高效、主动、持久四项特征。",
+        "source": "东方财富",
+        "tags": [
+          "AI 与股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023917809641.html"
+      },
+      {
+        "time": "00:00",
+        "title": "AI漫剧规模有望延续高速扩容",
+        "summary": "A股三大指数今日集体反弹，截止收盘，沪指涨1.08%，深证成指涨1.63%，创业板指涨1.87%。沪深京三市成交额接近1.8万亿，较上一交易日放量逾千亿。行业板块几乎全线上扬，影视院线、游戏、 传媒、 广告营销、 软件开发、 稀土、 教育、IT服务板块涨幅居前，仅贵金属、 银行、 煤炭板块逆市下跌。个股方面，上涨股票数量接近4700只，逾130只股票涨停。据央视财经日前报道，数据显示，目前国产AI漫剧单分钟制作成本最低可达350元，一部漫剧的制作周期从原先的90天，压缩到现在10天左右；",
+        "source": "东方财富",
+        "tags": [
+          "AI 与股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918673810.html"
+      },
+      {
+        "time": "00:00",
+        "title": "恒生指数公司与数码港携手推动应用生成式人工智能的指数设计方案",
+        "summary": "11月2日，恒生指数公司与数码港在香港金融科技周上宣布，双方携手推动基于“主题指数探索计划”的一站式指数设计方案，利用生成式人工智能提升主题指数开发效率，并更迅速回应市场对主题投资产品的需求。主题投资领域近年备受市场关注，为提升主题指数开发效率，恒生指数公司与数码港于今年6月正式启动“指数创新实验室”第二阶段项目“主题指数探索计划”。经过为期三个月的企业招募及与创科社群交流，恒生指数公司与数码港及其社群成员INF无限光年合作，并成功开发应用生成式人工智能的指数设计方案，用于恒生指数公司的主题指数开发流程。",
+        "source": "东方财富",
+        "tags": [
+          "AI 与股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919155312.html"
+      },
+      {
+        "time": "00:00",
+        "title": "宇树机器狗拿了奖咋人形机器人反而退赛了？",
+        "summary": "不少人看完今天的泰山机器人比赛都有点懵：同样是宇树的产品，四足机器狗拿了1金2银，人形机器人却中途退赛，差距咋这么大？先把最关键的信息说清楚：退赛的那台G1开发版，是永达智诚团队基于宇树产品二次开发后参赛的，宇树官方这次只派了A2、B2两款四足机器人出战。足式机器人竞速赛的冠军，就是北京灵翌科技队用宇树A2机器狗跑出来的，实际用时41分41秒，加上罚时最终成绩43分41秒。上海高羿科技队也用A2和B2分别拿了竞速赛、负重赛两个亚军。",
+        "source": "东方财富",
+        "tags": [
+          "AI 与股市",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919173327.html"
+      }
+    ],
+    "gold": [
+      {
+        "time": "00:00",
+        "title": "贵金属下跌背后的市场逻辑之变 | 国际金融观察（11.2）",
+        "summary": "10月，现货黄金累计跌幅达6.79%，现货白银月内跌幅更超过18%。对于此前不断刷新纪录的贵金属而言，这轮调整不仅是一次价格修正，也折射出全球投资者风险偏好和资产配置逻辑的变化。过去一年， 黄金几乎被所有宏大叙事包裹：地缘政治冲突、贸易摩擦、美国财政赤字扩大以及全球央行储备多元化，它既是传统避险资产，又是对冲美元信用风险的工具，还被寄望承载全球资产再配置的需求。然而，当一种资产同时承载过多的市场预期，其价格也更容易受到预期变化的冲击。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919086828.html",
+        "table": {
+          "caption": "2026-11-03 贵金属公开行情（来源：新浪财经）",
+          "columns": [
+            "品种",
+            "最新价",
+            "日涨跌",
+            "说明"
+          ],
+          "rows": [
+            [
+              "伦敦金（现货）",
+              "3,958.33 美元/盎司",
+              "+2.11%",
+              "新浪财经公开行情"
+            ],
+            [
+              "纽约黄金期货",
+              "3,969.55 美元/盎司",
+              "+1.81%",
+              "新浪财经公开行情"
+            ],
+            [
+              "黄金延期 Au(T+D)",
+              "847.37 元/克",
+              "+0.01%",
+              "新浪财经公开行情"
+            ]
+          ]
+        }
+      },
+      {
+        "time": "00:00",
+        "title": "金价“跳水”，大金镯又热卖了：线下柜台被顾客包围",
+        "summary": "“最近金价下跌，买大克重镯子的比较多。”近日，记者线下探访多家金店，销售人员均表示：受金价下行影响，来金饰店采购的消费者正明显增多，有偏好小克重饰品的年轻人，也有全家出动拿下几十克“大金镯”的。业内专家表示，金价回调释放了积压的消费刚需，带动“以旧换新”和悦己消费升温，部分金店客流环比上涨20%～30%。对金饰门店来说，当前金饰消费正在趋向轻量化，品牌更需比拼的是产品迭代和盈利能力。10月30日，国内基础金价跌破860元/克，较年内高点单克跌幅超400元。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918907210.html"
+      },
+      {
+        "time": "00:00",
+        "title": "金价见底了吗？机构最新研判",
+        "summary": "11月2日晚间，COMEX 黄金期货价格徘徊在3900美元/盎司关口，较今年8月25日阶段高点回撤超过16%。近期， 黄金与美股同步下跌，美债收益率却有所回落。 国金证券认为，这反映出不同资产的避险逻辑与资金属性存在差异。国金证券称， 黄金既是长期储备资产，也是能够迅速变现的金融资产。当AI板块共振下跌、局部去杠杆压力上升时，投资者可能通过出售黄金补充保证金和现金，令短期资金面的影响压过长期避险逻辑。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918896582.html"
+      },
+      {
+        "time": "00:00",
+        "title": "金价创年内新低：水贝人头涌动，高端金店打折揽客",
+        "summary": "10月下旬以来，金价加速下跌。现货黄金在10月30日进一步下探，跌破3900美元，创近一年来新低，较年内最高点已回撤超30%。金价波动也直接影响了金饰市场热度。11月2日上午，界面新闻记者走访深圳水贝珠宝黄金批发市场看到，即便是工作日，水贝市场的客流仍然不少。多家黄金珠宝柜台前都站着挑选询价的消费者，既有前来买结婚五金的情侣，也有不少结伴而行的年轻女性和中老年女性，主要购买手镯、项链等金饰，也有消费者带着手头已经有的金饰来换款。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918849321.html"
+      },
+      {
+        "time": "00:00",
+        "title": "金价创一年多新低，见底了吗？",
+        "summary": "近日，国际金价接连失守4000美元/盎司、3900美元/盎司两大关口。10月的最后一个交易日，伦敦现货黄金收盘价报3875美元/盎司，创2025年10月初以来新低。今年以来，国际金价整体呈现震荡回落走势，目前金价较今年1月末约5600美元/盎司的高点，累计回撤幅度已达到约30%。10月份金价累计跌幅达6.79%，为连续第二个月月线下跌；近日国际金价围绕4000美元/盎司大关反复争夺。黄金失守关键支撑， 市场交易逻辑或已变当前市场对黄金的定价逻辑围绕美联储加息预期、全球央行购金、地缘局势变化、股市流动性等主线展开。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918749954.html"
+      },
+      {
+        "time": "00:00",
+        "title": "传统利多失灵，黄金为何跌跌不休？",
+        "summary": "近期黄金走势令交易员感到困惑：所有传统利多黄金的因素都在，金价却走出了一轮下跌行情。美债收益率已从10月初5.36%的历史高位回落至5%下方，美元指数也从102.95的18个月高点温和回落至101.8附近；美联储10月29日议息会议按兵不动，按照常理这会给金价带来喘息之机。然而，现货黄金在决议后仍未反弹，围绕4000美元关口反复争夺，最终在10月30日跌破3900美元。上一次出现资产相关性如此紊乱的组合，还要追溯到2008年全球金融危机时期。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919139747.html"
+      },
+      {
+        "time": "00:00",
+        "title": "刚刚！黄金、白银，拉升！",
+        "summary": "大家好啊，今天全球大涨， 黄金、 白银价格也拉升了。11月2日， 黄金价格反弹，油价下跌缓解了部分通胀压力，同时，周五金价跌至一年低点，也吸引了一些逢低买入的投资者入场。黄金一度上涨1%，价格在每盎司3915美元左右，收复了部分失地。此前一个交易日，金价暴跌3.7%，为黄金市场自2008年以来表现最差的10月画上句号。油价下跌，此前美国新闻网站Axios报道称，美国总统特朗普希望给外交谈判更多时间，然后再决定是否在周二中期选举结束后恢复对伊朗的军事打击。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918671878.html"
+      },
+      {
+        "time": "00:00",
+        "title": "现货黄金重回3900美元关口专家：这轮下跌是羊群效应，金价或惯性下行｜宅男财经",
+        "summary": "11月2日，现货黄金重回3900美元关口。截至发稿，伦敦金现涨0.92%，报3910.96美元/盎司；沪金跌2.71%，报838.54元/克。现货黄金此前一度跌破3900美元关口，哪些原因导致金价波动？投资者该抄底还是观望？中国外汇投资研究院研究总监李钢对中新经纬宅男财经表示， 黄金的价格有可能持续惯性下行，要关注的重点关口在3500美元-3600美元区间，国内黄金价格可能下探至800元/克附近。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918628246.html"
+      },
+      {
+        "time": "00:00",
+        "title": "2027版熊猫贵金属纪念币发行仪式在京举行",
+        "summary": "10月30日，2027版熊猫贵金属纪念币发行仪式在北京隆重举办。中国人民银行货币金银局、中国金币集团有限公司相关领导，各金融机构代表、国内外熊猫贵金属纪念币经销渠道代表以及新闻媒体嘉宾齐聚，共同见证熊猫贵金属纪念币迈入“爱的十年”全新篇章——爱的绽放。《华夏时报》记者注意到，本次发行恰逢2026北京国际钱币博览会举办，发行首日便吸引全球收藏家与爱好者到场。当日一大早，博主“爱熊猫爱徽章”就现身博览会现场，排队半小时等候开馆。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023918549442.html"
+      },
+      {
+        "time": "00:00",
+        "title": "伊朗最高领袖释放与美国进一步谈判信号国际油价应声大跌金价跳涨2%",
+        "summary": "北京时间周一晚间，来自伊朗方面的一则头条新闻引发全球市场剧烈震荡，国际油价大幅暴跌，现货黄金跳涨近2%。据央视新闻报道，伊朗总统佩泽希齐扬周一表示，政府正努力通过对话解决问题，在这方面，伊朗最高领袖也赋予了政府一定的权力。佩泽希齐扬强调，敌人无法通过战争让伊朗投降，“我们将坚决抵制他们的谎言和夸大其词，因此，我们必须努力增强人民的韧性，解决他们的关切和担忧”。佩泽希齐扬表示，必须在伊朗人民的支持与合作下，克服敌人给伊朗造成的挑战和危机。",
+        "source": "东方财富",
+        "tags": [
+          "黄金行情",
+          "东方财富"
+        ],
+        "url": "https://finance.eastmoney.com/a/202611023919156731.html"
+      }
+    ],
+    "global": [
+      {
+        "time": "23:56",
+        "title": "冰箱变烤箱欧洲多国超市冷柜再遭网络攻击",
+        "summary": "当地时间11月2日凌晨，瑞典、比利时、卢森堡、爱沙尼亚等欧洲多国超市遭到黑客攻击，冷藏和冷冻系统受到影响，冷柜温度被远程调高至50摄氏度，导致食品变质。这与上个月法国多个连锁超市发生的事件如出一辙。比利时检方今天表示，已就此启动刑事调查。 -->法国多个品牌连锁数百家超市的制冷系统当地时间10月11日夜间就曾遭遇大规模网络攻击，黑客远程操控制冷设备使其温度异常升高，导致大量生鲜及冷冻产品变质。当时网络攻击目标是涉事超市配备的丹麦制造商丹福斯的制冷控制系统。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725080.shtml"
+      },
+      {
+        "time": "22:45",
+        "title": "柬埔寨累计清理逾3600平方公里受战争爆炸物污染土地",
+        "summary": "柬埔寨累计清理逾3600平方公里受战争爆炸物污染土地中新社金边11月2日电 (杨强张安琪)柬埔寨国务大臣兼扫雷行动和受害者援助机构第一副主席李突11月2日表示，在过去30多年间，柬埔寨当局累计清理超过3600平方公里受地雷及其他战争遗留爆炸物污染的土地，其中约75%清洁土地已交还民众用于农业生产。李突2日在金边出席一个扫雷行动技术工作组会议时作前述表示。当天会议还提出一项针对柬埔寨《2026—2035年国家排雷行动政策》的三年实施计划(2026–2028年)，明确柬未来一段时期排雷工作重点和目标，进一步推动该政策的落实并提升其执行成效。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725073.shtml"
+      },
+      {
+        "time": "22:13",
+        "title": "印尼制造业PMI创31个月新高出口订单增长强劲",
+        "summary": "中新社雅加达11月2日电 (记者李志全)东南亚最大经济体印度尼西亚制造业呈现回暖势头。标普全球2日公布的数据显示，2026年10月，印尼制造业采购经理指数(PMI)升至54.0，创2024年3月以来最高水平，制造业扩张势头为31个月来最强。 -->印尼经济统筹部长艾尔朗加当天表示，制造业PMI持续上升，反映市场对印尼经济的信心增强。印尼工业部长穆罕默德·萨尔穆吉也认为，这表明印尼工业运行状况正在改善。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725053.shtml"
+      },
+      {
+        "time": "21:55",
+        "title": "英国制造业复苏隐忧犹存",
+        "summary": "中新社伦敦11月2日电 (记者欧阳开宇)最新数据显示，英国制造业在四季度开端迎来明显复苏，产出增长达到两年多来最好水平，海内外订单需求同步改善，但投入成本快速走高，通胀隐忧再起，使市场强化英国央行加息的预期。 -->11月2日发布的标普全球制造业采购经理人指数(PMI)印证这一趋势。英国10月制造业PMI升至52.8，高于9月的51.9；产出分项指数上扬至53.6，为2024年9月之后最高。新订单增速加快，新增业务拉动生产扩张，企业信心也明显好转。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725013.shtml"
+      },
+      {
+        "time": "21:54",
+        "title": "舞蹈诗《大合之舞》澳大利亚悉尼上演",
+        "summary": "中新网悉尼11月2日电 (记者薄雯雯)由悉尼华星艺术团旗下紫藤舞苑原创的大型舞蹈诗《大合之舞》11月1日晚在澳大利亚悉尼上演。《大合之舞》以舞蹈为媒介，展现多元文化的相遇、交流与共融，传递和谐共生的理念。该剧总导演陈思同表示，舞蹈是跨越语言的艺术，也是连接不同文化的桥梁，希望通过原创作品展现中华文化深厚的历史底蕴、独特的审美意蕴与精神内涵，让更多澳大利亚观众了解中国舞蹈，感受中华文化的魅力。该剧总策划叶小华表示，团队成员凭着对舞蹈的热爱，秉持专业精神，利用工作之余的时间投入创作。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724992.shtml"
+      },
+      {
+        "time": "21:54",
+        "title": "泰国前十个月接待外国游客2546万人次同比下降4.59%",
+        "summary": "中新社曼谷11月2日电 (梁峻祥李映民)泰国旅游与体育部2日公布的统计数据显示，2026年1月至10月，泰国累计接待外国游客2546.43万人次，较去年同期减少4.59%。其中，中国游客累计达424.44万人次，同比增长12.44%。 -->从客源市场看，中国继续位居泰国外国游客来源市场首位。马来西亚以322.65万人次位列第二，印度、俄罗斯和韩国分别以192.44万人次、141.43万人次和93.21万人次位列第三至第五位。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724976.shtml"
+      },
+      {
+        "time": "21:48",
+        "title": "首届“中韩大学生校园足球友谊赛”落幕",
+        "summary": "中新网首尔11月2日电 (记者金旭)当地时间11月1日，首届“中韩大学生校园足球友谊赛”决赛及闭幕式在韩国京畿大学举行。中国驻韩国大使馆公使包旭辉为获奖代表颁奖并致辞，中国驻韩国大使馆公使衔参赞马贵生及中韩有关机构代表、参赛球员、高校师生200多人参加。 -->包旭辉对赛事的筹备和赛场的表现给予充分肯定。他表示，中韩同学共同组队，齐心协力、团结协作，展现出良好的精神风貌，受到中韩媒体和社会各界的广泛关注，汇聚了落实两国元首重要共识、促进中韩青年友好交流的正能量。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724985.shtml"
+      },
+      {
+        "time": "21:46",
+        "title": "印尼前9个月接待外国游客1201万人次创2020年以来同期新高",
+        "summary": "中新社雅加达11月2日电 (记者李志全)印度尼西亚外国游客接待量持续增长。印尼中央统计局2日公布的数据显示，2026年1月至9月，印尼累计接待外国游客1201万人次，同比增长5.01%。印尼中央统计局副局长阿腾·哈托诺表示，这一接待规模创2020年以来同期新高。从客源市场看，马来西亚、澳大利亚和中国是印尼前三大外国游客来源地。数据显示，1月至9月，印尼累计接待马来西亚游客212.59万人次、澳大利亚游客140.23万人次、中国游客120.76万人次，分别占外国游客总量的17.7%、11.68%和10.05%。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725014.shtml"
+      },
+      {
+        "time": "21:18",
+        "title": "英国数百雇主因非法欠薪遭处罚",
+        "summary": "中新网伦敦11月2日电 (记者欧阳开宇)英国政府2日通报称，数百名雇主因长期非法低于法定标准发放最低工资被查处，官方集中开出大额罚单，严厉整治市场欠薪乱象。经官方核查，本次共有数百家企业被查实存在违规欠薪行为，大量基层劳动者遭受薪资克扣。涉事行业覆盖面广，主要集中在零售、社会照护、服务业等用工密集领域，是英国近年规模较大的一批最低工资违规集中曝光案例。根据处罚结果，涉事企业需全额补发员工拖欠薪资，并被依法处以高额行政罚款。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725019.shtml"
+      },
+      {
+        "time": "21:04",
+        "title": "英国内政部在重点街区启动反持刀犯罪行动",
+        "summary": "中新社伦敦11月2日电 (记者欧阳开宇)英国内政部2日正式启动“刀具无处遁形”专项整治行动，重点覆盖伦敦威斯敏斯特、克罗伊登等持刀犯罪高发区域，并在伯明翰同步落地，成为英国政府维护社区安全的重要举措。 -->近年来，持刀犯罪问题持续困扰英国城市治理。尽管官方统计显示，近两年伦敦等重点地区持刀犯罪整体案发数据普遍回落，但刀具暴力带来的深层社会损害并未随之消退。英国媒体称，频繁发生的持刀伤人案件，不仅造成大量人员伤亡，给受害者家庭带来不可逆的长期创伤，也严重削弱公众出行安全感，冲击城市夜间经济与街区正常秩序。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724918.shtml"
+      }
+    ],
+    "geopolitics": [
+      {
+        "time": "22:55",
+        "title": "伊总统：伊朗最高领袖已赋予政府在谈判领域一定的权力",
+        "summary": "当地时间11月2日，伊朗总统佩泽希齐扬表示，政府正努力通过对话解决问题，在这方面，伊朗最高领袖也赋予了政府一定的权力。佩泽希齐扬强调，敌人无法通过战争让伊朗投降，“我们将坚决抵制他们的谎言和夸大其词，因此，我们必须努力增强人民的韧性，解决他们的关切和担忧”。佩泽希齐扬表示，必须在伊朗人民的支持与合作下，克服敌人给伊朗造成的挑战和危机。政府正在努力通过对话解决问题，在这方面，伊朗最高领袖也赋予了政府一定的权力。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10725074.shtml"
+      },
+      {
+        "time": "20:46",
+        "title": "联邦政府预算分歧难弥合，比利时首相递交辞呈",
+        "summary": "中新网 11月2日电据比利时王宫当地时间11月2日发布的声明，比利时首相德韦弗当天因联邦政府预算谈判未能达成协议，向国王菲利普递交辞呈。国王暂缓决定是否接受辞呈，并将于3日开始与执政联盟各党主席举行磋商。 -->根据声明，国王当天在王宫接见了德韦弗，对各方未能就制定国家预算达成协议表示遗憾。声明指出，当前地缘政治形势充满不确定性，经济面临重大挑战，比利时无法承受长期政治危机。国王呼吁各方本着负责任的态度，以国家整体利益为重，秉持妥协精神。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724996.shtml"
+      },
+      {
+        "time": "20:33",
+        "title": "东西问丨伊朗重开霍尔木兹海峡执行时间不断缩短，是“累了”“急了”，还是“怕了”？",
+        "summary": "中新网北京11月2日电题：伊朗重开霍尔木兹海峡执行时间不断缩短，是“累了”“急了”，还是“怕了”？当地时间10月31日，伊朗外长阿拉格齐表示，伊朗有意将重开霍尔木兹海峡的执行时间缩短至2天：美国第一天若落实相关措施，伊朗第二天即恢复海峡通航。9月下旬，伊朗提出用7天有条件重开海峡，进入10月下旬又先后将期限缩短至4天、2天。短短一个多月，期限一再压缩，这一变化不禁让人产生疑问：伊朗是“累了”“急了”、还是“怕了”？",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724894.shtml"
+      },
+      {
+        "time": "17:04",
+        "title": "俄媒：美侦察机沿俄罗斯边境巡逻飞行约5个半小时",
+        "summary": "中新网 11月2日电据俄新社报道，一架美国侦察机1日沿俄罗斯边境开展了约5个半小时的巡逻飞行。报道称，这架庞巴迪“阿尔忒弥斯二号”(Artemis II)侦察机于当天9时47分左右从罗马尼亚米哈伊尔·科格尔尼恰努空军基地起飞，绕飞俄罗斯加里宁格勒州后，沿波罗的海国家与俄罗斯接壤的边境飞行，稍作盘旋，随后沿原路线返回加里宁格勒州附近，再次沿该州边境绕飞一圈后返回罗马尼亚基地。其飞行活动持续时间为莫斯科时间11时50分至17时20分。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724843.shtml"
+      },
+      {
+        "time": "15:32",
+        "title": "保加利亚现总统约托娃赢得总统选举",
+        "summary": "中新社北京11月2日电索非亚消息：根据保加利亚中央选举委员会当地时间2日公布的数据，现任总统约托娃在总统选举第二轮投票中获得最多票数。根据相关规定，她将当选为新一任总统。今年1月，保加利亚时任总统拉德夫为参加议会选举辞职。宪法法院批准辞呈后，副总统约托娃依法接任总统，成为该国历史上首位女总统。保加利亚总统选举第二轮投票于11月1日举行。截至2日5时，保加利亚中央选举委员会对已处理的99.68%选区计票记录进行统计后的结果显示，约托娃获得约57.7%的选票，前看守政府总理安德烈·古罗夫获得约39.3%的选票，近3%的选民选择“不支持任何候选人”。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724776.shtml"
+      },
+      {
+        "time": "15:27",
+        "title": "俄临时禁止向欧亚经济联盟以外地区出口6种石化产品",
+        "summary": "俄联邦政府网站11月2日发布消息，宣布临时禁止从俄罗斯向欧亚经济联盟成员国以外地区出口6种石化产品，旨在保障俄国内工业企业原料的稳定供应。禁令为期3个月，涉及产品包括焦化苯、石油苯、甲苯、邻二甲苯、对二甲苯和苯酚。上述产品用于汽车、航空、船舶、铁路机械制造用涂料，食品包装、地板材料和电缆绝缘材料，也用于医疗工业。禁令不适用于国际过境运输的石化产品、国际人道主义援助物资，以及向斯瓦尔巴群岛俄属机构的供应。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724779.shtml"
+      },
+      {
+        "time": "15:22",
+        "title": "哥伦比亚中西部发生爆炸袭击事件致4人死亡",
+        "summary": "当地时间11月1日晚，哥伦比亚中西部托利马省普拉纳达斯市发生一起爆炸袭击事件。初步调查结果显示，袭击造成至少4人死亡，其中包括一名婴儿。据悉，一辆装载爆炸物的卡车在一处军事基地附近的居民区被引爆，造成多人死亡，还导致居民区的多栋住宅严重受损。托利马省省长马蒂斯于2日凌晨在社交媒体上证实了伤亡情况，并强烈谴责此次袭击。她表示，相关部门正协调开展损失评估工作，并向受影响的民众提供援助。(总台记者廖开迪)如何从“长城内外皆故土”理解历史上的中国？",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724774.shtml"
+      },
+      {
+        "time": "15:08",
+        "title": "“共和党将迎压倒性胜利” 美中期选举进入最后冲刺，特朗普赴两州拉票",
+        "summary": "中新网 11月2日电据美联社当地时间11月1日报道，当日是美国中期选举(定于3日举行)前的最后一个周日，美国总统特朗普前往堪萨斯州萨利纳和艾奥瓦州迪比克参加助选集会。据报道，在艾奥瓦州，特朗普表示，共和党即将在3日的选举中“取得压倒性胜利”。特朗普在演讲开场不久时说，“我们将让奉行‘美国优先’理念的共和党人从上到下全面当选。”报道称，这场演讲持续了两个小时。报道还称，随后，特朗普抵达堪萨斯州。“空军一号”专机在降落前进行了低空飞越，随后特朗普在机场举行了一场露天集会。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724758.shtml"
+      },
+      {
+        "time": "13:00",
+        "title": "擒拿“亡命徒”，伊朗完整捕获美军无人机",
+        "summary": "中新网 11月2日电(记者刁炜)伊朗革命卫队近日宣布，其在霍尔木兹海峡的一次“进攻性电子战行动”中，完整无损地缴获一架美制MQM-170C“亡命徒”无人机。据美国“陆军技术”网站介绍，MQM-170C采用复合材料制造，机身长2.7米，有效载荷27公斤，可在4800米高度连续飞行8小时以上。按照伊方说法，当时，这架无人机正沿着波斯湾飞行，对伊朗部署在海岸线的防空系统进行侦察。但比利时“陆军知识”网站指出，MQM-170C除了可执行监视侦察任务，还经常被用作靶机或诱饵，甚至搭载战斗部变身巡飞弹。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724685.shtml"
+      },
+      {
+        "time": "10:09",
+        "title": "日本加快部署远程导弹学者：此举已越过红线",
+        "summary": "日本政府近年来持续推进军事扩张，加快部署所谓具备对敌基地反击能力的远程导弹，引发日本国内民众对地区安全局势和战争风险的担忧。日本学者在接受总台记者采访时表示，日本政府以“防卫”为名，不断突破战后安保政策限制，使当地民众面临更大的安全风险。 -->今年3月31日，日本防卫省正式宣布，在熊本县陆上自卫队健军驻屯地部署具备远程打击能力的导弹，射程约为1000公里。健军驻屯地位于熊本市，周边有教育设施、住宅、医院和商业设施等。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-02/10724605.shtml"
+      }
+    ],
+    "society": [
+      {
+        "time": "23:49",
+        "title": "西藏那曲市巴青县发生4.2级地震",
+        "summary": "中国地震台网正式测定：11月2日23时35分，在西藏那曲市巴青县(北纬32.38度，东经93.86度)发生4.2级地震，震源深度10公里。如何从“长城内外皆故土”理解历史上的中国？世界“桥见中国”：不止于“基建狂魔”中国民企用三维“扫街”敲开八十多国市场医学的重量，不该被剪成一地流量“乌镇七子”书写县域经济发展新答卷救护雪豹咋就成了“流量生意”？东北话陆剧火到台湾！台湾网友追剧上头，发起“东北话听力”挑战国际金价创一年来新低店员“忙到没空回消息”一次“服务”标价数千元 “职业差评”背后的生意经艾哈迈德·尤瑟夫：埃中千年文明如何以旅游为桥双向奔赴？",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725079.shtml"
+      },
+      {
+        "time": "23:11",
+        "title": "权威发布！全国十佳新闻工作者LOGO",
+        "summary": "“全国十佳新闻工作者”宣传选树活动公布相关品牌标识为充分发挥“全国十佳新闻工作者”宣传选树活动示范引领作用，向全社会展示新闻工作者良好职业形象，经前期面向新闻界征集方案并组织专家评审遴选，中国记协公布“全国十佳新闻工作者”宣传选树活动品牌标识、奖杯和证书设计方案。中选的品牌标识和奖杯设计方案由中国外文局新闻工作者陈强、李健设计，证书由中国青年出版总社专业团队设计。“全国十佳新闻工作者”宣传选树活动品牌标识以数字“10”为核心视觉框架，紧扣“全国十佳新闻工作者”主题。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725076.shtml"
+      },
+      {
+        "time": "23:00",
+        "title": "聚焦AI时代人的意义心理分析与中国文化国际学术论坛将举行",
+        "summary": "中新网北京11月2日电 (记者张素)人工智能(AI)正在改变人们获取知识、处理信息和开展交流的方式，但技术进步并不能替代人的情感体验、价值判断和自我认识。如何面对技术发展带来的心理变化，如何理解人的内在需求？ -->记者从主办方获悉，11月23日至29日，以“易以洗心，明心见性——心的智慧与AI时代的心理分析”为主题，第十一届心理分析与中国文化国际学术论坛将在山东曲阜举行。来自中、美、英、德、意等20余个国家和地区的心理学、精神医学、哲学界专家学者将参会，围绕AI时代人的意义与心灵安顿展开对话。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725075.shtml"
+      },
+      {
+        "time": "22:32",
+        "title": "警用智能装备亮相浙江乌镇 “空地网”筑牢安全防线",
+        "summary": "中新网嘉兴11月2日电 (钱晨菲)11月2日，2026年“互联网之光”博览会在浙江嘉兴乌镇启幕，“人工智能+低空安全”装备应用展同步开幕。展区入口，身高2.6米的交管机甲“潮安甲”与参观者互动，科普交通安全知识，成为现场人气颇高的打卡点。展区内81件警用智能装备有序排布，集中展示了浙江公安深化警企合作、推动警用装备研究的探索。展区内，智能装备令人目不暇接：警用智能头盔搭载热成像等功能，破窗器可快速自动破窗，多功能警务背包集防护、灭火、救援、遮挡于一体……在“智慧110”专区，嘉兴公安机关把AI警务实战应用能力嵌入接处警全链条，形成人机协同的新型警务运行模式。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725067.shtml"
+      },
+      {
+        "time": "22:14",
+        "title": "道地药材县域突围，广东德庆县南药总产值达40.74亿元",
+        "summary": "中新网北京11月2日电 (记者郭超凯)一株古老本草，如何回答当代人的健康问题？德庆好物进京推介活动近日在北京举行。活动聚焦南药产业高质量发展，展示德庆南药由道地资源向现代健康产品转化的实践，搭建产区与市场、科研与产业、品牌与渠道的对接平台。 -->德庆是广东道地药材重点产区，集聚肉桂、巴戟天、何首乌、广佛手等四大南药。2025年全县南药种植面积76.81万亩，总产量30.36万吨，总产值40.74亿元。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725058.shtml"
+      },
+      {
+        "time": "22:12",
+        "title": "上海哲学社会科学“五大文库”书籍在台湾发售",
+        "summary": "中新社台北11月2日电 (记者路梅)第十七届大陆古籍艺术类图书展11月2日在台北天龙书店登场。上海哲学社会科学“五大文库”书籍在台发售是亮点。台湾两岸出版交流协会理事长、天龙文创出版事业有限公司董事长沈荣裕从“五大文库”已出版的80多本图书中挑选一部分，引进简体字版本到台湾市场。他期许岛内读者有机会接触更多优质出版品，也将把这些图书推介给台湾的出版社，希望促成两岸版权交易。记者在书店看到，“五大文库”系列的《上海 IP：全球城市形象数字传播与文化创新发展》及《文娱出海：中华文化国际传播的数字创新路径》等，受到现场文化出版界人士青睐。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725056.shtml"
+      },
+      {
+        "time": "22:11",
+        "title": "年接待游客突破600万人次九寨沟精细管护守护山水魅力",
+        "summary": "中新网成都11月2日电 (记者安源)记者2日从九寨沟景区管理局获悉，截至2026年11月2日，九寨沟景区年度游客接待量突破600万人次。从节假日门票提前售罄，到深秋彩林季预约火热，逾600万人次游客奔赴，既彰显九寨山水的强大吸引力，也见证景区精细化服务与生态保护协同推进的成效。今年，九寨沟旅游热度持续走高，多次迎来大客流考验。“五一”假期，景区连续三天触及4.1万人次单日最大承载量；国庆黄金周门票提前售罄；",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725008.shtml"
+      },
+      {
+        "time": "22:10",
+        "title": "“考场”搬进商超等场景人形机器人与具身智能实景实训挑战赛将启",
+        "summary": "中新网北京11月2日电 (记者陈杭)记者2日从在北京召开的人形机器人与具身智能实景实训挑战赛新闻发布会上获悉，人形机器人与具身智能实景实训挑战赛采用“测试赛+挑战赛”两阶段赛制。参赛报名通道已正式开启，报名截至2026年11月27日。人形机器人与具身智能领域企业、高校、科研院所等可自行或联合组队参赛，大赛将为参赛队伍提供技术与合作对接机会。为贯彻落实国家关于人形机器人与具身智能产业创新发展的部署，响应工业和信息化部、国务院国资委联合开展的2026年度人形机器人与具身智能实景实训专项行动，安徽省马鞍山市人民政府、中国电子学会、世界机器人合作组织共同主办人形机器人与具身智能实景实训挑战赛。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725059.shtml"
+      },
+      {
+        "time": "22:10",
+        "title": "云南三季度以工代赈带动近30万人就业发放劳务报酬超73亿元",
+        "summary": "中新网昆明11月2日电 (陆希成)云南省发展和改革委员会2日消息，2026年三季度，云南实施以工代赈项目4991个，带动29.87万名民众就业，发放劳务报酬73.82亿元(人民币，下同)，较今年一季度分别增长47%、71%和429%。当季参与项目的民众人均增收2万余元，各地开展劳动技能培训28.99万人次。 -->云南地处中国西南边陲，山区面积广、农村劳动力多，民众就近务工需求旺盛。2026年云南省政府工作报告将稳定和扩大就业列为惠民实事，提出实施稳岗扩容提质行动，并在促农增收部署中明确加大以工代赈力度。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725006.shtml"
+      },
+      {
+        "time": "22:08",
+        "title": "第二届上海老年学习课程展开幕银发AI课程成亮点",
+        "summary": "中新网上海11月2日电 (记者许婧)第二届上海老年学习课程展2日在上海展览中心开幕。本届课程展为期3天，规划总面积8928平方米，102家企事业单位参展，集中展示老年教育优秀课程500余门，观众预计超过10万人次。数据显示，近年来上海市民人工智能(AI)学习需求持续攀升，69.6%的受访老年人愿意参加AI学习，93.07%的受访教师愿意参加AI培训。上海工匠学院首次推出的人工智能专题培训现场爆满，上海老年大学和市民夜校的AI课程也成为热门选择。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-02/10725048.shtml"
+      }
+    ],
+    "sports": [
+      {
+        "time": "22:46",
+        "title": "李宁：体育是普通人奔赴热爱的舞台",
+        "summary": "中新网北京11月2日电(记者岳川)2026李宁李永波杯3V3羽毛球赛全国总决赛1日在北京收官。上海熹瑷体育队以2:0击败浙江新胜大队，拿下年度总冠军。世界冠军傅海峰、徐晨、杜玥等名将现身赛场助阵。3V3羽毛球赛至今已走过17个年头。这项赛事最初源自队内训练赛制，如今已发展成为连通全国羽毛球爱好者的交流平台。据了解，本届赛事落地全国21座城市。总决赛现场，李宁品牌创始人李宁、3V3赛事发起人暨冠军奖杯捐赠人李永波，分别通过视频发来寄语。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10725072.shtml"
+      },
+      {
+        "time": "21:17",
+        "title": "千名青少年绳跃第二届全国全民健身大赛（华南区）",
+        "summary": "中新网南宁11月2日电(夏振)11月1日，第二届全国全民健身大赛(华南区)·2026第一届广西青少年跳绳锦标赛在广西体育高等专科学校(相思湖校区)体育馆落幕。赛事为期两天，1200多名青少年运动员以绳会友、同台竞技。广西青少年跳绳赛事自2018年启动以来，已连续多年举办。2026年赛事全面提档升级，在竞赛体系上首次采用公开组与校园组双轨组别设置，进一步拓宽参赛通道，既保障校园体育普及性，也为专业俱乐部选手提供了竞技展示平台，兼顾项目推广与人才选拔的双重功能。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724943.shtml"
+      },
+      {
+        "time": "21:03",
+        "title": "苏俊涛/刘莉莉海岸赛艇摘金夺得中国代表团达喀尔青奥会首金",
+        "summary": "新华社达喀尔11月2日电在刚刚结束的2026年达喀尔青奥会海岸赛艇沙滩冲刺混合双人双桨比赛中，中国组合苏俊涛/刘莉莉摘金，赢得中国体育代表团本届青奥会首枚金牌，同时也是该项目的青奥会历史首金。如何从“长城内外皆故土”理解历史上的中国？世界“桥见中国”：不止于“基建狂魔”中国民企用三维“扫街”敲开八十多国市场医学的重量，不该被剪成一地流量“乌镇七子”书写县域经济发展新答卷救护雪豹咋就成了“流量生意”？",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10725009.shtml"
+      },
+      {
+        "time": "20:41",
+        "title": "中国时尚体育季(珠海站)两大核心赛事落幕",
+        "summary": "中新网 11月2日电据国家体育总局社会体育指导中心消息，10月30日至11月1日，2026中国时尚体育季(珠海站)暨大湾区桨板嘉年华(珠海金湾站)、2026年中国匹克球巡回赛珠海精英赛先后在珠海金湾落幕，580余名桨板爱好者和600余名匹克球爱好者参与角逐。大湾区桨板嘉年华(珠海金湾站)兼顾专业竞技与群众参与，设置200米冲刺、长距离耐力等竞赛组别，覆盖成人、青少年群体，搭建起粤港澳大湾区桨板运动交流竞技平台。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724923.shtml"
+      },
+      {
+        "time": "20:41",
+        "title": "体育科普中国行南京站举办促优质资源下基层服务群众",
+        "summary": "中新网 11月2日电据国家体育总局体育科学研究所消息，2026年体育科普中国行·南京站活动在日前在南京举行。本次活动以“科普赋能健康同行”为主题，围绕全民健身和健康中国建设，将科普竞赛、成果展示、互动体验、研讨交流与基层参访相结合，推动优质体育科普资源下沉基层、服务群众。30日上午，2026年全国体育科普讲解大赛决赛举行。十佳体育科普讲解员围绕运动健康、科学健身、体育科技等主题，将专业知识与生活场景相结合，以通俗易懂的语言、生动形象的演示，回应群众日常健身中的疑问，展现了体育科普讲解人员的专业素养和传播能力。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724901.shtml"
+      },
+      {
+        "time": "18:45",
+        "title": "2026年中国自由式小轮车联赛总决赛落幕",
+        "summary": "中新网烟台11月2日电 (记者王娇妮)2026年中国自由式小轮车联赛总决赛1日在山东烟台落幕，来自全国各地的优秀骑手参赛，展现小轮车运动魅力。经过角逐，在少年组比赛中，四川队的李艺馨、河北承德XPARK的赵嘉懿分获女子、男子冠军；在青年组比赛中，四川队的刘筱恬获女子冠军，北京XFUNFAIR的田沐熙获男子冠军；在精英组比赛中，安徽队的张丹维、四川队的熊梓名分获女子、男子冠军。中国自由式小轮车联赛邀请国际自行车联盟(UCI)裁判执裁，并引入国际顶级赛事计分系统，助力选手以赛代练、接轨国际赛场。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724860.shtml"
+      },
+      {
+        "time": "17:34",
+        "title": "遗憾止步世界杯八强 U17“铿锵小玫瑰”带着成长与信心离场",
+        "summary": "中新网北京11月2日电题：遗憾止步世界杯八强 U17“铿锵小玫瑰”带着成长与信心离场北京时间11月2日，在摩洛哥拉巴特进行的2026年国际足联U17女足世界杯四分之一决赛中，中国U17女足1:2遭巴西队逆转，遗憾止步八强。尽管无缘四强，这支中国队仍然创造了队史U17女足世界杯最佳战绩。本届赛事，从力克美国队豪取小组赛三连胜到点球淘汰法国队，中国U17女足连克劲旅，尽显“铿锵玫瑰”底色。直面差距、行稳致远，这场青春突围为中国女足寻求新突破、新发展注入了宝贵信心。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724854.shtml"
+      },
+      {
+        "time": "17:02",
+        "title": "举重世锦赛：裴鑫依摘得三金刷新两项世界纪录",
+        "summary": "中新网宁波11月2日电(张煜欢宣佳含)“裴鑫依好样的！”11月1日晚，宁波奥体中心体育馆全场沸腾。当晚，2026年举重世界锦标赛女子61公斤级比赛在此举行，中国选手裴鑫依以挺举142公斤、总成绩254公斤的成绩，刷新该级别两项世界纪录，并夺得抓举、挺举、总成绩三金。浙江运动员裴鑫依此番主场作战，状态火热。抓举环节，她开把106公斤、第二把109公斤轻松拿下，第三把她成功举起112公斤，锁定抓举金牌。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724831.shtml"
+      },
+      {
+        "time": "16:13",
+        "title": "20万人围观的乒乓“决赛”竟是假比分带货局起底假赛事直播乱象",
+        "summary": "WTT蒙彼利埃冠军赛激战之际，短视频平台上一些所谓的“赛事直播间”也十分热闹：主播亢奋解说，比分不断变化的间隙，还传来“赶紧去拍”的催单声。然而，这场观众以为正在进行的比赛直播，事实上却只是旧赛事声音与虚假比分拼接出的流量骗局。 -->球迷反映，早就打完的比赛却被当成正在进行的比赛，号称直播；还有的选手明明打得很顺、一局都没丢，直播间里的比分却十分胶着。吸引球迷停留之后，主播又以选手拿到局点、比赛暂停为由，推销洗发水、舒缓贴等商品。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724800.shtml"
+      },
+      {
+        "time": "15:29",
+        "title": "全国各地3000名跑友角逐2026图木舒克马拉松",
+        "summary": "中新网乌鲁木齐11月2日电 (张家伟)2026图木舒克马拉松1日在新疆生产建设兵团第三师图木舒克市永安湖生态旅游景区唐王城千年屯垦文化体验中心广场鸣枪开赛，来自全国各地的3000名跑友参与角逐，用速度点燃城市活力。本次赛事由新疆兵团文化体育广电和旅游局、中国田径协会指导，第三师图木舒克市主办，第三师图木舒克市文化体育广电和旅游局承办。赛事以“爽跑唐王城”为主题，设置全程马拉松(42.195公里)、半程马拉松(21.0975公里)两个竞赛项目。",
+        "source": "中国新闻网",
+        "tags": [
+          "体育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/ty/2026/11-02/10724760.shtml"
+      }
+    ],
+    "entertainment": [
+      {
+        "time": "00:00",
+        "title": "刘小北（下）：踏实走稳每一步不预设未来",
+        "summary": "2026的现象级现偶非《早春晴朗》莫属，孙远翥的下线更是让无数观众难以释怀。那个温暖、善良，如天使一般的大男孩去往了云海，留在了这个夏天。能让一个角色如此深入人心，除了编剧导演的功力，更重要的是他的扮演者—— 刘小北。这个起初有一些担心，却还是迎难而上的刘小北，成功的让所有人都心疼起了孙远翥。刘小北做客封面故事，聊聊台前幕后的人生。《封面故事》X《早春晴朗》刘小北（下） （来源：网易娱乐）01结局是既定的，无需任何人改变在《早春晴朗》中，孙远翥的病情并没有太多的描绘，总是通过寥寥镜头和言语暗示或带过，以至于最后的离去带给了很多人猝不及防的心疼。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/L7TGJFG200039AHB.html"
+      },
+      {
+        "time": "00:00",
+        "title": "刘小北（上）：不是表演角色，是成为角色",
+        "summary": "《早春晴朗》播出之后成为了2026年的现偶黑马，剧里最大的意难平非“孙远翥”一角莫属，无数观众为他的结局落泪，为他送去祝福。在这条人物故事线上迟迟走不出来的，除了观众，还有他的扮演者， 刘小北。刘小北做客封面故事，让我们一起聊聊关于“孙远翥”的故事。《封面故事》X《早春晴朗》刘小北（上） （来源：网易娱乐专稿）01和角色告别后情绪一直很down看到《早春晴朗》播得这么好，刘小北很是开心，同样是和角色告别，回想起杀青时的自己，心情截然不同。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/L7TGIIUA00039AHB.html"
+      },
+      {
+        "time": "00:00",
+        "title": "张晔子（下）：这不是一个审美单一的时代",
+        "summary": "《早春晴朗》播出后， 张晔子收到了一份意想不到的礼物——自信。她曾在采访中坦言，最初对出演卢米有些抗拒，原因很简单：“觉得自己不够漂亮。”但剧集播出后，观众用行动告诉她：美，从来不止一种定义。“我答应过支持我的人，要自信。而且我觉得我应该自信，性格美也是一种美。”她说这话时，语气笃定。张晔子做客网易【封面故事】，分享更多角色与人生。《封面故事》X《早春晴朗》 张晔子（下） （来源：网易娱乐专稿）《早春晴朗》的出圈，不止于剧情和演技，还有穿搭。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/L7DUTDE800039AHB.html"
+      },
+      {
+        "time": "00:00",
+        "title": "张晔子（上）：真诚永远自带力量",
+        "summary": "《早春晴朗》收官礼那天，卢米（英文名Lumi）的扮演者张晔子心里有许多不舍，但更多的是振奋。看到那么多人喜欢这部剧，喜欢这个角色，她心里收获满满，有一些美好的东西在发芽。人人都想在职场上遇到酷飒又善良的Lumi，而张晔子也有自己的Lumi们想感谢。封面故事对话张晔子，听一听关于卢米和她的故事。《封面故事》X《早春晴朗》 张晔子（上） （来源：网易娱乐专稿）二、Lumi的爱，是一种女性之间的托举四、从国贸排队到小学同学“认亲”五、卢米和Will，是冰与火的故事《早春晴朗》刷屏出圈！",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/L7DURJ0800039AHB.html"
+      },
+      {
+        "time": "00:00",
+        "title": "旅行新蜜蜂任胤蓬黄鲲齐聚围炉煮茶联欢会",
+        "summary": "娱乐新鲜派1月19日报道春节来临之际，网易娱乐邀请旅行新蜜蜂与音乐好友任胤蓬、黄鲲相聚一堂， 围炉煮茶，闲话人生。限定版“慢慢儿~飞” 乐队现场组建，攒局人蒋敦豪隔空连线，一起为网友带来一场欢乐的兔年新春mini 联欢会，果然是音乐圈喜剧人没错了。快来参与这场新春联欢，一起整活过大年！旅行新蜜蜂任胤蓬黄鲲齐聚围炉煮茶联欢会 （来源：娱乐新鲜派）雪姐故事多 2026-11-01 07:56:00小车车和小刘刘 2026-11-01 06:00:14韩哥宠物故事 2026-11-01 12:00:35乌上高高 2026-11-01 14:28:29磕戏研究所 2026-10-31 22:40:47每日娱音乐 2026-11-01 15:03:57睡前历史集 2026-11-01 01:32:47坠入温柔晚风 2026-11-03 01:00:38追星雷达站 2026-11-03 00:37:。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/HREM1O2900039B2C.html"
+      },
+      {
+        "time": "00:00",
+        "title": "年终述职报告｜赵磊回顾新专巡演趣事",
+        "summary": "网易娱乐专稿1月18日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。今年专注于新专辑与巡演的歌手赵磊，回顾了珍藏的音乐记忆。新EP《恋爱庸才》中哪首歌最适合深夜emo听？今年联系最多的圈内好友是谁？KTV唱得最多的一首歌是？报告已送达，各位观众请查收！年终述职报告｜赵磊回顾新专巡演趣事 （来源：网易娱乐专稿）赴一场山海啊 2026-11-03 01:03:12追星雷达站 2026-11-03 00:37:56影视情报室 2026-11-03 00:53:08追星雷达站 2026-11-03 01:08:32自愈小日子 2026-11-03 01:05:16娱乐大事件VVV 2026-11-02 09:13:14三猫看电影 2026-10-29 09:38:09搞笑者大联盟 2026-11-02 09:47:58财经时间官方 2026-10-3。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/HRCELJ9900038FO9.html"
+      },
+      {
+        "time": "00:00",
+        "title": "年终述职报告｜檀健次分享年度最过瘾舞台",
+        "summary": "娱乐新鲜派1月13日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。在表演、唱跳各领域都给大家留下深刻印象的檀健次，分享了今年的感动瞬间。《猎罪图鉴》是今年演得最怎样的一部戏？今年完成得最过瘾的是哪一个舞台？网上冲浪时刷到关于自己最有趣的梗是什么？报告已送达，各位观众请查收！年终述职报告｜檀健次分享年度最过瘾舞台 （来源：网易娱乐专稿）行雨影娱 2026-11-02 14:02:30诗情话影 2026-10-30 23:52:17娱乐在一起668 2026-11-02 20:36:56探山城 2026-10-31 14:38:37尚悦电影 2026-10-30 00:00:00沙雕道具制造局 2026-11-02 01:12:43娱乐头条zl 2026-11-01 15:29:49艾米音乐 2026-11-03 00:00:00凹凸镜DOC 20。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/HQV657QR00039B2C.html"
+      },
+      {
+        "time": "00:00",
+        "title": "INTO1-刘彰谈年度最爱演出现场",
+        "summary": "网易娱乐专稿12月30日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第二集上线。在Bilibili跨年晚会“2022最美的夜”后台，INTO1- 刘彰分享自己今年的高能时刻。《生人勿进》是今年唱得最怎样的一首歌？今年印象最深刻的现场是哪一场？今年直播中最高能的时刻是什么时候？报告已送达，各位观众请查收！年终述职报告｜INTO1-刘彰谈年度最爱演出现场 （来源：网易娱乐）点点细语 2026-11-01 10:40:24博闻视角 2026-11-01 11:25:25孤芳自赏的小李 2026-11-02 06:56:58可爱的巴比龙 2026-11-01 07:42:24凹凸镜DOC 2026-11-03 00:38:15荧屏内外 2026-10-31 00:00:00社会奇闻知 2026-10-29 10:35:11雾中列车 2026-11-02 07:0。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/HPRKG6LB00038FO9.html"
+      },
+      {
+        "time": "00:00",
+        "title": "朱珠：要允许自己在不完美中长大",
+        "summary": "网易娱乐专稿9月12日报道朱珠 ×网易娱乐专访来啦！谈及在《骄阳伴我》中与田雨老师演CP的感受，朱珠表示因为两人太熟了，一开始觉得会很好笑，但后面发现适配度很高。朱珠也在专访中透露，剧中的亲密戏是她和田雨用“脚戏”演绎完成的。提及与肖战的合作感受，朱珠表示他是一名非常认真的演员，并且每次见面，他从大老远开始就会打招呼，热情又有礼貌~聊到结婚生子后的生活转变，朱珠自称是婚姻的初学者，她说两个人在一起其实是“0.5+0.5＞1”，每个人都要去掉自己的0.5加上对方的0.5，有所包容有所牺牲。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/IEE9U57I00038FO9.html"
+      },
+      {
+        "time": "00:00",
+        "title": "肖战逐渐找到演员的意义",
+        "summary": "网易娱乐专稿9月15日报道肖战携《骄阳伴我》做客网易娱乐专访啦！问及如何看待盛阳是平行时空的肖战，他希望大家不要把演员本人代入到角色身上，本人和角色还是会有一些不同之处~聊到是否有给剧组伙伴安利美食，肖战直言一开始是自己给大家安利，后面则变成大家给他安利，对比新的火锅店，肖战反而觉得“经典永流传”。提到关于“前夫哥”的称呼设计，肖战称是自己的临场发挥。而聊到拍父母大吵大闹离婚那场戏是什么感觉，肖战说觉得太真实了，会和自己以前在家一样，吵架突然吵到自己头上。",
+        "source": "网易娱乐",
+        "tags": [
+          "娱乐",
+          "网易娱乐"
+        ],
+        "url": "https://www.163.com/ent/article/IEM28GED00038FO9.html"
+      }
+    ],
+    "health": [
+      {
+        "time": "00:00",
+        "title": "首个乙肝治愈新药日本获批上市，多款国产原研药挺进三期临床",
+        "summary": "首页 > 资讯 > 39深呼吸这款新药并非“神药”，不要盲目跟风。此次创新疗法也是联合用药方案，需要配合口服抗病毒药使用，不单独用药。2026年8月24日，葛兰素史克宣布，其在研新型乙肝药物Bepirovirsen（音译：贝普若韦生，GSK836）在日本正式获批上市，用于慢性乙型肝炎成人患者的功能性治愈（即临床治愈）治疗。这意味着全球首款以功能性治愈为目标的乙肝新药终于走出实验室，走向市场，患者用药可及。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/260831/n1wttm1.html"
+      },
+      {
+        "time": "00:00",
+        "title": "医院长期拖欠药械货款不还？持续多年的三角债，这次终于有人管了",
+        "summary": "首页 > 资讯 > 39深呼吸2025年起，国家医保局全面推进医保基金即时结算改革。截至2026年7月底，全国医保部门共拨付医药机构即时结算资金9457．31亿元，占本地月结算资金规模的95．51％。－回款周期从过去的6到12个月，压缩至30天以内，部分先进地区甚至实现了“按日到账”。医院长期拖欠药械货款问题，终于要被整治了！近日，上海市卫健委等14部门印发《落实〈2026年纠正医药购销领域和医疗服务中不正之风工作要点〉任务分工方案》，其中明确提出，“防范并加快解决医疗机构拖欠药品流通企业货款问题”，同时要求“研究推进医保与医药企业直接结算”。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261008/h1xg8ag.html"
+      },
+      {
+        "time": "00:00",
+        "title": "公立医院下场开药店，患者纷纷叫好，零售药店还有活路吗？",
+        "summary": "首页 > 资讯 > 39深呼吸过去，总说“医药分家”；如今，公立医院竟主动下场开起了药店。过去，总说“医药分家”；如今，公立医院竟主动下场开起了药店。国庆前夕（9月30日），一则“云南彝良县人民医院把惠民大药房开上大街”的消息，在医药圈炸开了锅。◎彝良一家公立医院在街头开药店。/图：医院公众号院外零售药店本就在行业寒冬中苦熬，闻讯愈发焦虑。这次的冲击，远不止“又多了一个强势竞争对手”那么简单。彝良县（隶属云南昭通市）并非个例。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261015/g7xgm85.html"
+      },
+      {
+        "time": "00:00",
+        "title": "全国感染率近50%！广州幽门螺杆菌耐药率连年下降，凉茶中药立大功？",
+        "summary": "首页 > 资讯 > 39深呼吸最新监测：阿莫西林、四环素零耐药，克拉霉素耐药大降，但甲硝唑仍要警惕幽门螺杆菌（英文简称Hp）是一种常见的消化道致病细菌，长期感染可引起慢性胃炎、消化性溃疡等疾病，甚至80%的胃癌发生都与它有关，被世界卫生组织列为1类致癌物。根据国家疾控中心2023年发布的《中国幽门螺杆菌感染防控》白皮书显示，中国居民的幽门螺杆菌总体感染率接近50%。针对Hp的杀菌治疗已在临床广泛展开，但是抗生素耐药导致Hp根除率低，如何为患者精准匹配适合的药物？",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/260921/z3xck0x.html"
+      },
+      {
+        "time": "00:00",
+        "title": "成本4000，患者付1万：肿瘤基因检测的暴利链条终于要断了！",
+        "summary": "首页 > 资讯 > 39深呼吸由国家医保局牵头的检验价格规范化，会在各省陆续落地，这套统一计价的政策，正是瞄准肿瘤基因检测积攒多年的价格顽疾。2026年秋天，李雯（化名）陪母亲在华南一家三甲医院确诊了晚期非小细胞肺癌。主治医生建议做一次基因检测，目的是“看有没有能用的靶向药”。但接下来的流程让她始料未及，医生口头推荐了一家检测机构，她通过一个私下联系的销售完成了付款，一部分刷卡、一部分现金，前后掏了一万八千元，全程没有拿到任何纸质知情同意书。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261027/w6xj6fy.html"
+      },
+      {
+        "time": "00:00",
+        "title": "药代新规落地两个月将“松绑”？11.6万医药代表转型大考才刚开始",
+        "summary": "首页 > 资讯 > 39深呼吸医药行业未来并不是要取消医药代表这一职业，而是推动整个行业告别过去以销售为核心的旧路径，转向专业化、合规化、平台化、可追溯的学术推广体系。2026年8月1日，七部门《医药代表管理办法》正式施行。这个被业内人士称为“史上最严”的新规，不但重新划定医药代表准入门槛外，还明确列出了医药代表的九大禁止行为。就在整个行业人人自危之时，8月4日，医药代表备案平台显示，李某泽因未经备案开展学术推广等活动，被列入违法违规公示。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/260920/b6xcimw.html"
+      },
+      {
+        "time": "00:00",
+        "title": "感染艾滋病该不该告诉配偶？重庆新规：本人不告，医卫将代告",
+        "summary": "首页 > 资讯 > 39深呼吸医生是否需要将艾滋病等重大疾病检查结果告知配偶？病人的隐私权和配偶的健康权，谁更重要？婚检室里最沉默的一次抽血，毁了两个年轻人。2015年，在河南永城，小新和女友小叶登记前做婚检。女方初筛疑似HIV，医生把她单独叫上楼又抽了两次血，转头对楼下等待的小新只说“一切正常，有点血脂稠”。小叶选择对自己的男友隐瞒了感染的消息。直至婚后3个月，疾控才打电话给小新：你妻子确诊阳性，建议立即检测。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261008/o1xg8ae.html"
+      },
+      {
+        "time": "00:00",
+        "title": "一个月撤并近30个医学分会！为何很多学术会议也办不下去了？",
+        "summary": "首页 > 资讯 > 39深呼吸学术会议从过去的“常规动作”，变成了“高危动作”！有人担心：学术会议是不是要整体“凉”了？一批医药领域的学协会，正在撤并中……9月28日，中国医药保健品进出口商会发布公告，对现有25家分支机构进行清理，8家被撤销，其中的检验医学分会从成立到此次撤销，运行时间甚至不足一年。更早期的9月13日，中国研究型医院学会第三次会员代表大会在京召开，表决通过撤销6个、优化合并8个分支机构的议案。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261013/g3xgjip.html"
+      },
+      {
+        "time": "00:00",
+        "title": "24元化疗药涨到上千元！廉价救命药，为何总在缺货之后才被看见",
+        "summary": "首页 > 资讯 > 39深呼吸一款临床应用超过60年的经典化疗药，本不该以这样的方式反复出现在公众视野里。它需要的不是同情，而是一套让企业愿意生产、让医院能够采购、让患者买得到药的制度安排。经典化疗药物注射用环磷酰胺还在持续“缺货”中。从今年4月起，在癌症病友群中，“哪个医院有环磷酰胺”的求助信息开始频繁出现。不少患者家属四处打听，辗转多家医院，甚至跨省寻找药品库存。39健康以患者的身份致电北京、上海、广东、湖南等地多家三甲医院，药房工作人员答复几乎一致：暂时缺货，恢复供货时间尚不明确。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261019/l3xi7r8.html"
+      },
+      {
+        "time": "00:00",
+        "title": "儿童专用药占比不足3%，国家拿出2年“市场独占期”，能填上几十年的缺口吗？",
+        "summary": "首页 > 资讯 > 39深呼吸儿童药的研发显然需要我国更多的政策支持。进入秋冬后，气温波动下降，各类呼吸道传染病进入高发阶段，儿童由于免疫力较低成为易感人群。儿科门诊外，一位妈妈把医生开的药片举到眼前反复端详，医嘱上写着“每次1/4片”。她用指甲在药片上划出一道浅痕，两手一用力，“啪” 的一声，药片断成了大小不等的两半。39健康走访广州多家医院儿科门诊及药房发现，不规范用药导致患儿出现不良反应，甚至延误治疗、加重病情的案例时有发生。",
+        "source": "39健康网",
+        "tags": [
+          "健康",
+          "39健康网"
+        ],
+        "url": "https://news.39.net/shx/261027/h3xj6ft.html"
+      }
+    ],
+    "education": [
+      {
+        "time": "10:45",
+        "title": "每周至少半天校外实践教学将在全国推行专家建议",
+        "summary": "每周至少半天校外实践教学将在全国推行专家建议课时进课表经费进预算责任进清单不久的将来，全国中小学生的课表上，每周都将多出半天校外实践课——这半天，不在教室里度过。这一变化来自教育部的明确部署。2026年9月23日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会，教育部基础教育司司长田祖荫介绍，将在全国推行每周至少半天校外实践教学，指导各地各校因地制宜、分学段合理安排，纳入学校教育教学计划。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-02/10724637.shtml"
+      },
+      {
+        "time": "07:28",
+        "title": "每周至少半天校外实践教学将在全国推行专家建议：课时进课表经费进预算责任进清单",
+        "summary": "不久的将来，全国中小学生的课表上，每周都将多出半天校外实践课——这半天，不在教室里度过。这一变化来自教育部的明确部署。2026年9月23日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会，教育部基础教育司司长田祖荫介绍，将在全国推行每周至少半天校外实践教学，指导各地各校因地制宜、分学段合理安排，纳入学校教育教学计划。消息一出，家长群、教师群、社交平台的评论区讨论不断。有人叫好：“孩子们应该多和社会产生联结”；",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-02/10724533.shtml"
+      },
+      {
+        "time": "20:06",
+        "title": "复旦大学哲学学院（系）迎来七十周岁“生日”",
+        "summary": "中新网上海11月1日电 (记者陈静)今年是复旦大学哲学学院(系)成立七十周年。国际哲学学会联合会(FISP)前任主席卢卡·斯卡兰蒂诺1日在此间指出，复旦大学哲学学院始终走在拓展哲学文化视野的前沿，是推动不同哲学传统交流互鉴的中坚力量，也是世界领先的哲学重镇之一。 -->“全球视野下中国当代哲学自主知识体系建构——暨复旦大学哲学学院(系)成立七十周年学术报告会”1日在复旦大学举行。剑桥大学哲学系教授、前任哲学系主任亚历山大·伯德希望借鉴复旦大学的经验，发挥剑桥大学作为分析哲学主要发源地的优势，推动中国哲学与分析哲学的双向对话。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724459.shtml"
+      },
+      {
+        "time": "19:57",
+        "title": "上海外国语大学世界海关研究中心揭牌",
+        "summary": "中新社上海11月1日电 (记者许婧)海关领域第三方专业研究平台——上海外国语大学世界海关研究中心11月1日在上海揭牌。中心将重点围绕全球海关治理理论重构、智慧海关数字化转型、国际经贸规则对接、国门安全与供应链韧性、国际海关比较与中国方案输出五大前沿方向开展研究。 -->中心配套布局三大智能科研工具。海关业务网多语种翻译大模型覆盖13个语种，解决“经认证的经营者”(AEO)互认、跨境海关往来中的专业翻译难题，支持多格式公文处理，助力跨境贸易便利化；",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724458.shtml"
+      },
+      {
+        "time": "18:28",
+        "title": "天津启动学科专业融入支撑生物医药和脑机接口产业发展项目",
+        "summary": "中新网天津11月1日电 (记者周亚强)10月31日，天津市学科专业融入支撑产业发展项目启动会暨产教融合创新工作推动会在天津医科大学举行。会议启动生物医药、脑机接口两大重点产业链产教融合项目，并集中为一批教学、科研平台揭牌。 -->据悉，该项目由天津市教委指导、天津医科大学牵头实施，坚持“临床需求出题、学科攻关解题、产业转化答题”，依托天津医科大学附属医院临床资源，构建“医院—高校—企业”协同模式，推动教育链、人才链与产业链、创新链衔接。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724407.shtml"
+      },
+      {
+        "time": "18:06",
+        "title": "多份报告聚焦AI与国际教育：技术越便捷，人的判断越关键",
+        "summary": "中新网北京11月1日电 (记者徐文欣)人工智能正重塑各行业面貌，国际教育面临由此带来的机遇与挑战。近日，多份聚焦人工智能时代国际教育的报告在北京发布并指出，AI正在改变国际教育的工具、场景与评价方式，但教育真正的竞争力，仍在于人如何负责任地使用技术、作出判断并实现创造性转化。由英国文化教育协会发布的《2025-2026中国大陆地区雅思考生成绩大数据报告》指出，真实沟通能力、可信评价标准和精准反馈的重要性进一步凸显。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724391.shtml"
+      },
+      {
+        "time": "16:44",
+        "title": "百廿弦歌续华章上海理工大学迎来建校120周年",
+        "summary": "中新网上海11月1日电 (记者许婧)10月31日，庆祝上海理工大学建校120周年大会在该校军工路校区大礼堂举行，各界嘉宾与师生欢聚一堂，共贺百廿华诞。上海市副市长贺青表示，上海理工大学为上海国际科技创新中心建设和制造业转型升级作出了重要而独特的贡献。希望学校以建校120周年为新起点，深耕产教融合、科教融汇，培育高素质工程人才；紧扣产业需求，强化科创支撑，把论文写在产业一线；深化区校、校企协同，把学科优势转化为区域高质量发展动能。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724335.shtml"
+      },
+      {
+        "time": "15:33",
+        "title": "第三届“人民艺术论坛”举办成立红色美育共同体",
+        "summary": "中新网北京11月1日电 (记者高凯)以“赓续红色血脉·铸魂时代新人”为主题中国人民大学第三届“人民艺术论坛”日前在北京举办。论坛现场，中国人民大学联合全国41所高校、文博文艺机构发起成立“红色铸魂·立德树人”新时代高校美育共同体，共同探索红色美育赋能立德树人的实践路径。据了解，“红色铸魂·立德树人”新时代高校美育共同体旨在汇聚高校与社会优质美育资源，发挥高校在人才培养、学科建设等方面的优势和文博文艺机构在艺术创作、文化传播、公共文化服务等方面的优势，围绕课程共建、师资交流、教学研究、艺术实践等深化合作，推动高校美育教育与社会美育实践相结合相贯通。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724302.shtml"
+      },
+      {
+        "time": "09:52",
+        "title": "（文化中国行·校馆弦歌）“无用”阅读恰所需西南交通大学图书馆的阅读与健心",
+        "summary": "中新网成都11月1日电题：“无用”阅读恰所需西南交通大学图书馆的阅读与健心西南交通大学图书馆的历史，几乎与这所1896年建校的学府同龄。从1897年的小型图书室起步，如今已形成一校四馆的格局、纸质藏书超395万册。规模之外，这座图书馆正在做一件不那么“工科”的事：让阅读变成一件不必先问“有什么用”的事，为被作业、实验、竞赛与就业填满的学生，辟出一处可以停顿的“留白”。中国高校首家阿来主题书屋“阿来书屋”设在馆内。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724178.shtml"
+      },
+      {
+        "time": "09:39",
+        "title": "超400家单位参展今年中国国际教育展规模创五年来新高",
+        "summary": "作为第27届中国国际教育交流年会的重要活动之一，2026中国国际教育展10月30日至31日在京举行。活动由中国教育国际交流协会主办，吸引35个国家和地区的超400所院校与机构参展，规模创过去五年新高。总台央视记者周培培：在今年的中国国际教育展上，泰国首次担任主宾国，带来17所院校组团参展。为什么去泰国留学？业内人士告诉我们，主打一个价格低、性价比高、离家近，未来就业还可能有隐藏福利。泰国高等教育科研与创新部副部长达努蓬·攀纳坎：由于共建“一带一路”倡议，很多中国企业在泰国有大量投资，例如新能源汽车和生产制造，今年泰国就新增了很多汽车工厂，创造了很多就业机会。",
+        "source": "中国新闻网",
+        "tags": [
+          "教育",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724172.shtml"
+      }
+    ],
+    "auto": [
+      {
+        "time": "22:27",
+        "title": "现代汽车 10 月销量为 32.98 万辆同比减少 6.3%，连续 13 个月下降",
+        "summary": "韩国现代汽车今日公布数据，该公司在 2026 年 10 月全球市场共售出 329,773 辆，其中韩国国内 49,042 辆，海外 280,731 辆， 同比下降 6.3%。与去年同期相比，国内销售下降了 8.9%，海外销售下降了 5.9%。 现代汽车一位官员表示：“我们将根据针对多种动力总成和区域市场状况优化的产品组合灵活应对需求变化，”并补充道：“我们将通过提高生产效率和扩大新车型如途胜、GV80 混合动力车型的销售，强化中长期竞争力。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/275.htm"
+      },
+      {
+        "time": "20:19",
+        "title": "宁德时代与蓝色向量达成合作，为 SKYLA V30 定制开发航空动力电池",
+        "summary": "今日，宁德时代宣布与蓝色向量同时签署战略合作协议和产品合作协议。宁德时代为蓝色向量 SKYLA V30 飞行器定制开发航空动力电池。蓝色向量选定宁德时代作为独家电池合作伙伴，双方共同推进电动航空技术的创新与应用。 蓝色向量方面称，对于 eVTOL 而言，动力电池系统直接影响整机重量、航程、飞行性能与运行安全。相较于地面交通工具，电动航空对动力系统的安全性、可靠性和轻量化提出了更高要求，相关技术还需经过系统集成、工程验证与适航审定等环节的持续检验。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/256.htm"
+      },
+      {
+        "time": "19:36",
+        "title": "宝马计划在 2027 年将 L2 辅助驾驶扩展至城市，德国首发",
+        "summary": "BMW（宝马）当地时间今日宣布， 计划从 2027 年开始将其 L2 辅助驾驶从高速公路和乡村扩展至城市道路，实现完整覆盖。这项功能将在德国率先推出。 宝马表示，其新型驾驶辅助系统已按照 DCAS Series 2 法规通过第三方技术机构的实际道路测试， 预计将在 2027 年初得到监管部门的最终批准。 新款 BMW iX3、BMW iX4 以及 BMW X5、3 系和 7 系的所有车型均在硬件上支持该导航引导式 ADAS 系统。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/247.htm"
+      },
+      {
+        "time": "18:53",
+        "title": "广汽埃安 Ray7 车型 11 月 12 日上市：搭载华为 DriveONE 多合一电驱，预售价 12.88 万元起",
+        "summary": "广汽埃安宣布旗下埃安 Ray7 车型将于 11 月 12 日正式上市，该机已经在 10 月 17 日开启预售，包含五款车型，预售价区间 12.88-15.88 万元。 该车提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色，定位“大 5 米超级纯电轿车”，配备 3.6m 量子星环贯穿前后 LED 灯。 该车提供炽光竞驰、云纱暖米、极速赛道内饰，一体式运动座椅，前排一键 / 语音舒躺，配备高通骁龙 8295P 座舱芯片 +24GB LPDDR4 运存 +128GB UFS 闪存，15.6 英寸 2.5K 高清中控屏 + 车手互联全覆盖。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/237.htm"
+      },
+      {
+        "time": "18:05",
+        "title": "华硕 ROG 斯巴达 X 65K 鼠标上架预约：补贴到手价 1199 元起，11 月 9 日开售",
+        "summary": "华硕 (ASUS) 现已在电商平台上架 ROG 斯巴达 (Spatha) X 65K 鼠标。这一型号采用人体工学模具， 补贴到手价 1199 元起，11 月 9 日 20:00 开售。 斯巴达 X 65K 主要面向 MMO 与 MOBA 玩家， 拥有 12 个可编程按键。其配备 ROG AimPoint Pro 65K 传感器，拥有第 3 代 ROG 即插式微动仓，同时提供 ROG 静音微动开关、ROG 微动开关第 2 代。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/223.htm"
+      },
+      {
+        "time": "17:55",
+        "title": "《民航绿色发展“十五五”实施方案》印发：到 2030 年，机场场内纯电动车辆占比超过 55%",
+        "summary": "中国民航局近日印发《民航绿色发展“十五五”实施方案》。《实施方案》提出， 到 2030 年，民航绿色低碳转型实现突破性进展，行业碳排放总量和强度双控制度基本建成，用能结构进一步优化，降碳减污协同能力显著增强，运输航空吨公里和机场单位旅客吞吐量二氧化碳排放较“十四五”时期分别下降 4% 和 15%，稳居全球先进行列。 IT之家注意到，《实施方案》提到推动可持续航空燃料安全有序替代。 坚持适航安全、技术先进、原料多元、经济可行、环境友好、自主可控，持续推动提升可持续航空燃料产业竞争优势。",
+        "source": "IT之家",
+        "tags": [
+          "汽车",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/212.htm"
+      },
+      {
+        "time": "15:37",
+        "title": "零跑破 10 万、小鹏小米跨过 5 万大关，10 月车市却迎来了最冷的「银十」",
+        "summary": "2026-11-02 15:37随着 10 月份各大车企的销量成绩单陆续出炉，今年传统车市「金九银十」旺季不旺、冷热分化的底色，已经彻底藏不住了。比亚迪 10 月共销售新能源汽车 490168 辆，同比增长 10.97%，吉利紧随其后，单月销量达到 310183 辆，同比微增 0.99%，双双创下年内单月销量新高。奇瑞集团 10 月整体销量达到 295934 辆，同比增长 5.3%。相比之下，长城汽车是传统国产车企阵营中表现较弱的一个，10 月共销售新车 120374 辆，同比下滑 15.87%。",
+        "source": "爱范儿",
+        "tags": [
+          "汽车",
+          "爱范儿"
+        ],
+        "url": "https://www.ifanr.com/1687113?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "time": "10:38",
+        "title": "大众在合肥攒了个新平台，一年要往海外卖 30 万辆「中国大众」",
+        "summary": "2026-10-31 10:38大众可以说是最懂平台化的车企之一。基于同一个 MLB Evo 平台，大众集团能造出大众途锐和奥迪 Q7、Q8，也能在不同兄弟品牌中带来保时捷 Cayenne、宾利添越，甚至兰博基尼 Urus。这种把通用工程底座做到极致，用体量摊薄研发与制造成本的做法，是大众过去几十年建立全球规模优势的核心逻辑。但进入智能电动车时代，除了统一机械底盘，电子电气架构与辅助驾驶同样需要参与到平台化中，来规避每做一款新车都要重新适配硬件接口、重训模型的尴尬。",
+        "source": "爱范儿",
+        "tags": [
+          "汽车",
+          "爱范儿"
+        ],
+        "url": "https://www.ifanr.com/1687151?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "time": "21:03",
+        "title": "汽车工业的下一条流水线，开始由 AI 来安排",
+        "summary": "2026-10-30 21:031913 年，美国密歇根州的福特 Highland Park 工厂里，工程师们进行了一项看起来有些简陋的实验：他们用绳索和卷扬机牵引汽车底盘，让它缓缓经过不同的装配工位。如此这样，工人们就不再需要围绕静止的汽车来回移动，而是在自己的位置上等待底盘经过，进而完成手头的装配任务。这个实验起初甚至谈不上精密，但效果十分惊人，经过不断改进，到 1914 年的时候，福特 Model T 车型底盘的装配用工时间，从最初的 12.5 小时缩短到了 93 分钟。",
+        "source": "爱范儿",
+        "tags": [
+          "汽车",
+          "爱范儿"
+        ],
+        "url": "https://www.ifanr.com/1686953?utm_source=rss&utm_medium=rss&utm_campaign="
+      },
+      {
+        "time": "22:17",
+        "title": "13.98 万元起！小鹏 MONA L05 正式上市，大五座 SUV 市场的卷王来了",
+        "summary": "2026-10-29 22:17三个月前，小鹏 MONA L03 上市。作为 MONA 系列的第一台 SUV，L03 为小鹏带来了开门红，但也给小鹏带来了了很大的交付压力。何小鹏坦言 L03 上市初期因为配置预估偏差，交付跟不上，「被骂得稀里哗啦」，自己最近也专门跑了一趟工厂盯产线，正在全力拉升产能以加快国内交付。不过，小鹏工厂的产能压力接下来恐怕还会越来越大。因为就在今天，MONA 系列的第三款车型——小鹏 MONA L05 也正式迎来了上市。",
+        "source": "爱范儿",
+        "tags": [
+          "汽车",
+          "爱范儿"
+        ],
+        "url": "https://www.ifanr.com/1686761?utm_source=rss&utm_medium=rss&utm_campaign="
+      }
+    ],
+    "game": [
+      {
+        "time": "20:05",
+        "title": "世嘉介绍 VR 街机游戏《死亡之屋：重生》：支持双人游玩、机台预计 2027 年上市",
+        "summary": "世嘉娱乐现已公布了 VR 街机游戏《死亡之屋：重生（House of the Dead：Reawakened）》的细节，展示游戏机台外观、VR 头显以及部分实际游玩画面。 据介绍，《死亡之屋：重生》是一款支持双人游玩的 VR 恐怖射击游戏，配备独特的哥特式主题机台。机台整体采用破败庄园的设计风格，两侧设有两块 43 英寸竖向显示屏，模拟庄园窗户，正面则配备一块尺寸达 85 英寸的大型显示屏，充当庄园入口。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/253.htm"
+      },
+      {
+        "time": "18:30",
+        "title": "RPCS3 模拟器里程碑：几乎所有 PS3 单机游戏均已可在电脑上运行",
+        "summary": "RPCS3 项目最亮眼的特点之一，就是开发团队持续维护着一份完整的 PlayStation 3 游戏库兼容状态清单。 IT之家注意到，RPCS3 团队把游戏分为以下几类： 可玩：PS3 游戏能够在电脑上完整游玩可进入游戏：可以进入游戏，但存在各类问题启动到菜单：只能成功启动并进入主菜单可加载：加载后只显示黑屏无法运行：完全没有任何反应 RPCS3 团队在 X 平台发文称，开发者 Yahfz 针对《汤姆 · 克兰西：鹰击长空 2》修复了 SPU 精度问题。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/233.htm"
+      },
+      {
+        "time": "18:26",
+        "title": "Meta 调整 VR 硬件优先级：将更多资源转向可穿戴设备和 AI 业务，降低消费级 VR 硬件优先级",
+        "summary": "Meta 首席财务官 Susan Li（李苏珊）在 2026 年第三季度财报电话会议上表示，Meta 旗下 Reality Labs 部门第三季度营收为 4.43 亿美元 （IT之家注：现汇率约合 29.51 亿元人民币），同比下降 6%，主要原因是 Quest 头显销量减少，不过 AI 智能眼镜业务持续强劲增长，在一定程度上抵消了相应影响。 当前，Meta 正在调整硬件业务的优先级，将更多资源转向可穿戴设备和 AI 业务，降低消费级 VR 硬件及元宇宙业务的优先级。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/231.htm"
+      },
+      {
+        "time": "18:17",
+        "title": "开发者将任天堂经典游戏《超级马力欧 64》移植至 Pico 头显：可将马力欧“抓出屏幕”",
+        "summary": "XR 创意技术人员兼开发者 Lucas Martinic 近日发布了一段演示视频，展示其将 1996 年的《超级马力欧 64（Super Mario 64）》移植到了 Pico 头显上。 据介绍，相应版本游戏画面以悬浮式 3D「魔法窗口」的形式呈现，玩家可以从现实空间中观看蘑菇王国的场景。玩家还可以直接伸手抓住马力欧的衣领，将其从游戏世界中取出，再放置到现实中的桌面上，实现虚拟角色与现实环境之间的互动。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/229.htm"
+      },
+      {
+        "time": "18:02",
+        "title": "桌面战棋游戏《辐射：战争》将于本月推出 XR 版本，登陆 XREAL Aura 平台",
+        "summary": "桌面战棋游戏《辐射：战争（Fallout：Factions）》宣布将于本月（11 月）推出 XR 版本，登陆 XREAL Aura 平台，号称能够让玩家通过扩展现实设备体验《辐射》世界中的战术对抗。 据介绍，《辐射：战争》是一款采用回合制玩法的战术战棋游戏，背景设定在《辐射》核子世界（Nuka-World）中，其 XR 版本由 Mirrorscape 与 Modiphius Entertainment 联合打造，引入了沉浸式 3D 地图和手势操控功能，玩家可以通过手势投掷骰子、移动角色以及选择攻击方式。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/221.htm"
+      },
+      {
+        "time": "17:48",
+        "title": "2026 年世界互联网大会领先科技奖名单揭晓：“九章四号”光量子计算原型机等获奖",
+        "summary": "据网信中国消息，11 月 2 日下午，2026 年世界互联网大会领先科技奖颁奖典礼在浙江乌镇举行。作为由世界互联网大会国际组织主办的面向互联网领域的国际性科技奖项，领先科技奖得到了全球互联网领域的广泛关注和积极响应。 IT之家附获奖名单如下： 基础研究组 “九章四号”光量子计算原型机物联网可扩展性理论和方法关键技术组 AI 赋能感知：面向物理智能的多模态触觉感知关键技术平台超大规模通信网络安全弹性防御关键技术及应用高性能分布式存储系统关键技术与应用九源统一智能计算系统基于英特尔 18A 制程技术的第三代酷睿 Ultra 处理器可持续发展科学卫星 1 号 (SDGSAT-1) 面向规模化落地的通用机器人操作基座模型关键技术面向空间量子信息的光传输技术及应用昇腾 950 超节点 TIMES：面向精准肿瘤学的空间免疫评分系统工程研发组 AMD 锐龙 AI Max+ 智能体主机处理器 Brain。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/182.htm"
+      },
+      {
+        "time": "17:10",
+        "title": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
+        "summary": "最近有不少给老旧硬件赋予新玩法的改造项目。有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机；还有人把老式转盘电话改成人工智能助手。现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。 用户 Infinite-Zombie5875 在 ESP32 板块分享了自己的成果。他改造的机型是 2009 年推出的索尼 NW-X1060 随身听，为它增加了 ESP-NOW 功能。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/134.htm"
+      },
+      {
+        "time": "22:21",
+        "title": "OpenAI CEO 奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀",
+        "summary": "萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。 上周，这位 OpenAI 首席执行官的一番话在全网、尤其是玩家群体中引发强烈不满。他称，人们把内存装在个人电脑里，而不是放在数据中心，是一件“很糟糕”的事。 在和博主 Cheeky Pint 的访谈中，奥尔特曼说：“从全球资源分配角度来看，所有人都把全球有限的 DRAM 资源放在自家电脑里，而内存大部分时间利用率只有 5%，这其实非常糟糕。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/274.htm"
+      },
+      {
+        "time": "19:45",
+        "title": "游民星空发行的经营游戏《二手游戏店模拟器》发售，国区首发特惠 33.75 元",
+        "summary": "Rogue Duck Interactive 开发、游民星空（Gamersky Games）参与发行的模拟经营游戏《二手游戏店模拟器》（Replay Value: Second Hand Games）已于今日正式登陆 Steam 平台。IT之家附游戏商品页（ 二手游戏店模拟器/）。 本作国区定价为 ¥45，当前首发优惠为 -25%，折后售价 ¥33.75，优惠截至 11 月 16 日。游戏支持简体中文界面、完整音频与字幕，并同步支持繁体中文、英语、日语、韩语、法语、德语、西班牙语、葡萄牙语、俄语、土耳其语、波兰语等共 12 种语言。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/248.htm"
+      },
+      {
+        "time": "19:16",
+        "title": "“女生罹癌离世前攒下医药费，买张 RTX5090 留给男友”温情故事引发关注，网友感叹“宁愿这是编的”",
+        "summary": "一位 B 站 UP 主“小周装机日记”在今年 3 月时曾上传了一段感人的装机经历，内容是一位罹癌离世的女生偷偷攒下男友转给她的医药费和生活费，为他购买了一张 RTX 5090 显卡和一整套顶配主机，并留下一封手写告别信和一张银行卡。 近期，相应视频突然开始广泛传播，不少用户第一反应怀疑是摆拍 / 剧本，但更多网友感叹“宁愿这是编的”。 IT之家参考视频，该 UP 主“小周”接到一单上门装机业务，主机配置极高，显卡是 RTX 5090，他好奇询问是不是客户自己准备用来打游戏，男子回答整套设备是女友偷偷为他准备的。",
+        "source": "IT之家",
+        "tags": [
+          "游戏",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/021/242.htm"
+      }
+    ],
+    "culture": [
+      {
+        "time": "22:07",
+        "title": "艺苑撷英——2026年全国优秀青年舞蹈人才展演在京举行",
+        "summary": "中新网北京11月2日电 (记者高凯)艺苑撷英——2026年全国优秀青年舞蹈人才展演日前在北京中央民族歌舞团民族剧院举行。展演坚持“以赛选人、优中选优”的选拔导向，通过中国舞协各团体会员单位推荐人选，同时吸纳“荷花奖”“桃李杯”等国家级评奖展演及“中国顶尖舞者成长计划”中表现突出的青年舞者。经层层遴选，最终24名优秀青年舞者脱颖而出，入选本次展演。舞者们涵盖古典舞、民族民间舞、芭蕾舞、当代舞、现代舞等舞种，代表了当前青年舞者的最高水平，多舞种佳作荟萃，生动展现新时代青年舞蹈人才的艺术风采。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10725000.shtml"
+      },
+      {
+        "time": "22:07",
+        "title": "五集系列片《探秘长白山》揭秘活着的火山之上为何万物竞生",
+        "summary": "中新网北京11月2日电长白山脉，一条绵延1300千米的巨大山系，是欧亚大陆东缘最完整的生态屏障，而深藏其中的主峰长白山，却是一座仍在“呼吸”的活火山。它还是同时荣膺联合国教科文组织世界地质公园与世界生物圈保护区的自然综合体。由中央广播电视总台与国家林业和草原局联合摄制的五集系列片《探秘长白山》2日起在央视综合频道《自然中国》栏目播出，首次从火山地质、水文溯源、旗舰物种、垂直带谱、共生之道五大维度，系统解读长白山宏大而精微的自然密码。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10725052.shtml"
+      },
+      {
+        "time": "22:06",
+        "title": "音乐剧《血色湘江》在中央党校（国家行政学院）上演",
+        "summary": "中新网南宁11月2日电 (张广权)11月1日，由中央党校(国家行政学院)图书和文化馆、广西壮族自治区党委宣传部、广西壮族自治区文化和旅游厅联合主办，广西歌舞剧院创排演出的音乐剧《血色湘江》走进中央党校(国家行政学院)，给在校1000多名学员奉献了一堂生动感人的“艺术党课”。1934年发生在广西北部的湘江战役是红军长征的壮烈一战，是决定中国革命生死存亡的重要历史事件。音乐剧《血色湘江》以湘江战役为背景，以红五军团第34师师长陈树湘为原型创作，讲述了在湘江战役中执行后卫任务的部队掩护党中央机关和兄弟部队强渡湘江，最终全部壮烈牺牲的感人故事，展现了红军将士勇于胜利、勇于突破、勇于牺牲的英雄气概和共产党人“革命理想高于天”的信仰力量。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724999.shtml"
+      },
+      {
+        "time": "22:04",
+        "title": "聚焦抗战文学全新写作视角长篇小说《四千里》研讨会举办",
+        "summary": "中新网北京11月2日电 (记者高凯)罗伟章长篇小说《四千里》研讨会日前在京举办。《四千里》是作家罗伟章的最新长篇力作，由北京十月文艺出版社、四川文艺出版社联合出版。作品讲述了抗战时期，为给国家留下未来畜牧业发展的火种，以王酉亭为首的八名教职工，带着一千余只珍贵的进口动物从南京出发，历经艰险，跨越五省、行程四千里，最终抵达重庆的故事。中国作协党组成员、副主席、书记处书记邱华栋表示，作品的空间历程雄阔、艰难，呈现了中华民族精神里的坚韧和不屈。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724994.shtml"
+      },
+      {
+        "time": "21:40",
+        "title": "美食文旅节目《寻味山海》走进珠海品一江一海一城鲜",
+        "summary": "中新网北京11月2日电大型风物美食文旅节目《寻味山海》11月1日晚在总台综合频道播出，观众跟随主持人走进广东珠海，品味一江一海的自然馈赠。每年六月悄然红熟的，是珠海斗门独有的御金球荔枝。它的糖度达20度左右，淡淡蜜香透着岭南山野的灵气，令人久吃不腻。荔枝入菜，是岭南人懂自然的另一种表达。一道荔枝木叉烧，精选本地梅花肉，以秘制酱汁浸润，穿上钢叉悬于烘炉之上，荔枝枝干为薪，刷上金黄荔枝蜜，烟火升腾间浮动独有的清甜，刚出炉的叉烧油光四溢，趁热切下去，外皮酥脆，满口果香与肉香。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724962.shtml"
+      },
+      {
+        "time": "21:12",
+        "title": "流失文物归还多位专家热议宋陵系统性保护及活化利用",
+        "summary": "中新网郑州11月2日电 (王佳宁)郑州大学2日消息，由郑州大学、河南省文物考古研究院主办的“宋陵与宋文化”国际学术研讨会暨中国考古学会陵墓考古专业委员会2026年年会上，多位考古专家认为，北宋皇陵(以下简称“宋陵”)对理解宋代国家形态与中华文明的文明特质具有重要意义。 -->宋陵位于河南巩义，是中国现存规模最宏大、保存最完整的宋代帝王陵寝群。10月28日，澳大利亚国家美术馆向中方返还北宋皇陵永裕陵武官像头部和永昌陵文官像头部两件流失文物。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724925.shtml"
+      },
+      {
+        "time": "20:04",
+        "title": "解密热播剧《小城良方》：声音如何还原小城烟火",
+        "summary": "近期，由导演张晓波执导的现实主义题材剧《小城良方》热播，凭借温暖治愈的市井叙事、鲜活落地的人物表演与极具沉浸感的视听质感，掀起一波“追剧潮”。视频：专访《小城良方》声音指导涂灏：用声音建立一座城来源：中国新闻网不少观众留意到，剧中的东北小城抚城处处透着真实的生活气息，大到街道的喧闹市井，小到医院走廊的细碎声响，都真实得仿佛身临其境。这份极具代入感的听觉体验背后，是声音指导及团队的精心设计。近日， 中新社记者专访了该剧声音指导涂灏，揭开影视声音创作的幕后故事。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724950.shtml"
+      },
+      {
+        "time": "18:42",
+        "title": "重庆开州如何以“壹圆”之力激发基层文化活力？",
+        "summary": "中新网重庆11月2日电题：重庆开州如何以“壹圆”之力激发基层文化活力？一元钱能买到什么？在重庆市开州区，一元钱可以走进剧场看一场高质量演出，也可以让普通民众走上舞台、成为“主角”。这样的演出，在开州各地持续上演了一年多。花一元钱看一场文艺演出已成为当地民众日常生活的一部分。2025年6月，开州区针对公共文化服务资源不优质、供需不平衡、民众参与少等突出问题，打造“壹圆剧场”文化惠民品牌。截至目前，“壹圆剧场”已演出192场，现场观演超30万人次，线上观看超1000万人次。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724857.shtml"
+      },
+      {
+        "time": "17:59",
+        "title": "肯尼亚风情绽放“丝路艺术家驻留计划”成都站",
+        "summary": "中新网成都11月2日电以“锦绣丝路·美美与共”为主题的丝绸之路国际剧院联盟“丝路艺术家驻留计划”成都站活动10月27日至11月1日在当地举办。活动秉持“小而美、小而实”交流理念，邀请联盟成员单位肯尼亚文化中心(肯尼亚国家剧院)舞蹈团到访蓉城，通过丝路微舞台展演、校园艺术互动、大师课、城市快闪、非遗采风等多元形式，与底蕴深厚的巴蜀文化展开一场跨越山海的艺术对话。10月30日傍晚，丝路微舞台专场展演在中演·成都大剧院露天剧场精彩上演，肯尼亚文化中心舞蹈团带来舞蹈《赤道风情—肯尼亚风情之旅》，该节目集打击乐、非洲舞、杂技于一体，通过奔放热烈的肢体语言、富有力量的鼓点节奏，将东非大地风土人情鲜活呈现。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724852.shtml"
+      },
+      {
+        "time": "17:14",
+        "title": "现代评剧《人世间》在京首演",
+        "summary": "中新网北京11月2日电 (记者高凯)由中国评剧院倾力打造的年度大戏——评剧《人世间》日前在全国地方戏演出中心迎来首演。该剧改编自作家梁晓声茅盾文学奖获奖同名长篇小说，由孔培培编剧、张平执导，评剧名家孙路阳领衔主演，以及张国强、王丽京等评剧名家新秀联袂主演。全剧以新中国第一代建筑工人周志刚为叙事锚点，用评剧质朴亲切、长于叙事的声腔艺术，唱响周家三代人三十余年的聚散离合。评剧《人世间》的改编以小说时代和人物关系为背景，遵循舞台艺术特点与评剧特色进行创造性转化。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-02/10724842.shtml"
+      }
+    ],
+    "monthly": [
+      {
+        "time": "10-31",
+        "title": "广交会观察：彰显时尚价值中国非遗潮品走俏海外市场",
+        "summary": "中新社广州10月31日电 (记者程景伟)“批量采购一个多少钱？能单买吗？”10月31日在广州举行的第140届广交会第三期上，乌兹别克斯坦采购商蒂娜看中一款造型精美的“中国风”女包，当场询问价格。蒂娜告诉中新社记者，这些包非常漂亮，很有东方文化韵味，她很喜欢。能讲一口流利中文的蒂娜，曾在上海外国语大学学习，对中国传统文化颇有兴趣。庭序造物生活美学(广州)有限公司相关负责人沈君明称，该公司的箱包产品瞄准高端市场，与非遗代表性传承人合作，融入宋锦、广绣、苏绣等传统技艺，纹样既有宝相花、木棉花、鳌鱼等元素，也可以根据海外客户要求进行个性化定制，“我们主打中东和欧洲市场，很受客户欢迎，年出口箱包超过100万件”。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/10-31/10724109.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "舞剧《妈祖》于福建莆田开启全球首演",
+        "summary": "中新社福建莆田10月31日电 (叶秋云)舞剧《妈祖》10月31日晚在福建莆田莆仙大剧院开启全球首演，以当代舞蹈语汇重述妈祖的成长故事。妈祖，原名林默，因救助海难而捐躯，自宋以来获历代褒封。当地人感念其生前扶危济困、舍己救人的大德，立庙奉祀。目前，全球共有上万座妈祖宫庙分布在52个国家和地区，有3亿多人信仰妈祖。舞剧《妈祖》立足闽地海洋文化，聚焦宋代湄洲渔家女子林默从平凡渔家少女到行医济世、观天预警、引航护海的“海上女神”之蜕变。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/10-31/10724112.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "海内外学者：阳明心学为AI时代提供东方智慧",
+        "summary": "中新社浙江绍兴10月31日电 (项菁)“以AI(人工智能)为代表的新一轮科技革命不断发展的同时，也衍生出算法偏见、安全治理等新挑战。阳明心学启示我们，技术越发展越要坚持以人为本，让科技始终服务于人的全面发展。”国际儒学联合会常务副会长郝平说。以“阳明心学与人类命运共同体”为主题的2026阳明心学大会10月31日在浙江绍兴举行，来自海内外的专家学者共论东方智慧的当代价值。王阳明是心学集大成者，其“知行合一”“致良知”“万物一体”等心学思想蜚声中外。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/10-31/10724110.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "景德镇等中外五座城市获全球可持续发展城市奖（上海奖）",
+        "summary": "中新社福州10月31日电 (记者闫旭)2026年世界城市日全球主场活动暨第四届全球可持续发展城市奖(上海奖)颁奖活动10月31日在福州开幕，中国景德镇、波兰卡托维兹、土耳其伊斯坦布尔、哥伦比亚圣地亚哥德卡利、埃塞俄比亚亚的斯亚贝巴五座城市获该奖项。景德镇市住房和城乡建设局副局长叶凯认为，景德镇能获此奖，关键在于把“以人为本”和“文化传承”真正落到了城市发展的每一个细节里。“景德镇是世界上唯一一座延续千年未曾中断的手工制瓷城市，产业遗存遍布全城。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gn/2026/10-31/10724108.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "中外学者乌鲁木齐共话龟兹学新发展",
+        "summary": "中新社乌鲁木齐10月31日电 (记者苟继鹏)“万里向安西——龟兹学学术研讨会”10月31日在乌鲁木齐市开幕，来自中国、德国、英国、韩国、日本等国的180余名专家学者参会，围绕龟兹学相关议题展开研讨。中国敦煌吐鲁番学会副会长、中国人民大学历史学院教授孟宪实表示，近代以来，龟兹地区遗留下来的学术资源、艺术作品和历史资料因特殊原因流散于世界各地。龟兹的佛教壁画、雕塑和古代语言资料如今收藏于世界各地，已成为世界学术界关注的焦点。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/10-31/10724107.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "港大卓越人才论坛在北京举行聚焦AI时代下人才挑战等议题",
+        "summary": "中新网北京10月31日电 (记者刘大炜)香港大学卓越人才论坛31日在北京举行。与会人士围绕人工智能(AI)浪潮中的科技人才挑战与大学改革的应对之道等议题展开讨论。香港大学副校长(商业策略)林晨致辞表示，人工智能的发展不仅带来巨大机遇，同时暴露出网络安全问题等许多挑战。面对不确定性，卓越人才的定义已超越单纯的工具掌握或指标达成，更强调深刻的问题意识、扎实的理论基础、深厚的知识储备、独立和创新能力。他希望与会人士发表真知灼见，共同为国家培养更多心怀家国、放眼全球、勇于担当的卓越人才。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/dwq/2026/10-31/10724106.shtml"
+      },
+      {
+        "time": "10-31",
+        "title": "海派原创IP讲述上海故事城市脉动文创展在沪展出",
+        "summary": "中新网上海10月31日电 (记者许婧)城市脉动文创展29日至31日在上海世博展览馆举办，一批地域特色鲜明的文创作品吸引不少观众驻足。10月31日是世界城市日，这是首个由中国倡议并经联合国批准设立的以城市为主题的国际日，本次文创展是2026上海国际城市与建筑博览会的重点板块。展览由上海市绿色建筑协会与上海大学联合主办，上海大学上海城市更新与可持续发展研究院、上海大学上海美术学院共同承办，采用双向征集模式：上海大学师生团队自主研发，打造16个文创系列、286件产品；",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/10-31/10724105.shtml"
+      },
+      {
+        "time": "10-28",
+        "title": "甘肃保安腰刀启“工厂模式” 传统技艺焕发新生机",
+        "summary": "中新网兰州10月28日电 (王源马丽)进入秋冬季，炉火熄灭、铁锤停歇，家庭小作坊大多进入“空闲期”，这曾是保安腰刀传承八百余年的常态，如今在甘肃省临夏州积石山县刘集乡团结村，几名工人操作着现代化设备，不多时，一把兼具保安腰刀形制神韵的菜刀便已成型。这座拔地而起的标准化厂房，让保安腰刀告别了“看天吃饭”的旧模式，开启了“工厂模式”。“我们走的是‘统一做坯、分散做饰’的路子。”积石山县百锻坊五金制品有限公司车间主任包述杰说，目前工厂尚处于试运营阶段，刀坯与刀身通过工厂流水线批量生产，刀柄、刀鞘等带有民族特色的装饰环节，则分包给周边掌握传统技艺的农户在家加工。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722480.shtml"
+      },
+      {
+        "time": "10-28",
+        "title": "云南立法保护铁路安全纳入跨境协作内容",
+        "summary": "中新网昆明10月28日电 (罗婕)28日，《云南省铁路安全管理条例》(下称《条例》)新闻发布会在昆明市举行。记者从会上获悉，《条例》结合云南区位特点，明确开展跨境铁路安全交流合作，与毗邻国家共同维护跨境铁路安全环境和秩序等内容。 -->铁路是关系国民经济和社会发展的重大基础设施。云南省人大监察和司法委员会相关负责人介绍，近年来，云南省铁路建设快速发展，运营规模持续扩大，运行速度不断提高，铁路安全形势日益复杂，对铁路安全保障工作提出更高要求。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722477.shtml"
+      },
+      {
+        "time": "10-28",
+        "title": "澜湄流域各国艺术家齐聚西双版纳演绎多元文明交融共生",
+        "summary": "中新网云南西双版纳10月28日电 (韩帅南易力)10月28日晚，云南省西双版纳傣族自治州曼听御花园剧场内乐声流淌，第十四届澜沧江·湄公河流域国家文化艺术节开幕式文艺晚会在此启幕。澜湄流域各国艺术家以艺术为纽带，带领现场观众沉浸式感受澜湄流域多元文明交融共生的魅力。澜沧江发源于中国青海省唐古拉山，经云南省西双版纳州出境后称湄公河，流经缅甸、老挝、泰国、柬埔寨、越南。作为连接流域各国的黄金水道，澜沧江—湄公河千百年来滋养着沿岸民众，也串起了沿线多元文化的交流与共生。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/10-28/10722476.shtml"
+      }
+    ]
+  }
+}

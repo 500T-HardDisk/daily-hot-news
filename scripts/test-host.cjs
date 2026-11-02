@@ -11,6 +11,10 @@ const path = require('node:path');
 const Module = require('node:module');
 
 const ROOT = path.join(__dirname, '..');
+const INDEX = JSON.parse(fs.readFileSync(path.join(ROOT, 'news', 'index.json'), 'utf8'));
+const LATEST_DATE = INDEX.days[0].date;
+const OLDER_DATE = INDEX.days[1]?.date;
+console.log(`LATEST_DATE=${LATEST_DATE}`);
 
 /* ---------------- vscode API 模拟 ---------------- */
 
@@ -223,7 +227,7 @@ async function check(label, fn) {
   await check('向 Webview 下发最新一天的数据', () => {
     const data = lastData();
     assert.ok(data, '未收到 data 消息');
-    assert.equal(data.date, '2026-11-02');
+    assert.equal(data.date, LATEST_DATE);
     assert.equal(data.categories.length, 18);
     assert.ok(data.total >= 30, `条数异常：${data.total}`);
     assert.equal(data.items.length, data.total);
@@ -238,7 +242,7 @@ async function check(label, fn) {
     assert.ok(items[0].heat > 0);
     assert.equal(items[0].source, '今日头条热榜');
     assert.match(items[0].url, /^https?:\/\//);
-    assert.ok(items[0].id.startsWith('2026-11-02|hotsearch|'));
+    assert.ok(items[0].id.startsWith(`${LATEST_DATE}|hotsearch|`));
   });
 
   await check('每类新闻都有分类名与日期', () => {
@@ -249,24 +253,31 @@ async function check(label, fn) {
     }
   });
 
-  view.webview._onMessage({ type: 'selectDate', date: '2026-11-01' });
-  await wait();
+  if (OLDER_DATE) {
+    view.webview._onMessage({ type: 'selectDate', date: OLDER_DATE });
+    await wait();
 
-  await check('切换日期后下发历史数据', () => {
-    const data = lastData();
-    assert.equal(data.date, '2026-11-01');
-    assert.ok(data.dates.includes('2026-11-02'));
-    assert.ok(data.total > 0);
-    assert.ok(
-      data.items.some((item) => item.categoryId === 'monthly'),
-      '历史日期应回退展示近一月回顾'
-    );
-    assert.equal(
-      data.items.filter((item) => item.categoryId === 'hotsearch').length,
-      30,
-      '历史日期也应合并最近 7 天热搜'
-    );
-  });
+    await check('切换日期后下发历史数据', () => {
+      const data = lastData();
+      assert.equal(data.date, OLDER_DATE);
+      assert.ok(data.dates.includes(LATEST_DATE));
+      assert.ok(data.total > 0);
+      assert.ok(
+        data.items.some((item) => item.categoryId === 'monthly'),
+        '历史日期应回退展示近一月回顾'
+      );
+      assert.equal(
+        data.items.filter((item) => item.categoryId === 'hotsearch').length,
+        30,
+        '历史日期也应合并最近 7 天热搜'
+      );
+    });
+  } else {
+    await check('仅一个真实日期时仍正常下发数据', () => {
+      assert.equal(lastData().dates.length, 1);
+      assert.equal(lastData().date, LATEST_DATE);
+    });
+  }
 
   view.webview._onMessage({ type: 'copyItem', id: lastData().items[0].id });
   await wait();
@@ -277,14 +288,14 @@ async function check(label, fn) {
   });
 
   console.log('\n命令：');
-  quickPickResult = { date: '2026-11-02' };
+  quickPickResult = { date: LATEST_DATE };
   await commands['hotNews.selectDate']();
   await wait();
 
   await check('日期跳转命令切换到所选日期', () => {
     const data = lastData();
-    assert.equal(data.date, '2026-11-02');
-    assert.equal(data.dates[0], '2026-11-02');
+    assert.equal(data.date, LATEST_DATE);
+    assert.equal(data.dates[0], LATEST_DATE);
   });
 
   quickPickResult = { id: 'tech', label: '💻 科技' };
