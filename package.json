@@ -2,7 +2,7 @@
   "name": "g-yaodian",
   "displayName": "G-要点",
   "description": "G-要点：内置每日热点新闻（17 个板块，纯文字，离线可读）：历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "publisher": "500TSSD",
   "license": "MIT",
   "engines": {
