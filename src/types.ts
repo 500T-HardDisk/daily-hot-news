@@ -60,6 +60,10 @@ export interface NewsItem {
   highlights?: NewsHighlight[];
   /** 热点罗列，每条一句话。 */
   points?: string[];
+  /** 热搜热度值（用于合并最近 7 天快照时排序）。 */
+  heat?: number;
+  /** 热搜原始排名。 */
+  rank?: number;
   /** 详细新闻要点（支持市场标记，用于“20 条要点”板块）。 */
   pointItems?: NewsPoint[];
   /** 结构化表格，例如美股/港股/A股/韩股行情。 */

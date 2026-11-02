@@ -307,7 +307,7 @@ if (index && Array.isArray(index.days)) {
         );
       }, 0);
 
-      if (list.length && textLength < 1000) {
+      if (id !== 'hotsearch' && list.length && textLength < 1000) {
         warn(
           `${label} 的 categories.${id} 文字量约 ${textLength} 字，建议每类不少于 1000 字` +
             (id === 'geopolitics' ? '（全球局势要求 1000 字以上）' : '')
@@ -336,6 +336,40 @@ if (index && Array.isArray(index.days)) {
         if (points.filter((p) => typeof p === 'string' && p.trim()).length < 3) {
           error(`${label} 的全球股市板块需要至少 3 条 points 热点罗列`);
         }
+      }
+    }
+
+    // 热搜：单日快照必须是完整的 30 条真实数据（历史日期允许为空）
+    if (categoryIds.includes('hotsearch')) {
+      const hot = day.categories.hotsearch;
+      if (Array.isArray(hot) && hot.length) {
+        if (hot.length !== 30) {
+          error(`${label} 的 hotsearch 快照需要 30 条（当前 ${hot.length} 条）`);
+        }
+        const titles = new Set();
+        hot.forEach((item, index) => {
+          const position = index + 1;
+          if (!item || typeof item.title !== 'string' || !item.title.trim()) {
+            error(`${label} 的 hotsearch 第 ${position} 条缺少 title`);
+            return;
+          }
+          if (titles.has(item.title)) {
+            error(`${label} 的 hotsearch 标题重复：${item.title}`);
+          }
+          titles.add(item.title);
+          if (!/^https?:\/\//.test(String(item.url || ''))) {
+            error(`${label} 的 hotsearch 第 ${position} 条缺少有效原文链接`);
+          }
+          if (!item.source) {
+            error(`${label} 的 hotsearch 第 ${position} 条缺少 source`);
+          }
+          if (!Number.isFinite(item.heat)) {
+            error(`${label} 的 hotsearch 第 ${position} 条缺少 heat 热度值`);
+          }
+          if (!Number.isFinite(item.rank)) {
+            error(`${label} 的 hotsearch 第 ${position} 条缺少 rank 排名`);
+          }
+        });
       }
     }
 

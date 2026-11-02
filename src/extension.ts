@@ -33,6 +33,40 @@ async function loadPayload(
   let latestCategories: Record<string, unknown> | undefined;
 
   for (const category of index.categories) {
+    // 热搜：合并最近 7 天的真实快照，按热度排序后取前 30 条
+    if (category.id === 'hotsearch') {
+      const merged: NewsItemView[] = [];
+      const seen = new Set<string>();
+
+      for (const date of dates.slice(0, 7)) {
+        const snapshot = await store.day(date);
+        const list = snapshot?.categories?.['hotsearch'];
+        if (!Array.isArray(list)) {
+          continue;
+        }
+        list.forEach((item, index) => {
+          const title = typeof item?.title === 'string' ? item.title.trim() : '';
+          if (!title || seen.has(title)) {
+            return;
+          }
+          seen.add(title);
+          merged.push({
+            ...item,
+            id: `${date}|hotsearch|${index}`,
+            categoryId: category.id,
+            categoryName: category.name,
+            date,
+          });
+        });
+      }
+
+      merged
+        .sort((a, b) => (b.heat ?? 0) - (a.heat ?? 0))
+        .slice(0, 30)
+        .forEach((item) => items.push(item));
+      continue;
+    }
+
     let list = day?.categories?.[category.id];
 
     // “近一月回顾”是滚动内容：历史日期没有自己的月度数据时，回退到最新一天

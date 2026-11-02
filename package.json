@@ -1,8 +1,8 @@
 {
   "name": "daily-hot-news",
   "displayName": "每日热点新闻",
-  "description": "内置每日热点新闻（17 个板块，纯文字，离线可读）：历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
-  "version": "1.5.0",
+  "description": "内置每日热点新闻（18 个板块，纯文字，离线可读）：30 条真实热搜（合并最近 7 天）、历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
+  "version": "1.6.0",
   "publisher": "500TSSD",
   "license": "MIT",
   "engines": {
@@ -154,6 +154,7 @@
     "pretest": "npm run compile",
     "news:new": "node scripts/new-day.mjs",
     "news:validate": "node scripts/validate-news.mjs",
+    "news:hotsearch": "node scripts/fetch-hotsearch.mjs",
     "news:freshness": "node scripts/check-freshness.mjs",
     "icon": "node scripts/make-icon.mjs",
     "test": "node scripts/validate-news.mjs --strict && node scripts/test-webview.mjs && node scripts/test-host.cjs",

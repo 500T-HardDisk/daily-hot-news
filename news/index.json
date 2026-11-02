@@ -1,24 +1,115 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T16:30:00+08:00",
+  "updatedAt": "2026-11-02T17:18:14.444Z",
   "categories": [
-    { "id": "tech", "name": "科技", "emoji": "💻", "description": "芯片、终端、互联网平台与通信" },
-    { "id": "ai", "name": "人工智能", "emoji": "🤖", "description": "大模型、智能体与行业落地" },
-    { "id": "finance", "name": "财经", "emoji": "💰", "description": "宏观经济、市场与公司动态" },
-    { "id": "stocks", "name": "全球股市", "emoji": "📈", "description": "美股、港股、A股、韩股走势与热点" },
-    { "id": "aistocks", "name": "AI 与股市", "emoji": "📊", "description": "10 条 AI 股市要闻 + 20 条要点，聚焦美股上市与拟上市公司" },
-    { "id": "gold", "name": "黄金行情", "emoji": "🪙", "description": "现货、期货、国内金价与涨跌原因" },
-    { "id": "global", "name": "国际", "emoji": "🌍", "description": "全球经贸、气候与多边议题" },
-    { "id": "geopolitics", "name": "全球局势", "emoji": "🗺️", "description": "中东、俄乌、美以与地区安全" },
-    { "id": "society", "name": "社会", "emoji": "🏙️", "description": "民生、城市与公共服务" },
-    { "id": "sports", "name": "体育", "emoji": "🏆", "description": "赛事、球队与运动员" },
-    { "id": "entertainment", "name": "娱乐", "emoji": "🎬", "description": "影视、音乐与演出市场" },
-    { "id": "health", "name": "健康", "emoji": "🩺", "description": "医疗、营养与运动健康" },
-    { "id": "education", "name": "教育", "emoji": "🎓", "description": "升学、职场学习与校园" },
-    { "id": "auto", "name": "汽车", "emoji": "🚗", "description": "新能源、智能驾驶与出行" },
-    { "id": "game", "name": "游戏", "emoji": "🎮", "description": "新游、电竞与产业动态" },
-    { "id": "culture", "name": "文化", "emoji": "📚", "description": "阅读、展览与传统文化" },
-    { "id": "monthly", "name": "近一月回顾", "emoji": "🗓️", "description": "16 个领域的近一月要点汇总，每领域 10 条" }
+    {
+      "id": "hotsearch",
+      "name": "热搜",
+      "emoji": "🔥",
+      "description": "30 条实时热搜，合并最近 7 天快照"
+    },
+    {
+      "id": "tech",
+      "name": "科技",
+      "emoji": "💻",
+      "description": "芯片、终端、互联网平台与通信"
+    },
+    {
+      "id": "ai",
+      "name": "人工智能",
+      "emoji": "🤖",
+      "description": "大模型、智能体与行业落地"
+    },
+    {
+      "id": "finance",
+      "name": "财经",
+      "emoji": "💰",
+      "description": "宏观经济、市场与公司动态"
+    },
+    {
+      "id": "stocks",
+      "name": "全球股市",
+      "emoji": "📈",
+      "description": "美股、港股、A股、韩股走势与热点"
+    },
+    {
+      "id": "aistocks",
+      "name": "AI 与股市",
+      "emoji": "📊",
+      "description": "10 条 AI 股市要闻 + 20 条要点，聚焦美股上市与拟上市公司"
+    },
+    {
+      "id": "gold",
+      "name": "黄金行情",
+      "emoji": "🪙",
+      "description": "现货、期货、国内金价与涨跌原因"
+    },
+    {
+      "id": "global",
+      "name": "国际",
+      "emoji": "🌍",
+      "description": "全球经贸、气候与多边议题"
+    },
+    {
+      "id": "geopolitics",
+      "name": "全球局势",
+      "emoji": "🗺️",
+      "description": "中东、俄乌、美以与地区安全"
+    },
+    {
+      "id": "society",
+      "name": "社会",
+      "emoji": "🏙️",
+      "description": "民生、城市与公共服务"
+    },
+    {
+      "id": "sports",
+      "name": "体育",
+      "emoji": "🏆",
+      "description": "赛事、球队与运动员"
+    },
+    {
+      "id": "entertainment",
+      "name": "娱乐",
+      "emoji": "🎬",
+      "description": "影视、音乐与演出市场"
+    },
+    {
+      "id": "health",
+      "name": "健康",
+      "emoji": "🩺",
+      "description": "医疗、营养与运动健康"
+    },
+    {
+      "id": "education",
+      "name": "教育",
+      "emoji": "🎓",
+      "description": "升学、职场学习与校园"
+    },
+    {
+      "id": "auto",
+      "name": "汽车",
+      "emoji": "🚗",
+      "description": "新能源、智能驾驶与出行"
+    },
+    {
+      "id": "game",
+      "name": "游戏",
+      "emoji": "🎮",
+      "description": "新游、电竞与产业动态"
+    },
+    {
+      "id": "culture",
+      "name": "文化",
+      "emoji": "📚",
+      "description": "阅读、展览与传统文化"
+    },
+    {
+      "id": "monthly",
+      "name": "近一月回顾",
+      "emoji": "🗓️",
+      "description": "16 个领域的近一月要点汇总，每领域 10 条"
+    }
   ],
   "days": [
     {
@@ -41,7 +132,8 @@
         "auto": 3,
         "game": 3,
         "culture": 3,
-        "monthly": 16
+        "monthly": 16,
+        "hotsearch": 30
       }
     },
     {
@@ -64,7 +156,8 @@
         "auto": 3,
         "game": 3,
         "culture": 3,
-        "monthly": 0
+        "monthly": 0,
+        "hotsearch": 0
       }
     }
   ]

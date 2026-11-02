@@ -224,18 +224,28 @@ async function check(label, fn) {
     const data = lastData();
     assert.ok(data, '未收到 data 消息');
     assert.equal(data.date, '2026-11-02');
-    assert.equal(data.categories.length, 17);
+    assert.equal(data.categories.length, 18);
     assert.ok(data.total >= 30, `条数异常：${data.total}`);
     assert.equal(data.items.length, data.total);
     assert.equal(data.items[0].id.split('|').length, 3);
     assert.equal(data.mode, 'sidebar');
   });
 
+  await check('热搜板块合并最近 7 天并保留 30 条真实数据', () => {
+    const items = lastData().items.filter((item) => item.categoryId === 'hotsearch');
+    assert.equal(items.length, 30);
+    assert.equal(items[0].rank, 1);
+    assert.ok(items[0].heat > 0);
+    assert.equal(items[0].source, '今日头条热榜');
+    assert.match(items[0].url, /^https?:\/\//);
+    assert.ok(items[0].id.startsWith('2026-11-02|hotsearch|'));
+  });
+
   await check('每类新闻都有分类名与日期', () => {
     for (const item of lastData().items) {
       assert.ok(item.categoryName);
       assert.ok(item.title);
-      assert.equal(item.date, '2026-11-02');
+      assert.match(item.date, /^\d{4}-\d{2}-\d{2}$/);
     }
   });
 
@@ -250,6 +260,11 @@ async function check(label, fn) {
     assert.ok(
       data.items.some((item) => item.categoryId === 'monthly'),
       '历史日期应回退展示近一月回顾'
+    );
+    assert.equal(
+      data.items.filter((item) => item.categoryId === 'hotsearch').length,
+      30,
+      '历史日期也应合并最近 7 天热搜'
     );
   });
 
