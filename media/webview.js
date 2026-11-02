@@ -16,6 +16,7 @@
     category: saved.category || null,
     query: typeof saved.query === 'string' ? saved.query : '',
     selectedId: null,
+    expandedId: null,
     summaryLines: 2,
   };
 
@@ -212,6 +213,7 @@
 
   function itemHtml(item, query) {
     const selected = state.selectedId === item.id ? ' selected' : '';
+    const expanded = mode === 'sidebar' && state.expandedId === item.id;
     const summary =
       state.summaryLines > 0 && item.summary
         ? `<p class="item-summary" style="-webkit-line-clamp:${state.summaryLines}">${highlight(item.summary, query)}</p>`
@@ -224,7 +226,7 @@
     const highlightTag = item.highlights
       ? `<span class="tag tag-highlight">📌 ${item.highlights.length}+${(item.pointItems || []).length}</span>`
       : '';
-    return `<article class="item${selected}" data-id="${esc(item.id)}" data-date="${esc(item.date)}" tabindex="0">
+    return `<article class="item${selected}${expanded ? ' expanded' : ''}" data-id="${esc(item.id)}" data-date="${esc(item.date)}" tabindex="0">
       <div class="item-head">
         ${item.time ? `<span class="time">${esc(item.time)}</span>` : ''}
         <span class="badge">${esc(item.categoryName)}</span>
@@ -233,7 +235,55 @@
       <h3 class="item-title">${highlight(item.title, query)}</h3>
       ${summary}
       ${tags || tableTag || highlightTag ? `<div class="tags">${highlightTag}${tableTag}${tags}</div>` : ''}
+      ${expanded ? renderInline(item) : ''}
     </article>`;
+  }
+
+  /** 侧边栏内联展开内容：摘要 + 要闻前 3 条 + 要点前 8 条 + 表格。 */
+  function renderInline(item) {
+    const parts = [];
+    if (item.summary) {
+      parts.push(`<p class="inline-text">${esc(item.summary)}</p>`);
+    }
+
+    if (Array.isArray(item.highlights) && item.highlights.length) {
+      const shown = item.highlights.slice(0, 3);
+      const more =
+        item.highlights.length > shown.length
+          ? `<p class="inline-hint">另有 ${item.highlights.length - shown.length} 条要闻，点击下方按钮查看完整内容。</p>`
+          : '';
+      parts.push(
+        `<div class="inline-hl"><div class="inline-hl-title">十条重要新闻（前 3 条）</div>` +
+          `<ol>${shown.map((h) => `<li>${esc(h.title)}</li>`).join('')}</ol>${more}</div>`
+      );
+    }
+
+    const entries =
+      Array.isArray(item.pointItems) && item.pointItems.length
+        ? item.pointItems.map((p) => p.text)
+        : Array.isArray(item.points)
+          ? item.points
+          : [];
+    if (entries.length) {
+      const shown = entries.slice(0, 8);
+      const more =
+        entries.length > shown.length
+          ? `<p class="inline-hint">还有 ${entries.length - shown.length} 条要点，点击下方按钮查看完整内容。</p>`
+          : '';
+      parts.push(
+        `<ul class="inline-points">${shown.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>${more}`
+      );
+    }
+
+    parts.push(renderTable(item.table));
+    parts.push(
+      `<div class="inline-actions">` +
+        `<button class="btn primary" data-open-panel="${esc(item.id)}">在编辑器中打开</button>` +
+        `<button class="btn" data-copy="${esc(item.id)}">复制全文</button>` +
+        `</div>`
+    );
+
+    return `<div class="inline-detail">${parts.filter(Boolean).join('')}</div>`;
   }
 
   function highlight(text, query) {
@@ -500,6 +550,10 @@
       state.selectedId = null;
     }
 
+    if (payload.date !== previousDate) {
+      state.expandedId = null;
+    }
+
     persist();
     renderAll();
   }
@@ -519,6 +573,19 @@
   });
 
   $('list').addEventListener('click', (event) => {
+    const openBtn = event.target.closest('[data-open-panel]');
+    if (openBtn) {
+      state.selectedId = openBtn.dataset.openPanel;
+      post({ type: 'openItem', id: openBtn.dataset.openPanel, date: state.date });
+      return;
+    }
+
+    const copyBtn = event.target.closest('[data-copy]');
+    if (copyBtn) {
+      post({ type: 'copyItem', id: copyBtn.dataset.copy, full: true });
+      return;
+    }
+
     const node = event.target.closest('.item');
     if (!node) {
       return;
@@ -528,6 +595,9 @@
 
   $('list').addEventListener('keydown', (event) => {
     if (event.key !== 'Enter' && event.key !== ' ') {
+      return;
+    }
+    if (event.target.closest('button')) {
       return;
     }
     const node = event.target.closest('.item');
@@ -551,8 +621,16 @@
         $('detail').scrollIntoView({ behavior: 'smooth' });
       }
     } else {
+      // 侧边栏：就地展开/收起，避免内容看不到
       state.selectedId = id;
-      post({ type: 'openItem', id, date: state.date });
+      state.expandedId = state.expandedId === id ? null : id;
+      renderList();
+      if (state.expandedId) {
+        const node = $('list').querySelector(`.item[data-id="${cssEscape(id)}"]`);
+        if (node && typeof node.scrollIntoView === 'function') {
+          node.scrollIntoView({ block: 'nearest' });
+        }
+      }
     }
   }
 

@@ -298,7 +298,7 @@ async function check(label, fn) {
 
   await check('打开面板并设置标题', () => {
     assert.equal(panels.length, 1);
-    assert.match(panels[0].title, /G-要点/);
+    assert.match(panels[0].title, /热点头条/);
     assert.match(panels[0].webview.html, /data-mode="panel"/);
     assert.ok(panels[0].webview.html.includes('btn-refresh'));
   });
@@ -326,6 +326,15 @@ async function check(label, fn) {
     const data = [...posted].reverse().find((m) => m.type === 'data' && m.payload.mode === 'panel');
     assert.ok(data, '未收到面板 data');
     assert.ok(data.payload.items.length > 0);
+  });
+
+  await check('侧边栏打开新闻时面板聚焦对应条目', async () => {
+    const target = lastData().items[0];
+    view.webview._onMessage({ type: 'openItem', id: target.id, date: target.date });
+    await wait();
+    const data = [...posted].reverse().find((m) => m.type === 'data' && m.payload.mode === 'panel');
+    assert.equal(data.payload.focusId, target.id);
+    assert.ok(data.payload.items.some((item) => item.id === target.id));
   });
 
   extension.deactivate();

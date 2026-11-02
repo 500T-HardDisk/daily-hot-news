@@ -50,7 +50,7 @@ function html(mode) {
     <div id="app">
       <header class="topbar">
         <div class="title-block">
-          <h1 class="app-title">${mode === 'panel' ? 'G-要点' : 'G-要点'}</h1>
+          <h1 class="app-title">${mode === 'panel' ? '热点头条' : '今日热点'}</h1>
           <div class="meta"><span id="date-label"></span><span class="dot">·</span><span id="meta-label"></span></div>
         </div>
         <div class="topbar-actions">
@@ -141,12 +141,26 @@ console.log('侧边栏模式：');
     );
   });
 
-  check('点击新闻向宿主发送 openItem', () => {
+  check('点击新闻在侧边栏就地展开', () => {
     const first = document.querySelector('.item');
     first.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    assert.ok(document.querySelector('.item.expanded .inline-detail'), '内容未展开');
+  });
+
+  check('内联“在编辑器中打开”发送 openItem', () => {
+    const button = document.querySelector('[data-open-panel]');
+    assert.ok(button, '缺少“在编辑器中打开”按钮');
+    button.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     const message = posted.at(-1);
     assert.equal(message.type, 'openItem');
-    assert.equal(message.id, first.dataset.id);
+    assert.ok(message.id);
+    assert.equal(message.date, date);
+  });
+
+  check('再次点击同一条新闻收起内容', () => {
+    const node = document.querySelector('.item');
+    node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    assert.equal(document.querySelectorAll('.inline-detail').length, 0);
   });
 
   check('切换日期发送 selectDate', () => {

@@ -147,7 +147,7 @@ function reportError(error: unknown): void {
   }
   lastError = { message, at: now };
 
-  void vscode.window.showErrorMessage(`G-要点：${message}`, '打开数据文件').then((pick) => {
+  void vscode.window.showErrorMessage(`热点新闻：${message}`, '打开数据文件').then((pick) => {
     if (pick === '打开数据文件') {
       void openDataFile();
     }
@@ -175,7 +175,7 @@ class SidebarProvider implements vscode.WebviewViewProvider {
       view.webview,
       this.context.extensionUri,
       'sidebar',
-      'G-要点'
+      '今日热点'
     );
 
     view.webview.onDidReceiveMessage((message: WebviewInMessage) => {
@@ -301,7 +301,7 @@ class PanelController {
       enableScripts: true,
       localResourceRoots: [vscode.Uri.joinPath(context.extensionUri, 'media')],
     };
-    webview.html = buildHtml(webview, context.extensionUri, 'panel', 'G-要点');
+    webview.html = buildHtml(webview, context.extensionUri, 'panel', '热点头条');
     webview.onDidReceiveMessage((message: WebviewInMessage) => {
       void this.onMessage(message);
     });
@@ -344,7 +344,7 @@ class PanelController {
     try {
       const payload = await loadPayload(date ?? this.date, 'panel', focusId);
       this.date = payload.date;
-      this.webviewPanel.title = `G-要点 · ${payload.date}`;
+      this.webviewPanel.title = `热点头条 · ${payload.date}`;
       await this.webviewPanel.webview.postMessage({ type: 'data', payload } satisfies WebviewOutMessage);
       await this.flushPending();
     } catch (error) {
@@ -396,7 +396,7 @@ async function openPanel(date?: string, focusId?: string): Promise<void> {
 
   const webviewPanel = vscode.window.createWebviewPanel(
     PANEL_VIEW_TYPE,
-    'G-要点',
+    '热点头条',
     vscode.ViewColumn.Active,
     {
       enableScripts: true,
@@ -501,7 +501,7 @@ async function pickDate(): Promise<void> {
 
 async function searchNews(): Promise<void> {
   const query = await vscode.window.showInputBox({
-    title: '搜索新闻',
+    title: '搜索热点新闻',
     prompt: '按标题、摘要、来源或标签搜索当天的新闻',
     placeHolder: '例如：芯片 / 利率 / 联赛',
     value: '',
@@ -514,7 +514,7 @@ async function searchNews(): Promise<void> {
   await panel?.setQuery(query);
 
   if (query.trim()) {
-    void vscode.window.setStatusBarMessage(`G-要点：正在搜索“${query}”`, 2500);
+    void vscode.window.setStatusBarMessage(`热点新闻：正在搜索“${query}”`, 2500);
   }
 }
 
@@ -567,7 +567,7 @@ async function showAbout(): Promise<void> {
     ].join('\n');
 
     const pick = await vscode.window.showInformationMessage(
-      `G-要点 v${extensionVersion()} · ${index.categories.length} 分类 · ${total} 条`,
+      `每日热点新闻 v${extensionVersion()} · ${index.categories.length} 分类 · ${total} 条`,
       { modal: true, detail },
       '打开数据文件'
     );
@@ -592,7 +592,7 @@ async function refreshStatusBar(): Promise<void> {
   try {
     const payload = await loadPayload(undefined, 'sidebar');
     statusBar.text = `$(rss) 热点 ${payload.total}`;
-    statusBar.tooltip = `G-要点 · ${payload.date} · ${payload.categories.length} 个分类，点击查看`;
+    statusBar.tooltip = `每日热点新闻 · ${payload.date} · ${payload.categories.length} 个分类，点击查看`;
     statusBar.show();
   } catch {
     statusBar.hide();
@@ -607,7 +607,7 @@ export function activate(context: vscode.ExtensionContext): void {
   extensionContext = context;
   extensionUri = context.extensionUri;
   store = new NewsStore(context.extensionUri);
-  output = vscode.window.createOutputChannel('G-要点');
+  output = vscode.window.createOutputChannel('热点新闻');
   context.subscriptions.push(output);
 
   statusBar = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
@@ -631,7 +631,7 @@ export function activate(context: vscode.ExtensionContext): void {
       await Promise.all([sidebar?.push(), panel?.push()]);
       broadcast({ type: 'toast', message: '数据已刷新' });
       void refreshStatusBar();
-      void vscode.window.setStatusBarMessage('G-要点：数据已刷新', 2000);
+      void vscode.window.setStatusBarMessage('热点新闻：数据已刷新', 2000);
     }),
     vscode.commands.registerCommand('hotNews.openDataFile', () => openDataFile()),
     vscode.commands.registerCommand('hotNews.about', () => showAbout())
