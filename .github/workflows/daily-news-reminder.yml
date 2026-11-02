@@ -43,7 +43,7 @@ jobs:
               '',
               '处理步骤：',
               '1. `npm run news:new`（或 `node scripts/new-day.mjs --date=YYYY-MM-DD`）生成当天模板',
-              '2. 编辑 `news/data/YYYY-MM-DD.json`，替换为当天各类新闻（至少 10 个分类）',
+              '2. 编辑 `news/data/YYYY-MM-DD.json`：覆盖 15 个板块，每板块约 1000 字；美股/港股/A股/韩股行情表与黄金行情表保持既有列结构',
               '3. `npm run news:validate` 通过后提交',
               '4. 发布新的插件版本，数据随插件分发给用户',
               '',
