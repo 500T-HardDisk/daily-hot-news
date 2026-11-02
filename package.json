@@ -1,7 +1,7 @@
 {
-  "name": "daily-hot-news",
-  "displayName": "每日热点新闻",
-  "description": "内置每日热点新闻（17 个板块，纯文字，离线可读）：历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
+  "name": "g-yaodian",
+  "displayName": "G-要点",
+  "description": "G-要点：内置每日热点新闻（17 个板块，纯文字，离线可读）：历史永久保留、默认最新、支持日期跳转；含 AI 与股市（10 条要闻 + 20 条要点）、近一月 160 条要点回顾、全球股市行情表、黄金涨跌原因与全球局势深度解读。",
   "version": "1.4.0",
   "publisher": "500TSSD",
   "license": "MIT",
@@ -13,6 +13,7 @@
   ],
   "keywords": [
     "news",
+    "G-要点",
     "新闻",
     "热点",
     "每日",
@@ -48,7 +49,7 @@
       "activitybar": [
         {
           "id": "hotNews",
-          "title": "热点新闻",
+          "title": "G-要点",
           "icon": "media/activity-icon.svg"
         }
       ]
@@ -58,7 +59,7 @@
         {
           "type": "webview",
           "id": "hotNews.sidebar",
-          "name": "今日热点"
+          "name": "G-要点"
         }
       ]
     },
@@ -66,43 +67,43 @@
       {
         "command": "hotNews.openPanel",
         "title": "打开热点头条面板",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(preview)"
       },
       {
         "command": "hotNews.selectDate",
         "title": "跳转到指定日期",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(calendar)"
       },
       {
         "command": "hotNews.selectCategory",
         "title": "选择新闻分类",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(list-unordered)"
       },
       {
         "command": "hotNews.search",
-        "title": "搜索热点新闻",
-        "category": "热点新闻",
+        "title": "搜索新闻",
+        "category": "G-要点",
         "icon": "$(search)"
       },
       {
         "command": "hotNews.refresh",
         "title": "刷新新闻数据",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(refresh)"
       },
       {
         "command": "hotNews.openDataFile",
         "title": "打开新闻数据文件",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(json)"
       },
       {
         "command": "hotNews.about",
         "title": "关于与数据统计",
-        "category": "热点新闻",
+        "category": "G-要点",
         "icon": "$(info)"
       }
     ],
@@ -131,7 +132,7 @@
       ]
     },
     "configuration": {
-      "title": "热点新闻",
+      "title": "G-要点",
       "properties": {
         "hotNews.defaultCategory": {
           "type": "string",
