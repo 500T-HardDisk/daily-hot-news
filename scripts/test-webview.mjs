@@ -341,4 +341,16 @@ console.log('面板模式：');
   });
 }
 
+{
+  const noFocus = { ...payload, mode: 'panel' };
+  const { document } = boot('panel', noFocus);
+
+  check('面板打开时默认展示第一条新闻', () => {
+    const title = document.querySelector('.detail-title');
+    assert.ok(title, '右侧详情为空');
+    assert.equal(title.textContent, items[0].title);
+    assert.ok(document.querySelector('.detail-body'));
+  });
+}
+
 console.log(`\n✅ Webview 冒烟测试通过（${passed} 项断言组）`);

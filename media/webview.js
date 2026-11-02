@@ -243,6 +243,7 @@
   function renderInline(item) {
     const parts = [];
     if (item.summary) {
+      parts.push(`<div class="inline-label">摘要</div>`);
       parts.push(`<p class="inline-text">${esc(item.summary)}</p>`);
     }
 
@@ -271,7 +272,8 @@
           ? `<p class="inline-hint">还有 ${entries.length - shown.length} 条要点，点击下方按钮查看完整内容。</p>`
           : '';
       parts.push(
-        `<ul class="inline-points">${shown.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>${more}`
+        `<div class="inline-label">要点</div>` +
+          `<ul class="inline-points">${shown.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>${more}`
       );
     }
 
@@ -552,6 +554,12 @@
 
     if (payload.date !== previousDate) {
       state.expandedId = null;
+    }
+
+    // 面板模式默认选中第一条，避免打开后右侧空白、看起来“无法展开”
+    if (mode === 'panel' && !state.selectedId) {
+      const list = items();
+      state.selectedId = list.length ? list[0].id : null;
     }
 
     persist();

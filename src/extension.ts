@@ -397,7 +397,7 @@ async function openPanel(date?: string, focusId?: string): Promise<void> {
   const webviewPanel = vscode.window.createWebviewPanel(
     PANEL_VIEW_TYPE,
     '热点头条',
-    vscode.ViewColumn.Active,
+    vscode.ViewColumn.One,
     {
       enableScripts: true,
       retainContextWhenHidden: true,

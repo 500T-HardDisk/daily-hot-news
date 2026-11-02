@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -25,8 +26,10 @@ body[data-mode='panel'] {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  max-height: 100%;
   min-height: 0;
+  overflow: hidden;
 }
 
 /* ---------- 顶部 ---------- */
@@ -37,6 +40,10 @@ body[data-mode='panel'] {
   gap: 8px;
   padding: 10px 12px 8px;
   border-bottom: 1px solid var(--vscode-sideBarSectionHeader-border, transparent);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
+  background: var(--vscode-sideBar-background, var(--vscode-editor-background));
 }
 
 .app-title {
@@ -116,6 +123,11 @@ body[data-mode='panel'] {
   background: var(--vscode-button-secondaryHoverBackground, var(--vscode-toolbar-hoverBackground));
 }
 
+body[data-mode='panel'] .topbar {
+  background: var(--vscode-editor-background);
+  border-bottom-color: var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+}
+
 /* ---------- 今日概览 ---------- */
 .headline {
   margin: 8px 12px 0;
@@ -126,12 +138,16 @@ body[data-mode='panel'] {
   background: var(--vscode-textBlockQuote-background, rgba(128, 128, 128, 0.08));
   color: var(--vscode-descriptionForeground);
   border-radius: 0 4px 4px 0;
+  flex-shrink: 0;
+  max-height: 96px;
+  overflow-y: auto;
 }
 
 /* ---------- 搜索 ---------- */
 .search-row {
   position: relative;
   padding: 8px 12px 6px;
+  flex-shrink: 0;
 }
 
 .search {
@@ -177,6 +193,9 @@ body[data-mode='panel'] {
   overflow-x: auto;
   scrollbar-width: none;
   flex-wrap: wrap;
+  flex-shrink: 0;
+  max-height: 92px;
+  overflow-y: auto;
 }
 
 .chips::-webkit-scrollbar {
@@ -224,7 +243,6 @@ body[data-mode='panel'] {
   gap: 0;
   overflow: hidden;
 }
-
 .list {
   flex: 1 1 auto;
   min-width: 0;
@@ -258,6 +276,7 @@ body[data-mode='panel'] .list {
   margin-bottom: 2px;
   cursor: pointer;
   border: 1px solid transparent;
+  min-width: 0;
   transition: background 0.1s ease;
 }
 
@@ -433,6 +452,7 @@ mark {
 .table-wrap {
   margin-top: 16px;
   overflow-x: auto;
+  max-width: 100%;
   border: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
   border-radius: 6px;
   background: var(--vscode-editorWidget-background, transparent);
@@ -551,9 +571,41 @@ mark {
   flex-wrap: wrap;
 }
 
+.inline-label {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--vscode-descriptionForeground);
+  opacity: 0.7;
+}
+
 .inline-actions .btn {
   padding: 3px 10px;
   font-size: 11px;
+}
+
+/* 窄窗口下改为上下堆叠，避免右侧详情被挤压到看不见 */
+@media (max-width: 760px) {
+  body[data-mode='panel'] .content {
+    flex-direction: column;
+  }
+
+  body[data-mode='panel'] .list {
+    max-width: none;
+    width: 100%;
+    max-height: 42vh;
+    border-right: none;
+    border-bottom: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+  }
+
+  body[data-mode='panel'] .detail {
+    padding: 16px 14px 32px;
+  }
+
+  .detail-title {
+    font-size: 17px;
+  }
 }
 
 /* ---------- 十条要闻与要点 ---------- */
