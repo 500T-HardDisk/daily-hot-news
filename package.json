@@ -1,8 +1,8 @@
 {
   "name": "daily-hot-news",
   "displayName": "每日热点新闻",
-  "description": "内置每日热点新闻（12 类，纯文字，离线可读）：新闻数据随插件仓库同步更新，安装后无需联网即可查看。",
-  "version": "1.0.0",
+  "description": "内置每日热点新闻（15 个板块，纯文字，离线可读）：含全球股市行情表、黄金涨跌原因、全球局势深度解读，数据随插件仓库同步更新。",
+  "version": "1.1.0",
   "publisher": "500TSSD",
   "license": "MIT",
   "engines": {

@@ -187,10 +187,96 @@ if (index && Array.isArray(index.days)) {
         if (item.tags !== undefined && !Array.isArray(item.tags)) {
           error(`${at}.tags 必须是字符串数组`);
         }
+        if (item.points !== undefined) {
+          if (!Array.isArray(item.points)) {
+            error(`${at}.points 必须是字符串数组`);
+          } else {
+            item.points.forEach((point, j) => {
+              if (typeof point !== 'string' || !point.trim()) {
+                error(`${at}.points[${j}] 必须是非空字符串`);
+              }
+            });
+          }
+        }
+        if (item.table !== undefined) {
+          const table = item.table;
+          if (!table || typeof table !== 'object' || Array.isArray(table)) {
+            error(`${at}.table 必须是对象`);
+          } else {
+            if (!Array.isArray(table.columns) || table.columns.length < 2) {
+              error(`${at}.table.columns 至少需要 2 列`);
+            } else if (!table.columns.every((c) => typeof c === 'string' && c.trim())) {
+              error(`${at}.table.columns 必须是非空字符串数组`);
+            }
+            if (!Array.isArray(table.rows)) {
+              error(`${at}.table.rows 必须是二维数组`);
+            } else {
+              table.rows.forEach((row, r) => {
+                if (!Array.isArray(row)) {
+                  error(`${at}.table.rows[${r}] 必须是数组`);
+                  return;
+                }
+                if (Array.isArray(table.columns) && row.length !== table.columns.length) {
+                  error(
+                    `${at}.table.rows[${r}] 列数为 ${row.length}，与表头 ${table.columns.length} 列不一致`
+                  );
+                }
+                row.forEach((cell, c) => {
+                  if (typeof cell !== 'string') {
+                    error(`${at}.table.rows[${r}][${c}] 必须是字符串`);
+                  }
+                });
+              });
+            }
+          }
+        }
         if (item.url !== undefined && !/^https?:\/\//.test(String(item.url))) {
           warn(`${at}.url 不是 http(s) 链接：${item.url}`);
         }
         totalItems += 1;
+      }
+
+      // 每个板块的文字量：标题 + 摘要 + 热点 + 表格文字
+      const textLength = list.reduce((sum, item) => {
+        if (!item || typeof item !== 'object') {
+          return sum;
+        }
+        const points = Array.isArray(item.points) ? item.points.join('') : '';
+        const table = item.table
+          ? `${item.table.caption || ''}${(item.table.rows || []).flat().join('')}`
+          : '';
+        return sum + String(item.title || '').length + String(item.summary || '').length + points.length + table.length;
+      }, 0);
+
+      if (list.length && textLength < 1000) {
+        warn(
+          `${label} 的 categories.${id} 文字量约 ${textLength} 字，建议每类不少于 1000 字` +
+            (id === 'geopolitics' ? '（全球局势要求 1000 字以上）' : '')
+        );
+      }
+    }
+
+    // 全球股市必须保留固定结构：行情表格 + 热点罗列
+    if (categoryIds.includes('stocks')) {
+      const stocks = day.categories.stocks;
+      if (!Array.isArray(stocks) || !stocks.length) {
+        error(`${label} 缺少“stocks（全球股市）”板块内容`);
+      } else {
+        const table = stocks.map((it) => it?.table).find((t) => t && Array.isArray(t.rows));
+        if (!table) {
+          error(`${label} 的全球股市板块必须包含 table 行情表`);
+        } else {
+          const markets = table.rows.map((row) => String(row?.[0] || '')).join(' ');
+          for (const market of ['美股', '港股', 'A股', '韩股']) {
+            if (!markets.includes(market)) {
+              error(`${label} 的全球股市表格缺少“${market}”行`);
+            }
+          }
+        }
+        const points = stocks.flatMap((it) => (Array.isArray(it?.points) ? it.points : []));
+        if (points.filter((p) => typeof p === 'string' && p.trim()).length < 3) {
+          error(`${label} 的全球股市板块需要至少 3 条 points 热点罗列`);
+        }
       }
     }
   }

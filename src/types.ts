@@ -16,6 +16,14 @@ export interface CategoryDef {
   description?: string;
 }
 
+/** 详情页中的表格（用于全球股市、黄金行情等结构化内容）。 */
+export interface NewsTable {
+  /** 表格标题，可选。 */
+  caption?: string;
+  columns: string[];
+  rows: string[][];
+}
+
 /** 单条新闻（纯文字，url 可选，插件不强制联网）。 */
 export interface NewsItem {
   title: string;
@@ -24,6 +32,10 @@ export interface NewsItem {
   /** 发布时间，格式 HH:mm。 */
   time?: string;
   tags?: string[];
+  /** 热点罗列，每条一句话。 */
+  points?: string[];
+  /** 结构化表格，例如美股/港股/A股/韩股行情。 */
+  table?: NewsTable;
   /** 可选原文链接，仅用于手动复制，不会自动打开。 */
   url?: string;
 }

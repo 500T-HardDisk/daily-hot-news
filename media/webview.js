@@ -182,6 +182,7 @@
       .slice(0, 3)
       .map((t) => `<span class="tag">#${esc(t)}</span>`)
       .join('');
+    const tableTag = item.table ? '<span class="tag tag-table">📊 表格</span>' : '';
     return `<article class="item${selected}" data-id="${esc(item.id)}" data-date="${esc(item.date)}" tabindex="0">
       <div class="item-head">
         ${item.time ? `<span class="time">${esc(item.time)}</span>` : ''}
@@ -190,7 +191,7 @@
       </div>
       <h3 class="item-title">${highlight(item.title, query)}</h3>
       ${summary}
-      ${tags ? `<div class="tags">${tags}</div>` : ''}
+      ${tags || tableTag ? `<div class="tags">${tableTag}${tags}</div>` : ''}
     </article>`;
   }
 
@@ -266,6 +267,32 @@
     return items().find((item) => item.id === id);
   }
 
+  function renderTable(table) {
+    if (!table || !Array.isArray(table.columns) || !table.columns.length) {
+      return '';
+    }
+    const head = table.columns.map((c) => `<th>${esc(c)}</th>`).join('');
+    const body = (table.rows || [])
+      .map((row) => {
+        const cells = table.columns.map((_, i) => `<td>${esc(row[i] ?? '')}</td>`).join('');
+        return `<tr>${cells}</tr>`;
+      })
+      .join('');
+    return `<div class="table-wrap">
+      ${table.caption ? `<div class="table-caption">${esc(table.caption)}</div>` : ''}
+      <table class="detail-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>
+    </div>`;
+  }
+
+  function renderPoints(points) {
+    if (!Array.isArray(points) || !points.length) {
+      return '';
+    }
+    return `<ul class="detail-points">${points
+      .map((p) => `<li>${esc(p)}</li>`)
+      .join('')}</ul>`;
+  }
+
   function renderDetail() {
     if (mode !== 'panel') {
       return;
@@ -292,6 +319,8 @@
         ${item.tags && item.tags.length ? `<span>${item.tags.map((t) => '#' + esc(t)).join(' ')}</span>` : ''}
       </div>
       <div class="detail-body">${esc(item.summary || item.title)}</div>
+      ${renderTable(item.table)}
+      ${renderPoints(item.points)}
       ${item.url ? `<div class="detail-body" style="font-size:11.5px;opacity:.7;margin-top:10px">原文链接（可复制）：${esc(item.url)}</div>` : ''}
       <div class="detail-actions">
         <button class="btn primary" data-copy="${esc(item.id)}">复制全文</button>

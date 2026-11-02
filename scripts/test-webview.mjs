@@ -214,6 +214,29 @@ console.log('面板模式：');
     }
   });
 
+  const stocksItem = items.find((i) => i.categoryId === 'stocks' && i.table);
+  check('表格新闻渲染行情表', () => {
+    assert.ok(stocksItem, '缺少带表格的股市新闻');
+    const node = document.querySelector(`.item[data-id="${stocksItem.id}"]`);
+    assert.ok(node, '列表中缺少该新闻');
+    node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    const table = document.querySelector('.detail-table');
+    assert.ok(table, '未渲染表格');
+    assert.equal(table.querySelectorAll('thead th').length, stocksItem.table.columns.length);
+    assert.equal(table.querySelectorAll('tbody tr').length, stocksItem.table.rows.length);
+  });
+
+  check('热点列表渲染为要点', () => {
+    const points = items.find((i) => Array.isArray(i.points) && i.points.length);
+    assert.ok(points, '缺少带 points 的新闻');
+    const node = document.querySelector(`.item[data-id="${points.id}"]`);
+    node.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    assert.equal(
+      document.querySelectorAll('.detail-points li').length,
+      points.points.length
+    );
+  });
+
   check('复制全文发送 copyItem(full)', () => {
     document.querySelector('[data-copy]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
     const message = posted.at(-1);

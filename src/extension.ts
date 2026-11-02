@@ -86,9 +86,19 @@ async function copyItem(id: string, titleOnly = false): Promise<void> {
   const meta = `—— ${item.categoryName}${item.source ? ` · ${item.source}` : ''} ${item.date}${
     item.time ? ` ${item.time}` : ''
   }`;
+  const points = item.points?.length ? item.points.map((point, i) => `${i + 1}. ${point}`).join('\n') : '';
+  const table = item.table?.columns?.length
+    ? [
+        item.table.caption ?? '',
+        item.table.columns.join('\t'),
+        ...item.table.rows.map((row) => item.table!.columns.map((_, i) => row[i] ?? '').join('\t')),
+      ]
+        .filter(Boolean)
+        .join('\n')
+    : '';
   const text = titleOnly
     ? item.title
-    : [item.title, item.summary, meta, item.url].filter(Boolean).join('\n\n');
+    : [item.title, item.summary, points, table, meta, item.url].filter(Boolean).join('\n\n');
 
   await vscode.env.clipboard.writeText(text);
   broadcast({ type: 'toast', message: titleOnly ? '标题已复制' : '全文已复制到剪贴板' });

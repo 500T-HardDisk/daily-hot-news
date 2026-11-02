@@ -395,6 +395,76 @@ mark {
   max-width: 72ch;
 }
 
+/* ---------- 详情中的热点列表与表格 ---------- */
+.detail-points {
+  margin: 14px 0 0;
+  padding-left: 20px;
+  max-width: 72ch;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.detail-points li {
+  margin-bottom: 6px;
+  word-break: break-word;
+}
+
+.detail-points li::marker {
+  color: var(--vscode-textLink-foreground);
+}
+
+.table-wrap {
+  margin-top: 16px;
+  overflow-x: auto;
+  border: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+  border-radius: 6px;
+  background: var(--vscode-editorWidget-background, transparent);
+}
+
+.table-caption {
+  padding: 7px 10px;
+  font-size: 11.5px;
+  color: var(--vscode-descriptionForeground);
+  border-bottom: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+  background: var(--vscode-keybindingTable-headerBackground, rgba(128, 128, 128, 0.08));
+}
+
+.detail-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 560px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.detail-table th {
+  padding: 7px 10px;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--vscode-descriptionForeground);
+  background: var(--vscode-keybindingTable-headerBackground, rgba(128, 128, 128, 0.12));
+  border-bottom: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.25));
+}
+
+.detail-table td {
+  padding: 6px 10px;
+  vertical-align: top;
+  border-top: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, 0.15));
+}
+
+.detail-table tbody tr:nth-child(even) {
+  background: rgba(128, 128, 128, 0.05);
+}
+
+.detail-table tbody tr:hover {
+  background: var(--vscode-list-hoverBackground);
+}
+
+.tag-table {
+  color: var(--vscode-charts-yellow, #d7ba7d);
+}
+
 .detail-actions {
   display: flex;
   gap: 8px;
