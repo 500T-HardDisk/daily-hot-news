@@ -17,7 +17,8 @@
     { "id": "education", "name": "教育", "emoji": "🎓", "description": "升学、职场学习与校园" },
     { "id": "auto", "name": "汽车", "emoji": "🚗", "description": "新能源、智能驾驶与出行" },
     { "id": "game", "name": "游戏", "emoji": "🎮", "description": "新游、电竞与产业动态" },
-    { "id": "culture", "name": "文化", "emoji": "📚", "description": "阅读、展览与传统文化" }
+    { "id": "culture", "name": "文化", "emoji": "📚", "description": "阅读、展览与传统文化" },
+    { "id": "monthly", "name": "近一月回顾", "emoji": "🗓️", "description": "16 个领域的近一月要点汇总，每领域 10 条" }
   ],
   "days": [
     {
@@ -39,7 +40,8 @@
         "education": 3,
         "auto": 3,
         "game": 3,
-        "culture": 3
+        "culture": 3,
+        "monthly": 16
       }
     },
     {
@@ -61,7 +63,8 @@
         "education": 3,
         "auto": 3,
         "game": 3,
-        "culture": 3
+        "culture": 3,
+        "monthly": 0
       }
     }
   ]

@@ -68,6 +68,12 @@ if (existsSync(dayFile) && !force) {
 
 const categories = {};
 for (const cat of index.categories) {
+  if (cat.id === 'monthly') {
+    // 近一月回顾是滚动内容，历史日期留空，插件会回退到最新一天
+    categories[cat.id] = [];
+    continue;
+  }
+
   if (cat.id === 'aistocks') {
     categories[cat.id] = [
       {

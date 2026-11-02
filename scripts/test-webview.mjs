@@ -50,7 +50,7 @@ function html(mode) {
     <div id="app">
       <header class="topbar">
         <div class="title-block">
-          <h1 class="app-title">G-要点</h1>
+          <h1 class="app-title">${mode === 'panel' ? '热点头条' : '今日热点'}</h1>
           <div class="meta"><span id="date-label"></span><span class="dot">·</span><span id="meta-label"></span></div>
         </div>
         <div class="topbar-actions">
@@ -291,6 +291,15 @@ console.log('面板模式：');
     const html = document.getElementById('detail').innerHTML;
     assert.ok(html.indexOf('十条重要新闻') >= 0);
     assert.ok(html.indexOf('十条重要新闻') < html.indexOf('20 条相关新闻要点'));
+  });
+
+  const monthlyItem = items.find((i) => i.categoryId === 'monthly');
+  check('近一月回顾渲染 10 条要点', () => {
+    assert.ok(monthlyItem, '缺少近一月回顾板块');
+    document
+      .querySelector(`.item[data-id="${monthlyItem.id}"]`)
+      .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+    assert.equal(document.querySelectorAll('.detail-points li').length, 10);
   });
 
   check('复制全文发送 copyItem(full)', () => {

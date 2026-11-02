@@ -204,7 +204,7 @@ async function check(label, fn) {
   await wait(150);
 
   await check('状态栏显示当天条数', () => {
-    assert.match(lastStatusBarText, /G-要点 \d+/);
+    assert.match(lastStatusBarText, /热点 \d+/);
   });
 
   console.log('\n侧边栏数据：');
@@ -225,7 +225,7 @@ async function check(label, fn) {
     const data = lastData();
     assert.ok(data, '未收到 data 消息');
     assert.equal(data.date, '2026-11-02');
-    assert.equal(data.categories.length, 16);
+    assert.equal(data.categories.length, 17);
     assert.ok(data.total >= 30, `条数异常：${data.total}`);
     assert.equal(data.items.length, data.total);
     assert.equal(data.items[0].id.split('|').length, 3);
@@ -248,6 +248,10 @@ async function check(label, fn) {
     assert.equal(data.date, '2026-11-01');
     assert.ok(data.dates.includes('2026-11-02'));
     assert.ok(data.total > 0);
+    assert.ok(
+      data.items.some((item) => item.categoryId === 'monthly'),
+      '历史日期应回退展示近一月回顾'
+    );
   });
 
   view.webview._onMessage({ type: 'copyItem', id: lastData().items[0].id });
@@ -294,7 +298,7 @@ async function check(label, fn) {
 
   await check('打开面板并设置标题', () => {
     assert.equal(panels.length, 1);
-    assert.match(panels[0].title, /G-要点/);
+    assert.match(panels[0].title, /热点头条/);
     assert.match(panels[0].webview.html, /data-mode="panel"/);
     assert.ok(panels[0].webview.html.includes('btn-refresh'));
   });
