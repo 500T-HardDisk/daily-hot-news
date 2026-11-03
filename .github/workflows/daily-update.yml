@@ -2,8 +2,10 @@ name: Daily news auto update
 
 on:
   schedule:
-    # 每天 01:00 UTC（北京时间 09:00）自动更新
-    - cron: '0 1 * * *'
+    # 北京时间每天 08:00（UTC 00:00）
+    - cron: '0 0 * * *'
+    # 北京时间每天 12:00（UTC 04:00）
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
