@@ -2,7 +2,7 @@
   "name": "news",
   "displayName": "每日热点新闻 · 真实版",
   "description": "内置每日热点新闻（18 个板块，纯文字，离线可读）：每板块 10 条公开 RSS 真实新闻，摘要 200–400 字并保留原文链接；另有 30 条真实热搜（合并最近 7 天）、历史保留、日期跳转、全球股市与黄金行情表。",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "publisher": "500TSSD",
   "license": "MIT",
   "engines": {
