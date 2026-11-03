@@ -22,6 +22,9 @@ jobs:
 
       - run: npm ci
 
+      - name: 编译
+        run: npm run compile
+
       - name: 校验新闻数据
         run: node scripts/validate-news.mjs --strict
 
@@ -29,9 +32,6 @@ jobs:
         run: |
           node scripts/test-webview.mjs
           node scripts/test-host.cjs
-
-      - name: 编译
-        run: npm run compile
 
       - name: 发布到 VS Code Marketplace
         env:
