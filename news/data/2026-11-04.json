@@ -1,388 +1,419 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T11:13:59.653Z",
+  "updatedAt": "2026-11-04T11:53:48.340Z",
   "headline": "今日 17 个真实新闻板块已更新：科技、AI、财经、股市、黄金、国际、局势、社会、体育、娱乐等",
   "categories": {
     "hotsearch": [
       {
-        "time": "19:13",
+        "time": "19:53",
         "title": "A股大反攻原因找到了",
-        "summary": "热度 14,988,721 · 今日头条热榜第 1 名 · hot · 抓取于 19:13",
+        "summary": "热度 15,649,511 · 今日头条热榜第 1 名 · hot · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜",
           "hot"
         ],
-        "heat": 14988721,
+        "heat": 15649511,
         "rank": 1,
-        "url": "https://www.toutiao.com/trending/7703414994674909203/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703414994674909203%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E5%A4%A7%E5%8F%8D%E6%94%BB%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86%22%7D&rank=&style_id=40132&topic_id=7703414994674909203"
+        "url": "https://www.toutiao.com/trending/7703414994674909203/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703414994674909203%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E5%A4%A7%E5%8F%8D%E6%94%BB%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86%22%7D&rank=&style_id=40132&topic_id=7703414994674909203"
       },
       {
-        "time": "19:13",
-        "title": "王毅把话说到不可容忍 菲方听懂了吗",
-        "summary": "热度 13,562,356 · 今日头条热榜第 2 名 · 抓取于 19:13",
+        "time": "19:53",
+        "title": "国台办：大陆是世界最安全地区之一",
+        "summary": "热度 14,160,263 · 今日头条热榜第 2 名 · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜"
         ],
-        "heat": 13562356,
+        "heat": 14160263,
         "rank": 2,
-        "url": "https://www.toutiao.com/trending/7699376583278218786/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227699376583278218786%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%8E%8B%E6%AF%85%E6%8A%8A%E8%AF%9D%E8%AF%B4%E5%88%B0%E4%B8%8D%E5%8F%AF%E5%AE%B9%E5%BF%8D+%E8%8F%B2%E6%96%B9%E5%90%AC%E6%87%82%E4%BA%86%E5%90%97%22%7D&rank=&style_id=40132&topic_id=7699376583278218786"
+        "url": "https://www.toutiao.com/trending/7704206905631146027/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%223%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704206905631146027%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%BD%E5%8F%B0%E5%8A%9E%EF%BC%9A%E5%A4%A7%E9%99%86%E6%98%AF%E4%B8%96%E7%95%8C%E6%9C%80%E5%AE%89%E5%85%A8%E5%9C%B0%E5%8C%BA%E4%B9%8B%E4%B8%80%22%7D&rank=&style_id=40132&topic_id=7704206905631146027"
       },
       {
-        "time": "19:13",
+        "time": "19:53",
         "title": "9图看中国互联网发展最新成就",
-        "summary": "热度 12,271,727 · 今日头条热榜第 3 名 · 抓取于 19:13",
+        "summary": "热度 12,812,736 · 今日头条热榜第 3 名 · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜"
         ],
-        "heat": 12271727,
+        "heat": 12812736,
         "rank": 3,
         "url": "https://www.toutiao.com/article/7704096409565413914"
       },
       {
-        "time": "19:13",
-        "title": "媒体人：今天A股掀了两张桌子",
-        "summary": "热度 11,103,918 · 今日头条热榜第 4 名 · 抓取于 19:13",
+        "time": "19:53",
+        "title": "董宇辉官宣新品牌",
+        "summary": "热度 11,593,443 · 今日头条热榜第 4 名 · new · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
-          "热搜"
+          "热搜",
+          "new"
         ],
-        "heat": 11103918,
+        "heat": 11593443,
         "rank": 4,
-        "url": "https://www.toutiao.com/trending/7704248561143123497/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704248561143123497%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%AA%92%E4%BD%93%E4%BA%BA%EF%BC%9A%E4%BB%8A%E5%A4%A9A%E8%82%A1%E6%8E%80%E4%BA%86%E4%B8%A4%E5%BC%A0%E6%A1%8C%E5%AD%90%22%7D&rank=&style_id=40132&topic_id=7704248561143123497"
+        "url": "https://www.toutiao.com/trending/7704155399839056435/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704155399839056435%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%91%A3%E5%AE%87%E8%BE%89%E5%AE%98%E5%AE%A3%E6%96%B0%E5%93%81%E7%89%8C%22%7D&rank=&style_id=40132&topic_id=7704155399839056435"
       },
       {
-        "time": "19:13",
-        "title": "《新闻联播》正在直播",
-        "summary": "热度 10,047,240 · 今日头条热榜第 5 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 10047240,
-        "rank": 5,
-        "url": "https://webcast-open.douyin.com/open/media_live/330698468897"
-      },
-      {
-        "time": "19:13",
-        "title": "国台办：大陆是世界最安全地区之一",
-        "summary": "热度 9,091,119 · 今日头条热榜第 6 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 9091119,
-        "rank": 6,
-        "url": "https://www.toutiao.com/trending/7704206905631146027/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%223%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704206905631146027%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%BD%E5%8F%B0%E5%8A%9E%EF%BC%9A%E5%A4%A7%E9%99%86%E6%98%AF%E4%B8%96%E7%95%8C%E6%9C%80%E5%AE%89%E5%85%A8%E5%9C%B0%E5%8C%BA%E4%B9%8B%E4%B8%80%22%7D&rank=&style_id=40132&topic_id=7704206905631146027"
-      },
-      {
-        "time": "19:13",
-        "title": "A股大反攻是反弹还是反转",
-        "summary": "热度 8,225,984 · 今日头条热榜第 7 名 · interpretation · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "interpretation"
-        ],
-        "heat": 8225984,
-        "rank": 7,
-        "url": "https://www.toutiao.com/trending/7704247548025769526/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704247548025769526%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E5%A4%A7%E5%8F%8D%E6%94%BB%E6%98%AF%E5%8F%8D%E5%BC%B9%E8%BF%98%E6%98%AF%E5%8F%8D%E8%BD%AC%22%7D&rank=&style_id=40132&topic_id=7704247548025769526"
-      },
-      {
-        "time": "19:13",
-        "title": "台北民众吐露心声：一定要换掉民进党",
-        "summary": "热度 7,443,178 · 今日头条热榜第 8 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 7443178,
-        "rank": 8,
-        "url": "https://www.toutiao.com/trending/7704238870821339675/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704238870821339675%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8F%B0%E5%8C%97%E6%B0%91%E4%BC%97%E5%90%90%E9%9C%B2%E5%BF%83%E5%A3%B0%EF%BC%9A%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8D%A2%E6%8E%89%E6%B0%91%E8%BF%9B%E5%85%9A%22%7D&rank=&style_id=40132&topic_id=7704238870821339675"
-      },
-      {
-        "time": "19:13",
-        "title": "菲商界为何要求马科斯对华保持克制",
-        "summary": "热度 6,734,866 · 今日头条热榜第 9 名 · interpretation · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "interpretation"
-        ],
-        "heat": 6734866,
-        "rank": 9,
-        "url": "https://www.toutiao.com/trending/7704243483707444786/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704243483707444786%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8F%B2%E5%95%86%E7%95%8C%E4%B8%BA%E4%BD%95%E8%A6%81%E6%B1%82%E9%A9%AC%E7%A7%91%E6%96%AF%E5%AF%B9%E5%8D%8E%E4%BF%9D%E6%8C%81%E5%85%8B%E5%88%B6%22%7D&rank=&style_id=40132&topic_id=7704243483707444786"
-      },
-      {
-        "time": "19:13",
+        "time": "19:53",
         "title": "炒股群又恢复了欢声笑语",
-        "summary": "热度 6,093,959 · 今日头条热榜第 10 名 · hot · 抓取于 19:13",
+        "summary": "热度 10,490,181 · 今日头条热榜第 5 名 · hot · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜",
           "hot"
         ],
-        "heat": 6093959,
-        "rank": 10,
-        "url": "https://www.toutiao.com/trending/7703881517432848422/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703881517432848422%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%82%92%E8%82%A1%E7%BE%A4%E5%8F%88%E6%81%A2%E5%A4%8D%E4%BA%86%E6%AC%A2%E5%A3%B0%E7%AC%91%E8%AF%AD%22%7D&rank=&style_id=40132&topic_id=7703881517432848422"
+        "heat": 10490181,
+        "rank": 5,
+        "url": "https://www.toutiao.com/trending/7703881517432848422/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703881517432848422%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%82%92%E8%82%A1%E7%BE%A4%E5%8F%88%E6%81%A2%E5%A4%8D%E4%BA%86%E6%AC%A2%E5%A3%B0%E7%AC%91%E8%AF%AD%22%7D&rank=&style_id=40132&topic_id=7703881517432848422"
       },
       {
-        "time": "19:13",
+        "time": "19:53",
+        "title": "年轻人为何爱上小电驴",
+        "summary": "热度 9,491,908 · 今日头条热榜第 6 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 9491908,
+        "rank": 6,
+        "url": "https://www.toutiao.com/trending/7704252656696430099/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704252656696430099%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%BA%E4%BD%95%E7%88%B1%E4%B8%8A%E5%B0%8F%E7%94%B5%E9%A9%B4%22%7D&rank=&style_id=40132&topic_id=7704252656696430099"
+      },
+      {
+        "time": "19:53",
+        "title": "王毅把话说到不可容忍 菲方听懂了吗",
+        "summary": "热度 8,588,634 · 今日头条热榜第 7 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 8588634,
+        "rank": 7,
+        "url": "https://www.toutiao.com/trending/7699376583278218786/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227699376583278218786%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%8E%8B%E6%AF%85%E6%8A%8A%E8%AF%9D%E8%AF%B4%E5%88%B0%E4%B8%8D%E5%8F%AF%E5%AE%B9%E5%BF%8D+%E8%8F%B2%E6%96%B9%E5%90%AC%E6%87%82%E4%BA%86%E5%90%97%22%7D&rank=&style_id=40132&topic_id=7699376583278218786"
+      },
+      {
+        "time": "19:53",
+        "title": "《走马上任》在沈阳举行宣传活动",
+        "summary": "热度 7,771,317 · 今日头条热榜第 8 名 · new · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "new"
+        ],
+        "heat": 7771317,
+        "rank": 8,
+        "url": "https://www.toutiao.com/trending/7704241372903965193/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704241372903965193%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E3%80%8A%E8%B5%B0%E9%A9%AC%E4%B8%8A%E4%BB%BB%E3%80%8B%E5%9C%A8%E6%B2%88%E9%98%B3%E4%B8%BE%E8%A1%8C%E5%AE%A3%E4%BC%A0%E6%B4%BB%E5%8A%A8%22%7D&rank=&style_id=40132&topic_id=7704241372903965193"
+      },
+      {
+        "time": "19:53",
+        "title": "专家：A股有望逐步收复失地",
+        "summary": "热度 7,031,778 · 今日头条热榜第 9 名 · hot · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "hot"
+        ],
+        "heat": 7031778,
+        "rank": 9,
+        "url": "https://www.toutiao.com/trending/7704178440827847178/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704178440827847178%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%93%E5%AE%B6%EF%BC%9AA%E8%82%A1%E6%9C%89%E6%9C%9B%E9%80%90%E6%AD%A5%E6%94%B6%E5%A4%8D%E5%A4%B1%E5%9C%B0%22%7D&rank=&style_id=40132&topic_id=7704178440827847178"
+      },
+      {
+        "time": "19:53",
+        "title": "攻击-21为何能拿下全球第一",
+        "summary": "热度 6,362,616 · 今日头条热榜第 10 名 · new · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "new"
+        ],
+        "heat": 6362616,
+        "rank": 10,
+        "url": "https://www.toutiao.com/trending/7704244482618691113/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704244482618691113%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%94%BB%E5%87%BB-21%E4%B8%BA%E4%BD%95%E8%83%BD%E6%8B%BF%E4%B8%8B%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80%22%7D&rank=&style_id=40132&topic_id=7704244482618691113"
+      },
+      {
+        "time": "19:53",
         "title": "巴彦淖尔一医院大楼起火图系AI生成",
-        "summary": "热度 5,514,042 · 今日头条热榜第 11 名 · refuteRumors · 抓取于 19:13",
+        "summary": "热度 5,757,133 · 今日头条热榜第 11 名 · refuteRumors · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜",
           "refuteRumors"
         ],
-        "heat": 5514042,
+        "heat": 5757133,
         "rank": 11,
-        "url": "https://www.toutiao.com/trending/7702735035199295010/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702735035199295010%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B7%B4%E5%BD%A6%E6%B7%96%E5%B0%94%E4%B8%80%E5%8C%BB%E9%99%A2%E5%A4%A7%E6%A5%BC%E8%B5%B7%E7%81%AB%E5%9B%BE%E7%B3%BBAI%E7%94%9F%E6%88%90%22%7D&rank=&style_id=40132&topic_id=7702735035199295010"
+        "url": "https://www.toutiao.com/trending/7702735035199295010/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702735035199295010%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B7%B4%E5%BD%A6%E6%B7%96%E5%B0%94%E4%B8%80%E5%8C%BB%E9%99%A2%E5%A4%A7%E6%A5%BC%E8%B5%B7%E7%81%AB%E5%9B%BE%E7%B3%BBAI%E7%94%9F%E6%88%90%22%7D&rank=&style_id=40132&topic_id=7702735035199295010"
       },
       {
-        "time": "19:13",
-        "title": "一起响应举报护企倡议",
-        "summary": "热度 4,989,312 · 今日头条热榜第 12 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 4989312,
-        "rank": 12,
-        "url": "https://www.toutiao.com/article/7704252458595287594"
-      },
-      {
-        "time": "19:13",
+        "time": "19:53",
         "title": "王小利想走出“刘能舒适圈”",
-        "summary": "热度 4,514,516 · 今日头条热榜第 13 名 · 抓取于 19:13",
+        "summary": "热度 5,209,269 · 今日头条热榜第 12 名 · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜"
         ],
-        "heat": 4514516,
+        "heat": 5209269,
+        "rank": 12,
+        "url": "https://www.toutiao.com/trending/7703502504142798891/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703502504142798891%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%8E%8B%E5%B0%8F%E5%88%A9%E6%83%B3%E8%B5%B0%E5%87%BA%E2%80%9C%E5%88%98%E8%83%BD%E8%88%92%E9%80%82%E5%9C%88%E2%80%9D%22%7D&rank=&style_id=40132&topic_id=7703502504142798891"
+      },
+      {
+        "time": "19:53",
+        "title": "郭宇欣方回应被曝劈腿：纯造谣",
+        "summary": "热度 4,713,542 · 今日头条热榜第 13 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 4713542,
         "rank": 13,
-        "url": "https://www.toutiao.com/trending/7703502504142798891/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703502504142798891%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%8E%8B%E5%B0%8F%E5%88%A9%E6%83%B3%E8%B5%B0%E5%87%BA%E2%80%9C%E5%88%98%E8%83%BD%E8%88%92%E9%80%82%E5%9C%88%E2%80%9D%22%7D&rank=&style_id=40132&topic_id=7703502504142798891"
+        "url": "https://www.toutiao.com/trending/7704227019235622953/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704227019235622953%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%83%AD%E5%AE%87%E6%AC%A3%E6%96%B9%E5%9B%9E%E5%BA%94%E8%A2%AB%E6%9B%9D%E5%8A%88%E8%85%BF%EF%BC%9A%E7%BA%AF%E9%80%A0%E8%B0%A3%22%7D&rank=&style_id=40132&topic_id=7704227019235622953"
       },
       {
-        "time": "19:13",
-        "title": "年轻人为何爱上小电驴",
-        "summary": "热度 4,084,903 · 今日头条热榜第 14 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 4084903,
-        "rank": 14,
-        "url": "https://www.toutiao.com/trending/7704252656696430099/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704252656696430099%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%BA%E4%BD%95%E7%88%B1%E4%B8%8A%E5%B0%8F%E7%94%B5%E9%A9%B4%22%7D&rank=&style_id=40132&topic_id=7704252656696430099"
-      },
-      {
-        "time": "19:13",
-        "title": "中国登月计划引热议西方为何心态微妙",
-        "summary": "热度 3,696,173 · 今日头条热榜第 15 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 3696173,
-        "rank": 15,
-        "url": "https://www.toutiao.com/trending/7704226629836361257/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704226629836361257%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E5%9B%BD%E7%99%BB%E6%9C%88%E8%AE%A1%E5%88%92%E5%BC%95%E7%83%AD%E8%AE%AE%E8%A5%BF%E6%96%B9%E4%B8%BA%E4%BD%95%E5%BF%83%E6%80%81%E5%BE%AE%E5%A6%99%22%7D&rank=&style_id=40132&topic_id=7704226629836361257"
-      },
-      {
-        "time": "19:13",
-        "title": "芯片股批量涨停",
-        "summary": "热度 3,344,435 · 今日头条热榜第 16 名 · hot · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "hot"
-        ],
-        "heat": 3344435,
-        "rank": 16,
-        "url": "https://www.toutiao.com/trending/7704220482710667803/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704220482710667803%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8A%AF%E7%89%87%E8%82%A1%E6%89%B9%E9%87%8F%E6%B6%A8%E5%81%9C%22%7D&rank=&style_id=40132&topic_id=7704220482710667803"
-      },
-      {
-        "time": "19:13",
-        "title": "司机收玉米未拿到收割费反赔1300元",
-        "summary": "热度 3,026,170 · 今日头条热榜第 17 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 3026170,
-        "rank": 17,
-        "url": "https://www.toutiao.com/trending/7703364338539135018/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703364338539135018%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8F%B8%E6%9C%BA%E6%94%B6%E7%8E%89%E7%B1%B3%E6%9C%AA%E6%8B%BF%E5%88%B0%E6%94%B6%E5%89%B2%E8%B4%B9%E5%8F%8D%E8%B5%941300%E5%85%83%22%7D&rank=&style_id=40132&topic_id=7703364338539135018"
-      },
-      {
-        "time": "19:13",
-        "title": "陕西商南发生重大刑案 嫌疑人潜逃",
-        "summary": "热度 2,738,192 · 今日头条热榜第 18 名 · new · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "new"
-        ],
-        "heat": 2738192,
-        "rank": 18,
-        "url": "https://www.toutiao.com/trending/7704162445850247204/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704162445850247204%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%99%95%E8%A5%BF%E5%95%86%E5%8D%97%E5%8F%91%E7%94%9F%E9%87%8D%E5%A4%A7%E5%88%91%E6%A1%88+%E5%AB%8C%E7%96%91%E4%BA%BA%E6%BD%9C%E9%80%83%22%7D&rank=&style_id=40132&topic_id=7704162445850247204"
-      },
-      {
-        "time": "19:13",
-        "title": "俄女高官访华就日本军事化加速发声",
-        "summary": "热度 2,477,619 · 今日头条热榜第 19 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 2477619,
-        "rank": 19,
-        "url": "https://www.toutiao.com/trending/7702921083061616676/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702921083061616676%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BF%84%E5%A5%B3%E9%AB%98%E5%AE%98%E8%AE%BF%E5%8D%8E%E5%B0%B1%E6%97%A5%E6%9C%AC%E5%86%9B%E4%BA%8B%E5%8C%96%E5%8A%A0%E9%80%9F%E5%8F%91%E5%A3%B0%22%7D&rank=&style_id=40132&topic_id=7702921083061616676"
-      },
-      {
-        "time": "19:13",
-        "title": "媒体：别让好演员输给一张脸",
-        "summary": "热度 2,241,842 · 今日头条热榜第 20 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 2241842,
-        "rank": 20,
-        "url": "https://www.toutiao.com/trending/7704101723467776036/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704101723467776036%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%AA%92%E4%BD%93%EF%BC%9A%E5%88%AB%E8%AE%A9%E5%A5%BD%E6%BC%94%E5%91%98%E8%BE%93%E7%BB%99%E4%B8%80%E5%BC%A0%E8%84%B8%22%7D&rank=&style_id=40132&topic_id=7704101723467776036"
-      },
-      {
-        "time": "19:13",
-        "title": "美众议长称输中期选举是历史规律",
-        "summary": "热度 2,028,502 · 今日头条热榜第 21 名 · hot · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "hot"
-        ],
-        "heat": 2028502,
-        "rank": 21,
-        "url": "https://www.toutiao.com/trending/7699376583278382626/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227699376583278382626%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BE%8E%E4%BC%97%E8%AE%AE%E9%95%BF%E7%A7%B0%E8%BE%93%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E6%98%AF%E5%8E%86%E5%8F%B2%E8%A7%84%E5%BE%8B%22%7D&rank=&style_id=40132&topic_id=7699376583278382626"
-      },
-      {
-        "time": "19:13",
-        "title": "伊朗议长：美选举结果表明对战争说不",
-        "summary": "热度 1,835,465 · 今日头条热榜第 22 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 1835465,
-        "rank": 22,
-        "url": "https://www.toutiao.com/trending/7704196344864620598/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704196344864620598%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BC%8A%E6%9C%97%E8%AE%AE%E9%95%BF%EF%BC%9A%E7%BE%8E%E9%80%89%E4%B8%BE%E7%BB%93%E6%9E%9C%E8%A1%A8%E6%98%8E%E5%AF%B9%E6%88%98%E4%BA%89%E8%AF%B4%E4%B8%8D%22%7D&rank=&style_id=40132&topic_id=7704196344864620598"
-      },
-      {
-        "time": "19:13",
-        "title": "苹果天气bug：多地零下32℃",
-        "summary": "热度 1,660,797 · 今日头条热榜第 23 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 1660797,
-        "rank": 23,
-        "url": "https://www.toutiao.com/trending/7704052680632598537/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704052680632598537%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8B%B9%E6%9E%9C%E5%A4%A9%E6%B0%94bug%EF%BC%9A%E5%A4%9A%E5%9C%B0%E9%9B%B6%E4%B8%8B32%E2%84%83%22%7D&rank=&style_id=40132&topic_id=7704052680632598537"
-      },
-      {
-        "time": "19:13",
-        "title": "中方回应美国中期选举",
-        "summary": "热度 1,502,751 · 今日头条热榜第 24 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 1502751,
-        "rank": 24,
-        "url": "https://www.toutiao.com/trending/7704213702673055763/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704213702673055763%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%22%7D&rank=&style_id=40132&topic_id=7704213702673055763"
-      },
-      {
-        "time": "19:13",
-        "title": "夫妻晒被子被小鸟相中筑巢孵蛋",
-        "summary": "热度 1,359,746 · 今日头条热榜第 25 名 · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜"
-        ],
-        "heat": 1359746,
-        "rank": 25,
-        "url": "https://www.toutiao.com/trending/7703224903411188262/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703224903411188262%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A4%AB%E5%A6%BB%E6%99%92%E8%A2%AB%E5%AD%90%E8%A2%AB%E5%B0%8F%E9%B8%9F%E7%9B%B8%E4%B8%AD%E7%AD%91%E5%B7%A2%E5%AD%B5%E8%9B%8B%22%7D&rank=&style_id=40132&topic_id=7703224903411188262"
-      },
-      {
-        "time": "19:13",
-        "title": "专家：A股有望逐步收复失地",
-        "summary": "热度 1,230,349 · 今日头条热榜第 26 名 · hot · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "hot"
-        ],
-        "heat": 1230349,
-        "rank": 26,
-        "url": "https://www.toutiao.com/trending/7704178440827847178/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704178440827847178%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%93%E5%AE%B6%EF%BC%9AA%E8%82%A1%E6%9C%89%E6%9C%9B%E9%80%90%E6%AD%A5%E6%94%B6%E5%A4%8D%E5%A4%B1%E5%9C%B0%22%7D&rank=&style_id=40132&topic_id=7704178440827847178"
-      },
-      {
-        "time": "19:13",
-        "title": "特朗普承认伊朗战事影响中期选举",
-        "summary": "热度 1,113,265 · 今日头条热榜第 27 名 · hot · 抓取于 19:13",
-        "source": "今日头条热榜",
-        "tags": [
-          "热搜",
-          "hot"
-        ],
-        "heat": 1113265,
-        "rank": 27,
-        "url": "https://www.toutiao.com/trending/7703163902487117865/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703163902487117865%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%BF%E8%AE%A4%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%8B%E5%BD%B1%E5%93%8D%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%22%7D&rank=&style_id=40132&topic_id=7703163902487117865"
-      },
-      {
-        "time": "19:13",
-        "title": "越南想复制中国高铁经验难在哪",
-        "summary": "热度 1,007,324 · 今日头条热榜第 28 名 · interpretation · 抓取于 19:13",
+        "time": "19:53",
+        "title": "菲商界为何要求马科斯对华保持克制",
+        "summary": "热度 4,264,989 · 今日头条热榜第 14 名 · interpretation · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜",
           "interpretation"
         ],
-        "heat": 1007324,
-        "rank": 28,
-        "url": "https://www.toutiao.com/trending/7704246689476906505/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704246689476906505%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%B6%8A%E5%8D%97%E6%83%B3%E5%A4%8D%E5%88%B6%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%93%81%E7%BB%8F%E9%AA%8C%E9%9A%BE%E5%9C%A8%E5%93%AA%22%7D&rank=&style_id=40132&topic_id=7704246689476906505"
+        "heat": 4264989,
+        "rank": 14,
+        "url": "https://www.toutiao.com/trending/7704243483707444786/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704243483707444786%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8F%B2%E5%95%86%E7%95%8C%E4%B8%BA%E4%BD%95%E8%A6%81%E6%B1%82%E9%A9%AC%E7%A7%91%E6%96%AF%E5%AF%B9%E5%8D%8E%E4%BF%9D%E6%8C%81%E5%85%8B%E5%88%B6%22%7D&rank=&style_id=40132&topic_id=7704243483707444786"
       },
       {
-        "time": "19:13",
-        "title": "IG击败TES 时隔7年再进S赛四强",
-        "summary": "热度 911,465 · 今日头条热榜第 29 名 · 抓取于 19:13",
+        "time": "19:53",
+        "title": "台北民众吐露心声：一定要换掉民进党",
+        "summary": "热度 3,859,122 · 今日头条热榜第 15 名 · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜"
         ],
-        "heat": 911465,
-        "rank": 29,
-        "url": "https://www.toutiao.com/trending/7703101936995831359/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703101936995831359%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22IG%E5%87%BB%E8%B4%A5TES+%E6%97%B6%E9%9A%947%E5%B9%B4%E5%86%8D%E8%BF%9BS%E8%B5%9B%E5%9B%9B%E5%BC%BA%22%7D&rank=&style_id=40132&topic_id=7703101936995831359"
+        "heat": 3859122,
+        "rank": 15,
+        "url": "https://www.toutiao.com/trending/7704238870821339675/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704238870821339675%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8F%B0%E5%8C%97%E6%B0%91%E4%BC%97%E5%90%90%E9%9C%B2%E5%BF%83%E5%A3%B0%EF%BC%9A%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8D%A2%E6%8E%89%E6%B0%91%E8%BF%9B%E5%85%9A%22%7D&rank=&style_id=40132&topic_id=7704238870821339675"
       },
       {
-        "time": "19:13",
+        "time": "19:53",
+        "title": "捷达M6能当出租车大王吗",
+        "summary": "热度 3,491,878 · 今日头条热榜第 16 名 · new · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "new"
+        ],
+        "heat": 3491878,
+        "rank": 16,
+        "url": "https://www.toutiao.com/trending/7704219661189136410/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704219661189136410%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%8D%B7%E8%BE%BEM6%E8%83%BD%E5%BD%93%E5%87%BA%E7%A7%9F%E8%BD%A6%E5%A4%A7%E7%8E%8B%E5%90%97%22%7D&rank=&style_id=40132&topic_id=7704219661189136410"
+      },
+      {
+        "time": "19:53",
+        "title": "奔驰CEO谈中国市场经历“千刀万剐”",
+        "summary": "热度 3,159,581 · 今日头条热榜第 17 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 3159581,
+        "rank": 17,
+        "url": "https://www.toutiao.com/trending/7703768056373166099/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703768056373166099%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A5%94%E9%A9%B0CEO%E8%B0%88%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E7%BB%8F%E5%8E%86%E2%80%9C%E5%8D%83%E5%88%80%E4%B8%87%E5%89%90%E2%80%9D%22%7D&rank=&style_id=40132&topic_id=7703768056373166099"
+      },
+      {
+        "time": "19:53",
+        "title": "丁俊晖止步斯诺克国锦赛8强",
+        "summary": "热度 2,858,907 · 今日头条热榜第 18 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2858907,
+        "rank": 18,
+        "url": "https://www.toutiao.com/trending/7704246332180926002/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704246332180926002%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%81%E4%BF%8A%E6%99%96%E6%AD%A2%E6%AD%A5%E6%96%AF%E8%AF%BA%E5%85%8B%E5%9B%BD%E9%94%A6%E8%B5%9B8%E5%BC%BA%22%7D&rank=&style_id=40132&topic_id=7704246332180926002"
+      },
+      {
+        "time": "19:53",
+        "title": "俄女高官访华就日本军事化加速发声",
+        "summary": "热度 2,586,846 · 今日头条热榜第 19 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 2586846,
+        "rank": 19,
+        "url": "https://www.toutiao.com/trending/7702921083061616676/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227702921083061616676%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BF%84%E5%A5%B3%E9%AB%98%E5%AE%98%E8%AE%BF%E5%8D%8E%E5%B0%B1%E6%97%A5%E6%9C%AC%E5%86%9B%E4%BA%8B%E5%8C%96%E5%8A%A0%E9%80%9F%E5%8F%91%E5%A3%B0%22%7D&rank=&style_id=40132&topic_id=7702921083061616676"
+      },
+      {
+        "time": "19:53",
         "title": "长沙查处两处非法辅助生殖地下窝点",
-        "summary": "热度 824,727 · 今日头条热榜第 30 名 · 抓取于 19:13",
+        "summary": "热度 2,340,675 · 今日头条热榜第 20 名 · 抓取于 19:53",
         "source": "今日头条热榜",
         "tags": [
           "热搜"
         ],
-        "heat": 824727,
+        "heat": 2340675,
+        "rank": 20,
+        "url": "https://www.toutiao.com/trending/7704172274821759498/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704172274821759498%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%95%BF%E6%B2%99%E6%9F%A5%E5%A4%84%E4%B8%A4%E5%A4%84%E9%9D%9E%E6%B3%95%E8%BE%85%E5%8A%A9%E7%94%9F%E6%AE%96%E5%9C%B0%E4%B8%8B%E7%AA%9D%E7%82%B9%22%7D&rank=&style_id=40132&topic_id=7704172274821759498"
+      },
+      {
+        "time": "19:53",
+        "title": "美众议长称输中期选举是历史规律",
+        "summary": "热度 2,117,931 · 今日头条热榜第 21 名 · hot · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "hot"
+        ],
+        "heat": 2117931,
+        "rank": 21,
+        "url": "https://www.toutiao.com/trending/7699376583278382626/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227699376583278382626%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BE%8E%E4%BC%97%E8%AE%AE%E9%95%BF%E7%A7%B0%E8%BE%93%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E6%98%AF%E5%8E%86%E5%8F%B2%E8%A7%84%E5%BE%8B%22%7D&rank=&style_id=40132&topic_id=7699376583278382626"
+      },
+      {
+        "time": "19:53",
+        "title": "伊朗议长：美选举结果表明对战争说不",
+        "summary": "热度 1,916,383 · 今日头条热榜第 22 名 · hot · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "hot"
+        ],
+        "heat": 1916383,
+        "rank": 22,
+        "url": "https://www.toutiao.com/trending/7704196344864620598/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704196344864620598%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BC%8A%E6%9C%97%E8%AE%AE%E9%95%BF%EF%BC%9A%E7%BE%8E%E9%80%89%E4%B8%BE%E7%BB%93%E6%9E%9C%E8%A1%A8%E6%98%8E%E5%AF%B9%E6%88%98%E4%BA%89%E8%AF%B4%E4%B8%8D%22%7D&rank=&style_id=40132&topic_id=7704196344864620598"
+      },
+      {
+        "time": "19:53",
+        "title": "苹果天气bug：多地零下32℃",
+        "summary": "热度 1,734,015 · 今日头条热榜第 23 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1734015,
+        "rank": 23,
+        "url": "https://www.toutiao.com/trending/7704052680632598537/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704052680632598537%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8B%B9%E6%9E%9C%E5%A4%A9%E6%B0%94bug%EF%BC%9A%E5%A4%9A%E5%9C%B0%E9%9B%B6%E4%B8%8B32%E2%84%83%22%7D&rank=&style_id=40132&topic_id=7704052680632598537"
+      },
+      {
+        "time": "19:53",
+        "title": "中方回应美国中期选举",
+        "summary": "热度 1,569,001 · 今日头条热榜第 24 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1569001,
+        "rank": 24,
+        "url": "https://www.toutiao.com/trending/7704213702673055763/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704213702673055763%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%22%7D&rank=&style_id=40132&topic_id=7704213702673055763"
+      },
+      {
+        "time": "19:53",
+        "title": "芯片股批量涨停",
+        "summary": "热度 1,419,691 · 今日头条热榜第 25 名 · hot · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "hot"
+        ],
+        "heat": 1419691,
+        "rank": 25,
+        "url": "https://www.toutiao.com/trending/7704220482710667803/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704220482710667803%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8A%AF%E7%89%87%E8%82%A1%E6%89%B9%E9%87%8F%E6%B6%A8%E5%81%9C%22%7D&rank=&style_id=40132&topic_id=7704220482710667803"
+      },
+      {
+        "time": "19:53",
+        "title": "WTT冠军赛国乒迎来两场外战",
+        "summary": "热度 1,284,590 · 今日头条热榜第 26 名 · new · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "new"
+        ],
+        "heat": 1284590,
+        "rank": 26,
+        "url": "https://www.toutiao.com/trending/7704141164572377638/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704141164572377638%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22WTT%E5%86%A0%E5%86%9B%E8%B5%9B%E5%9B%BD%E4%B9%92%E8%BF%8E%E6%9D%A5%E4%B8%A4%E5%9C%BA%E5%A4%96%E6%88%98%22%7D&rank=&style_id=40132&topic_id=7704141164572377638"
+      },
+      {
+        "time": "19:53",
+        "title": "特朗普承认伊朗战事影响中期选举",
+        "summary": "热度 1,162,345 · 今日头条热榜第 27 名 · hot · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "hot"
+        ],
+        "heat": 1162345,
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7703163902487117865/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703163902487117865%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%BF%E8%AE%A4%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%8B%E5%BD%B1%E5%93%8D%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%22%7D&rank=&style_id=40132&topic_id=7703163902487117865"
+      },
+      {
+        "time": "19:53",
+        "title": "红太阳今日跌停",
+        "summary": "热度 1,051,733 · 今日头条热榜第 28 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 1051733,
+        "rank": 28,
+        "url": "https://www.toutiao.com/trending/7704136472240275497/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704136472240275497%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BA%A2%E5%A4%AA%E9%98%B3%E4%BB%8A%E6%97%A5%E8%B7%8C%E5%81%9C%22%7D&rank=&style_id=40132&topic_id=7704136472240275497"
+      },
+      {
+        "time": "19:53",
+        "title": "IG击败TES 时隔7年再进S赛四强",
+        "summary": "热度 951,647 · 今日头条热榜第 29 名 · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜"
+        ],
+        "heat": 951647,
+        "rank": 29,
+        "url": "https://www.toutiao.com/trending/7703101936995831359/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227703101936995831359%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22IG%E5%87%BB%E8%B4%A5TES+%E6%97%B6%E9%9A%947%E5%B9%B4%E5%86%8D%E8%BF%9BS%E8%B5%9B%E5%9B%9B%E5%BC%BA%22%7D&rank=&style_id=40132&topic_id=7703101936995831359"
+      },
+      {
+        "time": "19:53",
+        "title": "日本安保文件调整对华措辞有何意图",
+        "summary": "热度 861,086 · 今日头条热榜第 30 名 · interpretation · 抓取于 19:53",
+        "source": "今日头条热榜",
+        "tags": [
+          "热搜",
+          "interpretation"
+        ],
+        "heat": 861086,
         "rank": 30,
-        "url": "https://www.toutiao.com/trending/7704172274821759498/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704172274821759498%22%2C%22hot_board_impr_id%22%3A%2220261104191359FAB96613DC06ABF9E648%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%95%BF%E6%B2%99%E6%9F%A5%E5%A4%84%E4%B8%A4%E5%A4%84%E9%9D%9E%E6%B3%95%E8%BE%85%E5%8A%A9%E7%94%9F%E6%AE%96%E5%9C%B0%E4%B8%8B%E7%AA%9D%E7%82%B9%22%7D&rank=&style_id=40132&topic_id=7704172274821759498"
+        "url": "https://www.toutiao.com/trending/7704259984913075775/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227704259984913075775%22%2C%22hot_board_impr_id%22%3A%222026110419534852C85284E70BF96ECCDF%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%97%A5%E6%9C%AC%E5%AE%89%E4%BF%9D%E6%96%87%E4%BB%B6%E8%B0%83%E6%95%B4%E5%AF%B9%E5%8D%8E%E6%8E%AA%E8%BE%9E%E6%9C%89%E4%BD%95%E6%84%8F%E5%9B%BE%22%7D&rank=&style_id=40132&topic_id=7704259984913075775"
       }
     ],
     "tech": [
+      {
+        "time": "19:50",
+        "title": "谷歌捣毁大型僵尸网络：合作厂商在 130 万台安卓机顶盒中植入后门牟利",
+        "summary": "谷歌近日捣毁了一项大规模僵尸网络行动，涉事方是一家同时从事 OEM（原始设备制造商）和 ODM（原始设计制造商）业务的企业。 根据谷歌发布的博客文章，曾获得 Android TV 合作伙伴认证的视壮科技（Videostrong Technology Co.）故意在 130 万台电视机顶盒中植入后门，并将相关访问权限出售给犯罪团伙成员。借助这一后门，攻击者可以在受感染设备上安装隐藏软件，用于实施广告欺诈、搭建住宅代理网络，甚至远程向设备植入恶意软件，直接攻击终端用户。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/022/407.htm"
+      },
+      {
+        "time": "19:29",
+        "title": "安卓首款阔直板手机酷派 COOL X Wide 宣布延期发货，官方发布致歉说明",
+        "summary": "安卓阵营首款阔直板手机 —— 酷派 Cool X Wide 已于 10 月底开启预约，原定 11 月 8 日开启现货发售。8GB+128GB 版本 999 元、8GB+256GB 版本 1199 元、12GB+256GB 版本 1399 元。 IT之家注意到，酷派京东自营旗舰店发布了一则《关于酷派 COOL X Wide 阔直板发货延期的致歉说明》。说明提到， 这款新机将推迟至 2026 年 11 月 15 日起陆续发货。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/022/386.htm"
+      },
+      {
+        "time": "19:15",
+        "title": "单线 6 人年产能 50 万台，RoboSense 启用全球首条数字化 LiDAR 全自动产线",
+        "summary": "RoboSense 速腾聚创今日宣布全球首条数字化激光雷达全自动生产线正式启用。该产线位于深圳南山智造红花岭基地，为全国首个“工业上楼”示范项目。 据介绍，RoboSense 数字化激光雷达全自动生产线贯通精密装配、点胶、AA 光调、标定、测试及包装等制造环节，配置 100 余台高精密自动化设备，覆盖 70 余道工序。 基于高度自动化的智造系统， 总装环节仅需 6 名作业人员，即可协同整套系统高效运行，综合自动化率达 99%， 单线年产能达 50 万台。",
+        "source": "IT之家",
+        "tags": [
+          "科技",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/022/380.htm"
+      },
       {
         "time": "18:59",
         "title": "酷冷至尊 HAF II 500 机箱冰川白配色上市，1199 元",
@@ -439,28 +470,6 @@
         "url": "https://www.ithome.com/1/022/368.htm"
       },
       {
-        "time": "18:31",
-        "title": "2025 年我国新型显示行业全球市场占有率超五成，显示面板出货面积超 2.2 亿平方米",
-        "summary": "据央视新闻报道，中国电子信息产业发展研究院今天（11 月 4 日）发布的《2026 年新型显示产业发展报告》显示，我国新型显示产业实现跨越式发展，成为全球技术布局最全的显示面板生产基地。 中国光学光电子行业协会液晶分会常务副秘书长胡春明介绍，2025 年，我国新型显示行业产值规模达到 8386 亿元， 全球市场占有率超过 53%，显示面板出货面积超过 2.2 亿平方米， 全球市场占比 77%。 胡春明表示，2026 年全球消费电子市场进入由存储器件涨价带来的动荡期，但我国显示市场仍保持了增长态势。",
-        "source": "IT之家",
-        "tags": [
-          "科技",
-          "IT之家"
-        ],
-        "url": "https://www.ithome.com/1/022/367.htm"
-      },
-      {
-        "time": "18:30",
-        "title": "3299 → 688 元再三降价：石头 A30 Max 智能洗地机 25000Pa 大吸力 + 180° 躺平",
-        "summary": "石头 A30 Max 智能洗地机官方定价 3299 元，今日按下方步骤下单，仅需 688 元即可入手： 点击下方卡片享智能单品补贴 915 元 + 闪电加补 90 元 + 可领 97.49 元淘礼金红包（每日 10~24 点可领）； App 商品价格下方可领 15% 政府补贴； 点击下方卡片可享淘金币抵扣 142.48 元（如果淘金币不够的话在商品详情页有借币教程）； * 88VIP 加入购物车后点击下方凑单 ↗ 可用满 3000-400 元专享消费券，到手仅需 1502 元左右。",
-        "source": "IT之家",
-        "tags": [
-          "科技",
-          "IT之家"
-        ],
-        "url": "https://www.ithome.com/1/022/366.htm"
-      },
-      {
         "time": "18:03",
         "title": "2499 → 589 元：添可 20000Pa 平躺 Stretch Max 洗地机 11.11 探新低",
         "summary": "添可平躺 0 缠毛 Stretch Max 洗地机上市售价 2499 元，支持防缠抓毛齿，180° 躺平洗地，40 分钟长续航。 今日天猫旗舰店多重优惠后实付 1210.43 元，叠加淘金币抵扣后实付仅需 1029.28 元。 下单前咨询客服“返现”再返 440 元，折合仅需 589.28 元闭眼囤好价哦。 共需 2 步点击下方卡片领券后 → 点击宝贝右上角“…” → 点击弹出页面右下角“淘金币” 点击此宝贝。",
@@ -472,29 +481,40 @@
         "url": "https://www.ithome.com/1/022/350.htm"
       },
       {
-        "time": "18:00",
-        "title": "单卡四路 Radeon RX 470 8GB：潜在世界最大 PCIe 显卡现身",
-        "summary": "硬件玩家 @白给的盖欧卡近日分享了一款潜在的世界最大 PCIe 显卡的图片。其在单一 PCB 上集成了 4 个 GPU 核心，配备 4 路外接供电接口。 根据 PCB 上的印刷，这款四合一显卡型号为 Dyii-XQ570，属于 1.0 版本；PCB 中间为一颗来自 Diodes 的 PCIe Gen2 分组交换芯片 PI7C9X2G912GP。 据称该显卡是一张四路的 AMD Radeon RX 470 8GB，不过从型号来看也可能是四路 RX 570（这两种可能性在芯片层面并无实际区别）。",
+        "time": "18:31",
+        "title": "2025 年我国新型显示行业全球市场占有率超五成，显示面板出货面积超 2.2 亿平方米",
+        "summary": "据央视新闻报道，中国电子信息产业发展研究院今天（11 月 4 日）发布的《2026 年新型显示产业发展报告》显示，我国新型显示产业实现跨越式发展，成为全球技术布局最全的显示面板生产基地。 中国光学光电子行业协会液晶分会常务副秘书长胡春明介绍，2025 年，我国新型显示行业产值规模达到 8386 亿元， 全球市场占有率超过 53%，显示面板出货面积超过 2.2 亿平方米， 全球市场占比 77%。 胡春明表示，2026 年全球消费电子市场进入由存储器件涨价带来的动荡期，但我国显示市场仍保持了增长态势。",
         "source": "IT之家",
         "tags": [
           "科技",
           "IT之家"
         ],
-        "url": "https://www.ithome.com/1/022/347.htm"
-      },
-      {
-        "time": "17:59",
-        "title": "乔思伯 X400M 机箱上市：M-ATX 兼容，外骨骼框架结构，399 元",
-        "summary": "乔思伯 (JONSBO) 即将于今日 20:00 发售机箱新品 X400M。这一型号拥有 5 条扩展槽，兼容 M-ATX 主板，延续了更大尺寸型号 X400 上的外骨骼框架结构设计，到手价 399 元。 X400M 三维 460.2 × 310.3 × 416.3 (mm)，体积较 X400 减少约 12%；基于钢板、ABS 塑料、钢化玻璃，框架覆盖 2H 硬度的深灰色金属质感涂层；自带显卡支撑架，提供背部理线挡板。",
-        "source": "IT之家",
-        "tags": [
-          "科技",
-          "IT之家"
-        ],
-        "url": "https://www.ithome.com/1/022/336.htm"
+        "url": "https://www.ithome.com/1/022/367.htm"
       }
     ],
     "ai": [
+      {
+        "time": "19:46",
+        "title": "首个：华为云智果 AgentArts 获中国信通院最高等级评级",
+        "summary": "华为官方今日宣布，华为云智果 AgentArts 智能体平台近日顺利通过中国信通院组织的可信 AI 企业级智能体平台评估， 是首个通过该项测评，并获得当前最高等级（4+ 级）的产品。 据介绍，本次评估依据《企业级智能体技术要求》，围绕企业级智能体平台的技术能力、应用能力和服务能力三方面展开，全面考察平台在智能体认知、规划、执行、业务集成、知识管理、运行维护及安全合规等方面的综合能力。 IT之家查询获悉，云智果（AgentArts）智能体平台是华为面向企业核心业务场景打造的智能体平台，支持多种框架（LangChain / LangGraph 或自研框架等）和模型， 并拥有四大核心能力：生产级长程任务、企业级安全环境、行业知识深度和全链路可观测。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/022/406.htm"
+      },
+      {
+        "time": "19:16",
+        "title": "现代汽车展示自动加氢机器人，以及高耐久性燃料电池系统",
+        "summary": "现代汽车集团首次展示了一款能够自动为氢燃料商用车加氢的机器人，同时公布了一套经过升级、旨在提高电堆耐久性的燃料电池系统。这两项技术均亮相于 2026 世界氢能博览会（World Hydrogen Expo 2026）。展会在韩国高阳市 KINTEX 会展中心举行，展示内容还涵盖兆瓦级电解制氢、废弃物制氢以及氢能轨道交通等领域相关技术与产品。 此次首次公开亮相的燃料电池系统采用了升级后的电池单元和相关组件，旨在提高系统耐久性，以满足卡车、公交车等商用车辆长距离行驶的需求。",
+        "source": "IT之家",
+        "tags": [
+          "人工智能",
+          "IT之家"
+        ],
+        "url": "https://www.ithome.com/1/022/381.htm"
+      },
       {
         "time": "19:09",
         "title": "山西发布全国首个城市停车 AI 智能体“泊邻”：可整合实时数据生成热力图实现车位灵活规划",
@@ -582,31 +602,31 @@
           "IT之家"
         ],
         "url": "https://www.ithome.com/1/022/286.htm"
-      },
-      {
-        "time": "17:30",
-        "title": "Claude Code 调整游戏开发限制：提到现有游戏不再被拒，禁止直接复刻",
-        "summary": "Anthropic 工程师阿迪 · 奥斯曼尼（Addy Osmani）在 X 发文，称已在 Claude Code 2.1.317 版本中调整 Claude Opus 5.5 的游戏开发限制， 允许用户引用现有游戏描述玩法和机制，不再因此直接拒绝生成游戏。 据IT之家此前报道，上周，Anthropic 为防止用户利用 Claude Code 复制已有游戏， 在 Opus 5.5 的系统提示词中增加了两条规则，要求模型避免复刻他人的游戏作品。",
-        "source": "IT之家",
-        "tags": [
-          "人工智能",
-          "IT之家"
-        ],
-        "url": "https://www.ithome.com/1/022/279.htm"
-      },
-      {
-        "time": "17:15",
-        "title": "腾讯跨境支付平台 TenPay Global 与银联国际签署合作备忘录，首次在跨境汇款领域开展合作",
-        "summary": "2026 年香港金融科技周期间，腾讯旗下跨境支付平台 TenPay Global 与中国银联旗下银联国际签署合作备忘录， 双方将首次在跨境汇款领域开展合作。 IT之家获悉，根据合作备忘录， 双方将共同探索便利的跨境汇款服务。TenPay Global 跨境汇款平台已与全球 60 多家银行及汇款机构合作，支持从 150 多个国家和地区向中国境内汇款。 据介绍，Tenpay Global 汇款至微信服务 7×24 小时全天候开放，资金快至一分钟内到账。",
-        "source": "IT之家",
-        "tags": [
-          "人工智能",
-          "IT之家"
-        ],
-        "url": "https://www.ithome.com/1/022/273.htm"
       }
     ],
     "finance": [
+      {
+        "time": "19:31",
+        "title": "海南加工增值新政落地：补全货物流转场景助推产业链协同",
+        "summary": "中新网海口11月4日电 (记者王子谦)11月3日，一辆装有加工增值享惠产品的货车缓缓驶出海口国家高新区企业万特制药(海南)有限公司(简称“万特制药”)厂区，运往岛内的商业公司仓库，抵达后将货品陆续发往岛内外药品零售终端。这批产品是在海南省三部门2日发布《关于海南自由贸易港全岛封关运作有关管理事项的通知》后，完成加工增值产品在岛内销售的首单业务。加工增值30%免关税政策(简称“加工增值政策”)，是海南自贸港最具“含金量”的政策之一。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726175.shtml"
+      },
+      {
+        "time": "19:21",
+        "title": "广西梧州打造“两湾”联动第一城抢抓“双向出海”机遇",
+        "summary": "中新社南宁11月4日电 (张广权)广西壮族自治区人民政府新闻办公室4日在南宁召开新闻发布会介绍，抢抓平陆运河通航带来的“双向出海”机遇，广西梧州将聚力做强港口枢纽、壮大临港产业、拓宽开放空间，加快建设“两湾”(粤港澳大湾区与北部湾经济区)联动第一城。梧州市市长谭秀洪表示，平陆运河通航后，梧州将推动港口作业区智能化升级，打通西江至北部湾江海联运新通道，稳定开行梧州至广州、香港及北部湾五定班轮，形成向东直达珠三角、向南经平陆运河直达北部湾的双向出海通道。",
+        "source": "中国新闻网",
+        "tags": [
+          "财经",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726166.shtml"
+      },
       {
         "time": "18:58",
         "title": "湖南祁阳优化营商环境服务“弯腰”产业“挺腰”",
@@ -694,28 +714,6 @@
           "中国新闻网"
         ],
         "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726139.shtml"
-      },
-      {
-        "time": "18:32",
-        "title": "山西闻喜天麻激活“绿色银行” 科技赋能林下经济",
-        "summary": "中新网运城11月4日电 (李庭耀杨秀文杨一敏)昔日闲置的林下坡地，如今正成为富民增收的“绿色银行”。11月3日至5日，国家中药材产业技术体系2026天麻单品种攻关暨闻喜天麻高质量发展研讨会在山西闻喜举办。来自全国各地的50余名中药材领域专家、科研骨干以“室内专题研讨+田间实地问诊”的模式，破解北方林下天麻种植技术难题，为县域特色中药材产业提质升级注入科创动能。闻喜县石门乡地处中条山腹地，山林资源富集、气候温润、林下腐殖土层丰厚，具备发展林下天麻仿生种植的自然条件。",
-        "source": "中国新闻网",
-        "tags": [
-          "财经",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726136.shtml"
-      },
-      {
-        "time": "18:31",
-        "title": "高铁未至开放先行：重庆“煤都”将加快建设南向门户",
-        "summary": "中新网重庆11月4日电 (罗永皓)重庆市万盛经济技术开发区将聚焦“开放万盛——重庆南向门户”，建设西部陆海新通道辐射带动先导区，到2030年进出口总额突破10亿元。4日举行的“开局起步十五五·建设现代化新重庆”——万盛奋力打造渝东新城重要增长极、渝南黔北开放新高地新闻发布会上， 中新网获悉上述信息。拥有百年采煤史的万盛，地处西部陆海新通道中线、川渝地区“垂直出海”关键节点，是重庆南向开放门户和渝黔合作“桥头堡”。",
-        "source": "中国新闻网",
-        "tags": [
-          "财经",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726135.shtml"
       }
     ],
     "stocks": [
@@ -863,25 +861,25 @@
       },
       {
         "time": "00:00",
-        "title": "揭秘涨停 | 3股封单资金超4亿元",
-        "summary": "截至今日（11月4日）收盘，上证指数报收3686.17点，上涨2.16%；深证成指收于11335.69点，上涨4.22%；创业板指上涨6.40%，科创50指数上涨9.92%。据证券时报·数据宝统计，不含未开板新股，今日可交易A股中，上涨个股达4667只，占比83.76%，下跌个股有779只。其中，收盘封死涨停的有121只，跌停股有11只。另外，38股封板未遂，整体封板率为76.10%。封死涨停的个股中，以所属行业来看， 电子、 有色金属、 机械设备行业上榜个股数量居前，分别有34股、17股、15股。",
+        "title": "大资金持续流入 A股迎来大爆发",
+        "summary": "今日（11月4日），A股迎来久违的大反弹，主要指数均录得上涨。其中创业板指大涨6.40%，科创50指数更是飙涨9.92%。据东方财富 Choice数据，自9月28日以来，股票型ETF已连续22个交易日维持净流入， 续创日连续净流入最长纪录， 累计净流入高达5561亿元。值得一提的是，昨日股票型ETF 净流入841亿元，为2024年“924行情”以来第三高的单日净流入，仅次于2024年10月8日的1062亿元和2025年4月8日的1015亿元。",
         "source": "东方财富",
         "tags": [
           "全球股市",
           "东方财富"
         ],
-        "url": "https://finance.eastmoney.com/a/202611043922081151.html"
+        "url": "https://finance.eastmoney.com/a/202611043922099927.html"
       },
       {
         "time": "00:00",
-        "title": "17只白酒股下跌贵州茅台1446.44元/股收盘",
-        "summary": "11月4日尾盘，三大指数集体上涨，沪指3686.17点上涨2.16%。 白酒板块以1882.36点收盘下跌0.55%，其中17只白酒股下跌。从个股来看， 贵州茅台收盘价达1446.44元/股，下跌2.27%； 五粮液收盘价75.10元/股，下跌0.60%； 山西汾酒收盘价129.00元/股，下跌3.07%； 泸州老窖收盘价79.21元/股，下跌1.97%； 洋河股份收盘价达38.03元/股，下跌1.43%。",
+        "title": "4600亿龙头，尾盘涨停！日赚7100万，全年经营目标一年内两次上调",
+        "summary": "11月4日，A股市场强势上涨，其中科创综指（000680）表现尤为突出，该指数收盘大涨9.9%，创出发布以来最大单日涨幅，当天超过150只科创板股票涨停或涨幅超过10%。沪深两市成交额约20376.94亿元，较前一个交易日放量约3342.57亿元。全市场4667只股票上涨、779只股票下跌，其中121只涨停、10只跌停。板块方面，大基金系、HBM、CPO、 半导体、 贵金属、 电子化学品等行业以及概念涨幅居前；",
         "source": "东方财富",
         "tags": [
           "全球股市",
           "东方财富"
         ],
-        "url": "https://finance.eastmoney.com/a/202611043922071845.html"
+        "url": "https://finance.eastmoney.com/a/202611043922098591.html"
       }
     ],
     "aistocks": [
@@ -953,14 +951,14 @@
       },
       {
         "time": "00:00",
-        "title": "王兴兴预判明年或为机器人行业临界点，宇树科技股价一度升至A股第四",
-        "summary": "11月4日， 宇树科技-W （688836.SH）盘中冲高，盘中最高触及676元，最大涨幅超8%，股价一度超越源杰科技、位列A股股价第四高，市值规模超过新易盛。收盘时，宇树科技报652.10元，上涨4.41%，总市值2637.51 亿元， 源杰科技回升至661.00元，股价再度高于宇树科技。当日A股盘面呈现震荡分化格局，各大指数涨跌互现，盘面上板块轮动特征明显，人形机器人板块盘中拉升走强，截至午间收盘该板块上涨0.72%， 永臻股份、 兆威机电、 征和工业、 索辰科技等多只成分股涨停。",
+        "title": "AI业绩兑现来了？计算机板块三季报：算力赚大钱，应用仍在爬坡",
+        "summary": "过去一年，AI始终是计算机板块最重要的叙事主线。算力投入持续加码，大模型能力快速迭代，应用端不断涌现新的产品形态。市场关注点逐步从“AI能做什么”，转向“AI有没有带来收入、有没有转化成利润”。三季报给出明确答案：收入端已经兑现，利润端高度集中于头部企业。10月31日，A股2026年三季报披露收官。21世纪经济报道记者查询同花顺 iFinD数据，对申万计算机行业334家成分股三季报开展全样本统计。",
         "source": "东方财富",
         "tags": [
           "AI 与股市",
           "东方财富"
         ],
-        "url": "https://finance.eastmoney.com/a/202611043922072163.html"
+        "url": "https://finance.eastmoney.com/a/202611043922110052.html"
       },
       {
         "time": "00:00",
@@ -975,25 +973,25 @@
       },
       {
         "time": "00:00",
-        "title": "小米机器人进厂“通关” 具身智能赛道多股涨停最新高增长潜力股名单出炉",
-        "summary": "11月4日早盘，人形机器人概念股集体异动， 征和工业、 永臻股份、 兆威机电、 福莱新材直线封板， 震裕科技、 华是科技涨超10%，奥比中光、 安培龙、 泛亚微透、 柯力传感等多股跟涨，盘初跌超3%的宇树科技一度涨超8%。消息面上，小米披露人形机器人最新进展，整个赛道近期也迎来“内外共振”。小米披露机器人业务两项落地进展11月3日，2026世界互联网大会乌镇峰会期间，小米对外披露机器人业务在工业制造和家庭场景领域的最新落地进展，小米机器人业务“面向规模化落地的通用机器人操作基座模型关键技术”同时获得大会“领先科技奖”。",
+        "title": "东南亚AI算力棋局：从消费电子、PCB到半导体、光模块，中国龙头如何落子？",
+        "summary": "东南亚凭借政策、成本、 港口物流等优势，在全球AI算力产业链的权重快速抬升，中国企业也以此作为全球化布局的关键阵地。 消费电子领域，以越南为组装枢纽、泰国为中高端零部件基地， 领益智造、 歌尔股份等巨头深度布局； PCB 领域， 胜宏科技、 鹏鼎控股等头部厂商围绕AI需求在泰国、越南、马来西亚买地建厂，其海外收入占比已超80%； 半导体领域， 长电科技、 华天科技等企业历经起步探索、规模扩张阶段，已从单一工厂运营走向全产业链协同出海的第三阶段，形成新加坡区域总部、马来西亚槟城后端封测、越南芯片组装、印尼基础零部件的分工布局；",
         "source": "东方财富",
         "tags": [
           "AI 与股市",
           "东方财富"
         ],
-        "url": "https://finance.eastmoney.com/a/202611043921478162.html"
+        "url": "https://finance.eastmoney.com/a/202611043922102640.html"
       },
       {
         "time": "00:00",
-        "title": "多只AI基础设施股大涨！长鑫科技市值逼近3万亿元关口",
-        "summary": "11月4日午后，A股多只AI基础设施相关个股股价拉涨。截至收盘， 存储芯片厂商长鑫科技 （688825.SH）涨13.63%，市值2.99万亿元，逼近3万亿市值关口，另一只存储股兆易创新 （603986.SH）涨8.48%。光模块厂商“易中天”中， 中际旭创 （300308.SZ）涨11.07%， 新易盛 （300502.SZ）涨13.35%， 天孚通信 （300394.SZ）涨10.02%。另一些市场关注度较大的半导体股也飘红。",
+        "title": "恒生科技指数深陷AI错配与流动性压制扩容能否重构纯度？",
+        "summary": "今年年内恒生科技指数持续调整，其中截至10月23日，恒生科技指数年内累计回撤约29.8%，较2025年10月高点6715点累计下跌约42%，最低下探至3780点附近，已回撤至2024年“9·24”行情起点。不过科技指数在近日出现反弹，目前处于3880点附近。中信建投指出，科技指数大幅调整后，恒科指数安全边际显著提升。截至2026年10月25日，指数前向市盈率约为14.5倍，处于历史7%分位数，较2021年初峰值回落约75%，估值水位已比肩2024年三季度与2025年4月对等关税冲击时的历史底部。",
         "source": "东方财富",
         "tags": [
           "AI 与股市",
           "东方财富"
         ],
-        "url": "https://finance.eastmoney.com/a/202611043922044393.html"
+        "url": "https://finance.eastmoney.com/a/202611043921783942.html"
       }
     ],
     "gold": [
@@ -1018,14 +1016,14 @@
           "rows": [
             [
               "伦敦金（现货）",
-              "4,040.85 美元/盎司",
+              "4,040.95 美元/盎司",
               "+2.82%",
               "新浪财经公开行情"
             ],
             [
               "纽约黄金期货",
-              "4,051.90 美元/盎司",
-              "+2.83%",
+              "4,052.18 美元/盎司",
+              "+2.84%",
               "新浪财经公开行情"
             ],
             [
@@ -1205,6 +1203,28 @@
         "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725924.shtml"
       },
       {
+        "time": "14:04",
+        "title": "印度海军在索马里海域解救被劫伊朗渔船",
+        "summary": "中新社北京11月4日电综合消息：印度国防部当地时间3日通报称，印度海军在索马里东北部海域成功解救一艘被海盗劫持的伊朗渔船，船上20名船员全部安全获救，行动未造成人员伤亡。综合美联社、《印度教徒报》等媒体报道，印度国防部表示，被解救船只名为“阿齐尼”号(Azini)，于上月底在索马里东北部海岸附近遭武装海盗劫持。印方评估认为，该船可能被海盗用作“母船”，用于对区域内商船发动进一步袭击。劫持事件发生后，印度海军派遣一艘军舰，在海上侦察机配合下锁定并跟踪“阿齐尼”号，随后通过运输机伞降投送海军陆战队突击队员，最终成功控制船只、制服海盗，安全解救全部20名船员。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725902.shtml"
+      },
+      {
+        "time": "14:03",
+        "title": "加拿大总理： 俄罗斯运动员不得代表本国参加世界青年冰球锦标赛",
+        "summary": "中新社北京11月4日电渥太华消息：据加拿大广播公司报道，加拿大总理卡尼3日表示，俄罗斯和白俄罗斯冰球运动员将不被允许代表本国参加即将在加拿大艾伯塔省举行的世界青年冰球锦标赛。加拿大联邦政府同日发表声明称，加方立场没有改变，原因是俄罗斯的行动也没有改变。声明指出，加拿大反对俄罗斯和白俄罗斯运动员代表本国参加国际体育赛事，并将继续要求接受加政府资助的赛事禁止俄罗斯和白俄罗斯运动员代表其国家参赛；但以中立身份参赛的个人运动员仍可继续参加在加拿大举办的国际体育赛事。",
+        "source": "中国新闻网",
+        "tags": [
+          "国际",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725896.shtml"
+      },
+      {
         "time": "14:02",
         "title": "西班牙交通大臣辞职",
         "summary": "中新社北京11月4日电马德里消息：西班牙交通大臣奥斯卡·普恩特当地时间3日宣布辞职。今年以来，西班牙已发生两起重大高铁事故，共造成115人死亡。就在普恩特宣布辞职前6天，西班牙托莱多省乌尔达发生列车相撞事故，造成69人死亡。今年1月，该国南部阿达穆斯同样发生一起高铁事故，造成46人死亡。美联社称，这些事故引发了人们对西班牙铁路网络安全的担忧。综合西班牙埃菲社与西班牙国家广播电视台报道，普恩特3日说，他在乌尔达事故发生后不久便作出辞职决定，但不愿在完成保障短期铁路运行安全这一紧迫任务前对外宣布这一决定。",
@@ -1216,40 +1236,62 @@
         "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725861.shtml"
       },
       {
-        "time": "13:34",
-        "title": "美媒预测民主党在多州超预期获胜，美国中期选举掀起“蓝潮”",
-        "summary": "中新网 11月4日电据美国《华尔街日报》当地时间3日晚报道，随着一股“蓝潮”席卷全美，民主党人在中期选举中接连取得重大胜利。据美联社等多家美媒预测，民主党从共和党手中夺取了得克萨斯州、南卡罗来纳州和北卡罗来纳州的参议院席位，并保住了佐治亚州和新罕布什尔州的参议院席位。报道指出，共和党对保住国会控制权的前景日益悲观。据美媒测算，在得克萨斯州，民主党人詹姆斯·塔拉里科在关键的参议院竞选中锁定胜局，击败了共和党州总检察长肯·帕克斯顿，结束了共和党在这个“深红州”长达三十年的选举垄断局面。",
+        "time": "14:02",
+        "title": "朝鲜：美国持续发出对朝敌对信号",
+        "summary": "中新社北京11月4日电平壤消息：当地时间11月4日，据朝鲜中央通讯社(朝中社)报道，朝鲜劳动党中央委员会部长金与正当日发表谈话称，目前美国持续发出对朝敌对信号，促使朝鲜从多方面重新考虑美国这一实体。金与正表示，所谓“朝鲜所为加密货币黑客攻击事件”不过是显示美国对朝敌对政策实质的冰山一角。朝方并不把此事看作一次偶然突发的事故或孤立的事件，而将其视为美方始终不变的对朝敌视政策的延续。美国要利用此次事件获取某种政治利益的恶意企图，正在产生政治副作用。",
         "source": "中国新闻网",
         "tags": [
           "国际",
           "中国新闻网"
         ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725921.shtml"
-      },
-      {
-        "time": "13:32",
-        "title": "美媒预测民主党重掌国会特朗普最新发声",
-        "summary": "中新网 11月4日电综合报道，美国总统特朗普当地时间3日表示，他愿意接受中期选举的结果，准备与民主党合作。《纽约时报》援引特朗普的话称：“我们将与民主党人合作，而且，你知道的，我们期待与他们合作。我们很可能会达成某种共识。” -->同时，特朗普在社交媒体发文称：“我不在选票上，要是我在，我们会以压倒性优势获胜！”另据美国哥伦比亚广播公司3日报道，特朗普在接受该媒体采访时说，在必要时，他准备否决民主党提出的法案。",
-        "source": "中国新闻网",
-        "tags": [
-          "国际",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725919.shtml"
-      },
-      {
-        "time": "13:17",
-        "title": "美媒：特朗普正在白宫关注中期选举结果，梅拉尼娅不在身边",
-        "summary": "中新网 11月4日电据美国全国广播公司(NBC)3日援引一位高级政府官员消息称，美国总统特朗普3日晚并没有和家人在一起，而是正在白宫关注中期选举开票结果。据报道，特朗普正与官员和工作人员在白宫一起观看开票结果，美国第一夫人梅拉尼娅并未陪在他身边。美国有线电视新闻网(CNN)也报道称，白宫官员称，特朗普的选举之夜招待会在白宫东厅举行，邀请内阁官员和政治顾问一起观看开票结果。尚不清楚特朗普计划在活动现场停留多久。",
-        "source": "中国新闻网",
-        "tags": [
-          "国际",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725912.shtml"
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725860.shtml"
       }
     ],
     "geopolitics": [
+      {
+        "time": "19:42",
+        "title": "尹锡悦违反选举法案二审亦获刑或致当选无效",
+        "summary": "中新网 11月4日电据韩联社当地时间4日报道，韩国前总统尹锡悦违反《公职选举法》案二审当日宣判，尹锡悦被判有期徒刑1年6个月，缓刑3年。据报道，首尔高等法院刑事审判第2-1庭当天作出上述判决，认定尹锡悦被控的全部罪名成立，驳回其上诉，维持原判。若该判决最终生效，尹锡悦当选总统无效，最大在野党国民力量须向中央选举管理委员会退还在第20届大选时期获得的397亿韩元竞选费用补贴。报道称，尹锡悦被指控，曾在大选竞选时期的2021年12月14日应韩国记者俱乐部“宽勋俱乐部”之邀出席一场讨论会，并作大意为“未曾向前龙山税务署署长尹宇镇引见某律师”的虚假言论；",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726191.shtml"
+      },
+      {
+        "time": "19:33",
+        "title": "以色列中央选举委员会：议会选举不存在舞弊行为",
+        "summary": "中新社北京11月4日电耶路撒冷消息：当地时间11月4日，以色列中央选举委员会表示，该国日前举行的议会选举中不存在舞弊行为，选举的公正性也未受到损害。综合美联社等媒体消息，以色列议会选举于10月27日举行。随后，以色列总理内塔尼亚胡领导的右翼政党利库德集团多次声称，以色列的阿拉伯裔政党“窃取”了选举结果，并暗示其中可能存在外国势力的协助。对此，以色列国家安全总局(辛贝特)等部门随即展开调查。以色列中央选举委员会表示，经审查，未发现任何损害选举公正性或影响选举结果的违规行为。",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726163.shtml"
+      },
+      {
+        "time": "19:29",
+        "title": "美军冲绳施瓦布营发生训练事故，一名海军陆战队员死亡",
+        "summary": "中新网 11月4日电据日本《朝日新闻》当地时间4日报道，一名美国海军陆战队队员3日在日本冲绳县施瓦布营一起训练事故中死亡。美国海军陆战队4日发布声明称，目前事故原因正在调查中。传统医学如何铺就“一带一路”民心相通之路？西海固那个曾经最穷的村，如今把日子过成了诗从手搓榫卯到慢写信笺中国年轻人兴起“情绪消费”三年赚一百万？记者卧底调查多款护眼膏营销乱象量贩零食店越开越多是真低价还是定价魔术？人这一辈子，一定要在冬天来一次敦煌！",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726171.shtml"
+      },
+      {
+        "time": "19:17",
+        "title": "伊朗最高领袖最新发声：美国对伊朗的敌意，不会随党派更迭消失",
+        "summary": "中新网 11月4日电据伊朗媒体报道，当地时间11月3日，伊朗最高领袖穆杰塔巴·哈梅内伊就伊美关系发表声明。穆杰塔巴表示，那些认为美国的党派更迭能够改变华盛顿对伊朗敌意的人大错特错。穆杰塔巴还称，美国的霸权统治者及其追随者始终企图将自身霸权强加于伊朗，迫使伊朗屈服。甚至在其最新一轮霸凌行径中，美国已撕下国际社会一切虚伪伪装。传统医学如何铺就“一带一路”民心相通之路？西海固那个曾经最穷的村，如今把日子过成了诗从手搓榫卯到慢写信笺中国年轻人兴起“情绪消费”三年赚一百万？",
+        "source": "中国新闻网",
+        "tags": [
+          "全球局势",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726162.shtml"
+      },
       {
         "time": "18:58",
         "title": "捐款近5亿美元却成“最大输家之一” 马斯克发声",
@@ -1315,53 +1357,20 @@
           "中国新闻网"
         ],
         "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725935.shtml"
-      },
-      {
-        "time": "14:04",
-        "title": "印度海军在索马里海域解救被劫伊朗渔船",
-        "summary": "中新社北京11月4日电综合消息：印度国防部当地时间3日通报称，印度海军在索马里东北部海域成功解救一艘被海盗劫持的伊朗渔船，船上20名船员全部安全获救，行动未造成人员伤亡。综合美联社、《印度教徒报》等媒体报道，印度国防部表示，被解救船只名为“阿齐尼”号(Azini)，于上月底在索马里东北部海岸附近遭武装海盗劫持。印方评估认为，该船可能被海盗用作“母船”，用于对区域内商船发动进一步袭击。劫持事件发生后，印度海军派遣一艘军舰，在海上侦察机配合下锁定并跟踪“阿齐尼”号，随后通过运输机伞降投送海军陆战队突击队员，最终成功控制船只、制服海盗，安全解救全部20名船员。",
-        "source": "中国新闻网",
-        "tags": [
-          "全球局势",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725902.shtml"
-      },
-      {
-        "time": "14:03",
-        "title": "加拿大总理： 俄罗斯运动员不得代表本国参加世界青年冰球锦标赛",
-        "summary": "中新社北京11月4日电渥太华消息：据加拿大广播公司报道，加拿大总理卡尼3日表示，俄罗斯和白俄罗斯冰球运动员将不被允许代表本国参加即将在加拿大艾伯塔省举行的世界青年冰球锦标赛。加拿大联邦政府同日发表声明称，加方立场没有改变，原因是俄罗斯的行动也没有改变。声明指出，加拿大反对俄罗斯和白俄罗斯运动员代表本国参加国际体育赛事，并将继续要求接受加政府资助的赛事禁止俄罗斯和白俄罗斯运动员代表其国家参赛；但以中立身份参赛的个人运动员仍可继续参加在加拿大举办的国际体育赛事。",
-        "source": "中国新闻网",
-        "tags": [
-          "全球局势",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725896.shtml"
-      },
-      {
-        "time": "14:02",
-        "title": "朝鲜：美国持续发出对朝敌对信号",
-        "summary": "中新社北京11月4日电平壤消息：当地时间11月4日，据朝鲜中央通讯社(朝中社)报道，朝鲜劳动党中央委员会部长金与正当日发表谈话称，目前美国持续发出对朝敌对信号，促使朝鲜从多方面重新考虑美国这一实体。金与正表示，所谓“朝鲜所为加密货币黑客攻击事件”不过是显示美国对朝敌对政策实质的冰山一角。朝方并不把此事看作一次偶然突发的事故或孤立的事件，而将其视为美方始终不变的对朝敌视政策的延续。美国要利用此次事件获取某种政治利益的恶意企图，正在产生政治副作用。",
-        "source": "中国新闻网",
-        "tags": [
-          "全球局势",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725860.shtml"
-      },
-      {
-        "time": "13:56",
-        "title": "特朗普：祝贺民主党人",
-        "summary": "中新网 11月4日电据美国哥伦比亚广播公司最新报道，美国总统特朗普在接受该媒体电话采访时，祝贺民主党在中期选举中获胜。特朗普表示，“我想说的是，祝贺民主党，我期待着为了国家的利益与你们合作。”他还说：“我认识很多民主党人，我拥有完全的否决权，我相信我们一定能达成共识。”特朗普还称，这么多共和党人落选是因为他没有出现在选票上。“我觉得我没有出现在选票上，对此无能为力，”他说，“如果我出现在选票上，我们本会获胜。",
-        "source": "中国新闻网",
-        "tags": [
-          "全球局势",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725931.shtml"
       }
     ],
     "society": [
+      {
+        "time": "19:16",
+        "title": "气象部门回应iPhone天气应用出现多地-32℃异常数据（2026·11·04）",
+        "summary": "辟谣多地-32℃，一天内温差近50℃？实为iPhone数据异常，气象部门权威回应详情：11月4日凌晨，大量iPhone用户反馈系统自带天气应用出现大范围数据异常：北京、上海、青岛、开封等地11月13日(下周五)的最低气温骤降至零下，如-28℃，-31℃，-32℃……部分城市同日最高气温仍维持在15℃至22℃，昼夜温差超过50℃。经查询中国气象局官网、中国天气网等网站核实，11月13日上述地区最低气温并未出现异常。",
+        "source": "中国新闻网",
+        "tags": [
+          "社会",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/sh/2026/11-04/10726161.shtml"
+      },
       {
         "time": "18:56",
         "title": "清华大学留英硕士被骗40多万元后失联！收起看客心态，这场“精神围猎”值得每一个人警惕",
@@ -1460,17 +1469,6 @@
           "中国新闻网"
         ],
         "url": "https://www.chinanews.com.cn/sh/2026/11-04/10726071.shtml"
-      },
-      {
-        "time": "16:44",
-        "title": "在新疆，“种”出一个家",
-        "summary": "中新网新疆伊宁11月4日电题：在新疆，“种”出一个家因为小时候听人说“新疆是个大草原”，詹春琼跟着丈夫杨顺林从四川到了新疆生产建设兵团第四师六十三团十六连发展。40年过去，当年的四川姑娘已获得兵团“三八红旗手”等荣誉，家门上挂着“全国最美家庭”牌匾。连队人说起她，先讲的还是开垦94亩荒地。1986年，詹春琼坐上了前往新疆的火车。三天三夜，她只觉越走越荒，满眼黄沙，“哪里来的草原？”倔强的詹春琼不愿让父母担心：“长大了，靠自己艰苦奋斗吧。",
-        "source": "中国新闻网",
-        "tags": [
-          "社会",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/sh/2026/11-04/10726068.shtml"
       }
     ],
     "sports": [
@@ -1633,7 +1631,7 @@
       {
         "time": "00:00",
         "title": "旅行新蜜蜂任胤蓬黄鲲齐聚围炉煮茶联欢会",
-        "summary": "娱乐新鲜派1月19日报道春节来临之际，网易娱乐邀请旅行新蜜蜂与音乐好友任胤蓬、黄鲲相聚一堂， 围炉煮茶，闲话人生。限定版“慢慢儿~飞” 乐队现场组建，攒局人蒋敦豪隔空连线，一起为网友带来一场欢乐的兔年新春mini 联欢会，果然是音乐圈喜剧人没错了。快来参与这场新春联欢，一起整活过大年！旅行新蜜蜂任胤蓬黄鲲齐聚围炉煮茶联欢会 （来源：娱乐新鲜派）bodong 2026-11-03 09:36:53韩哥宠物故事 2026-11-01 12:00:35小鱼陪拉片 2026-11-04 01:56:35磕戏研究所 2026-10-31 22:40:47现代快报 2026-11-03 12:42:09四川现代艺术学校 2026-11-03 19:57:03吱昂张 2026-11-04 13:23:53沙雕超搞笑 2026-11-03 16:34:37乌贼酱 2026-11-03 09:39:34务。",
+        "summary": "娱乐新鲜派1月19日报道春节来临之际，网易娱乐邀请旅行新蜜蜂与音乐好友任胤蓬、黄鲲相聚一堂， 围炉煮茶，闲话人生。限定版“慢慢儿~飞” 乐队现场组建，攒局人蒋敦豪隔空连线，一起为网友带来一场欢乐的兔年新春mini 联欢会，果然是音乐圈喜剧人没错了。快来参与这场新春联欢，一起整活过大年！旅行新蜜蜂任胤蓬黄鲲齐聚围炉煮茶联欢会 （来源：娱乐新鲜派）小鱼陪拉片 2026-11-04 01:56:35bodong 2026-11-03 09:36:53韩哥宠物故事 2026-11-01 12:00:35磕戏研究所 2026-10-31 22:40:47现代快报 2026-11-03 12:42:09四川现代艺术学校 2026-11-03 19:57:03吱昂张 2026-11-04 13:23:53沙雕超搞笑 2026-11-03 16:34:37乌贼酱 2026-11-03 09:39:34务。",
         "source": "网易娱乐",
         "tags": [
           "娱乐",
@@ -1644,7 +1642,7 @@
       {
         "time": "00:00",
         "title": "年终述职报告｜赵磊回顾新专巡演趣事",
-        "summary": "网易娱乐专稿1月18日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。今年专注于新专辑与巡演的歌手赵磊，回顾了珍藏的音乐记忆。新EP《恋爱庸才》中哪首歌最适合深夜emo听？今年联系最多的圈内好友是谁？KTV唱得最多的一首歌是？报告已送达，各位观众请查收！年终述职报告｜赵磊回顾新专巡演趣事 （来源：网易娱乐专稿）美的浪漫56音乐 2026-11-04 06:25:29逗趣冒险家 2026-11-02 17:26:37辽宁行仁律师事务所 2026-11-04 15:39:15扬子晚报 2026-11-03 07:20:39清风电影记 2026-11-03 23:31:18财经时间官方 2026-11-03 20:10:03美的浪漫56音乐 2026-11-04 12:30:58封面新闻 2026-11-04 06:03:01苏有机 2026-11-0。",
+        "summary": "网易娱乐专稿1月18日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。今年专注于新专辑与巡演的歌手赵磊，回顾了珍藏的音乐记忆。新EP《恋爱庸才》中哪首歌最适合深夜emo听？今年联系最多的圈内好友是谁？KTV唱得最多的一首歌是？报告已送达，各位观众请查收！年终述职报告｜赵磊回顾新专巡演趣事 （来源：网易娱乐专稿）美的浪漫56音乐 2026-11-04 06:25:29逗趣冒险家 2026-11-02 17:26:37辽宁行仁律师事务所 2026-11-04 15:39:15扬子晚报 2026-11-03 07:20:39美的浪漫56音乐 2026-11-04 12:30:58清风电影记 2026-11-03 23:31:18财经时间官方 2026-11-03 20:10:03封面新闻 2026-11-04 06:03:01苏有机 2026-11-0。",
         "source": "网易娱乐",
         "tags": [
           "娱乐",
@@ -1655,7 +1653,7 @@
       {
         "time": "00:00",
         "title": "年终述职报告｜檀健次分享年度最过瘾舞台",
-        "summary": "娱乐新鲜派1月13日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。在表演、唱跳各领域都给大家留下深刻印象的檀健次，分享了今年的感动瞬间。《猎罪图鉴》是今年演得最怎样的一部戏？今年完成得最过瘾的是哪一个舞台？网上冲浪时刷到关于自己最有趣的梗是什么？报告已送达，各位观众请查收！年终述职报告｜檀健次分享年度最过瘾舞台 （来源：网易娱乐专稿）行雨影娱 2026-11-02 14:02:30探山城 2026-10-31 14:38:37娱乐在一起668 2026-11-02 20:36:56便利店在逃饭团 2026-11-03 13:00:03打马过春风 2026-11-03 13:01:14长安不夜人 2026-11-03 13:08:33艾米音乐 2026-11-03 00:00:00闪电新闻 2026-11-04 18:30:18浩歌剪辑 2026。",
+        "summary": "娱乐新鲜派1月13日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第五集上线。在表演、唱跳各领域都给大家留下深刻印象的檀健次，分享了今年的感动瞬间。《猎罪图鉴》是今年演得最怎样的一部戏？今年完成得最过瘾的是哪一个舞台？网上冲浪时刷到关于自己最有趣的梗是什么？报告已送达，各位观众请查收！年终述职报告｜檀健次分享年度最过瘾舞台 （来源：网易娱乐专稿）行雨影娱 2026-11-02 14:02:30探山城 2026-10-31 14:38:37娱乐在一起668 2026-11-02 20:36:56便利店在逃饭团 2026-11-03 13:00:03打马过春风 2026-11-03 13:01:14长安不夜人 2026-11-03 13:08:33艾米音乐 2026-11-03 00:00:00浩歌剪辑 2026-11-03 15:08:57下班乐翻天 202。",
         "source": "网易娱乐",
         "tags": [
           "娱乐",
@@ -1666,7 +1664,7 @@
       {
         "time": "00:00",
         "title": "INTO1-刘彰谈年度最爱演出现场",
-        "summary": "网易娱乐专稿12月30日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第二集上线。在Bilibili跨年晚会“2022最美的夜”后台，INTO1- 刘彰分享自己今年的高能时刻。《生人勿进》是今年唱得最怎样的一首歌？今年印象最深刻的现场是哪一场？今年直播中最高能的时刻是什么时候？报告已送达，各位观众请查收！年终述职报告｜INTO1-刘彰谈年度最爱演出现场 （来源：网易娱乐）业翔民安 2026-11-04 18:29:02了舞天下 2026-11-04 01:34:53闪电新闻 2026-11-04 18:30:18孤芳自赏的小李 2026-11-02 06:56:58下水道男孩 2026-11-03 00:43:38可爱的巴比龙 2026-11-02 07:58:25科技前沿菌 2026-11-03 03:30:08可爱的巴比龙 2026-11-03 09:。",
+        "summary": "网易娱乐专稿12月30日报道网易娱乐“搞快乐，我们是认真的”年终主题季来袭，《年终述职报告》（艺人版）第二集上线。在Bilibili跨年晚会“2022最美的夜”后台，INTO1- 刘彰分享自己今年的高能时刻。《生人勿进》是今年唱得最怎样的一首歌？今年印象最深刻的现场是哪一场？今年直播中最高能的时刻是什么时候？报告已送达，各位观众请查收！年终述职报告｜INTO1-刘彰谈年度最爱演出现场 （来源：网易娱乐）业翔民安 2026-11-04 18:29:02了舞天下 2026-11-04 01:34:53孤芳自赏的小李 2026-11-02 06:56:58下水道男孩 2026-11-03 00:43:38可爱的巴比龙 2026-11-02 07:58:25科技前沿菌 2026-11-03 03:30:08可爱的巴比龙 2026-11-03 09:49:42探山城 2026-11-03 12:3。",
         "source": "网易娱乐",
         "tags": [
           "娱乐",
@@ -2147,6 +2145,17 @@
     ],
     "culture": [
       {
+        "time": "19:34",
+        "title": "十年敦煌，从“展示窗口”到“对话世界”",
+        "summary": "中新网兰州11月4日电 (杨娜)十年前，在“飞天故里”甘肃敦煌，首届丝绸之路(敦煌)国际文化博览会(以下简称“敦煌文博会”)举行，一场跨越时空、连接中外的文明对话由此开启。十年后，于11月3日启幕的第九届敦煌文博会，围绕“加强文化交流，促进文明互鉴”这一主题展开，推动共建“一带一路”国家在文化遗产保护、文艺交流、文旅产业等多领域深化务实合作。从向世界展示千年敦煌的文化魅力，到借助数字技术共享文化遗产保护成果，再到围绕共同关切开展交流合作……十年间，敦煌文博会不断拓展文明交流的内涵与边界。",
+        "source": "中国新闻网",
+        "tags": [
+          "文化",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/cul/2026/11-04/10726176.shtml"
+      },
+      {
         "time": "18:12",
         "title": "竖屏里的中国故事：从“中国热播”到“全球通刷”",
         "summary": "打开任何一个海外短视频平台，用户很容易刷到一种竖屏、单集一两分钟、动辄几十集的剧集：反转密集、节奏快到“停不下来”。在英文互联网上，这类内容已经拥有了一个专门的词——duanju(短剧)。它不是欧美本土产物，而是起源于中国的内容形态。过去一年，这个“中国制造”的品类加速走向全球：作为字节跳动旗下产品，TikTok今年初在欧美、东南亚等地推出独立的微短剧应用PineDrama，把中国短剧跑通的模式带向海外；",
@@ -2244,41 +2253,41 @@
           "中国新闻网"
         ],
         "url": "https://www.chinanews.com.cn/cul/2026/11-04/10725914.shtml"
-      },
-      {
-        "time": "13:33",
-        "title": "2026“致敬经典·修复电影论坛”举办",
-        "summary": "中新网 11月4日电记者从主办方获悉，近日，2026“致敬经典·修复电影论坛”在苏州举办。时值中国电影资料馆“电影档案影片数字化修护工程”启动二十周年，本次论坛以“复现老电影的文化记忆”为主题，邀请来自柬埔寨、法国、意大利、英国、德国等国家电影主管部门负责人、修复专家，以国际化、专业化的视角，共同梳理中外电影修复技术脉络，推动电影文化遗产的活化利用。据介绍，本次论坛设置三个内容单元：AI时代的电影修复新图景、人文视野下的修复理念、拓展修复影片的传播途径。",
-        "source": "中国新闻网",
-        "tags": [
-          "文化",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/cul/2026/11-04/10725915.shtml"
       }
     ],
     "monthly": [
       {
         "time": "11-04",
-        "title": "中国铁道建筑集团有限公司党委常委李兴龙接受审查调查",
-        "summary": "中新网 11月4日电据中央纪委国家监委驻国务院国资委纪检监察组消息：中国铁道建筑集团有限公司党委常委李兴龙涉嫌严重违纪违法，目前正接受中央纪委国家监委驻国务院国资委纪检监察组纪律审查和监察调查。传统医学如何铺就“一带一路”民心相通之路？西海固那个曾经最穷的村，如今把日子过成了诗从手搓榫卯到慢写信笺中国年轻人兴起“情绪消费”三年赚一百万？记者卧底调查多款护眼膏营销乱象量贩零食店越开越多是真低价还是定价魔术？",
+        "title": "广交会期间白云机场口岸外国人入出境量创历史新高",
+        "summary": "中新社广州11月4日电 (方伟彬周笑臣)第140届中国进出口商品交易会(广交会)11月4日闭幕。记者从广州白云边检站获悉，10月15日0时至11月4日0时，广交会期间，该站累计查验出入境人员超116万人次，同比增长14.2%。其中，入出境外国人超67.5万人次，同比增长23.1%，占比超57.8%，数量和占比均刷新历史纪录。 -->本届广交会“磁吸力”显著：口岸单日客流超6万人次达4天；以商务、访问为目的的入境外国人超13.6万人次，占比39.4%，同比提高9个百分点。",
         "source": "中国新闻网",
         "tags": [
           "近一月回顾",
           "中国新闻网"
         ],
-        "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726101.shtml"
+        "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726164.shtml"
       },
       {
         "time": "11-04",
-        "title": "广东省揭阳市委原副书记王绍乐被“双开”",
-        "summary": "中新网 11月4日电据广东省纪委监委消息：经中共广东省委批准，广东省纪委监委对广东省揭阳市委原副书记王绍乐严重违纪违法问题进行了立案审查调查。经查，王绍乐丧失理想信念，背弃初心使命，对抗组织审查；违反中央八项规定精神，违规收受礼品礼金；违背组织原则，不按规定报告个人有关事项，在职工录用工作中为亲属谋取利益；廉洁底线失守，通过民间借贷获取大额回报，违规借用管理和服务对象钱款，违规买卖股票，利用职权或职务影响为亲属谋取利益；",
+        "title": "重庆市政府原参事赵江平被开除党籍",
+        "summary": "中新网 11月4日电据重庆市纪委监委消息：经重庆市委批准，重庆市纪委监委对重庆市政府原参事赵江平严重违纪违法问题进行了立案审查调查。经查，赵江平丧失理想信念，背弃初心使命，对党不忠诚不老实，对抗组织审查；无视组织原则，不按规定报告个人有关事项，在职务调整、职工录用工作中为他人谋利并收受财物；廉洁底线失守，违规从事营利活动；私欲膨胀，利用职务便利为他人在工程承揽、职务调整、职工招录等方面谋利，并非法收受巨额财物。",
         "source": "中国新闻网",
         "tags": [
           "近一月回顾",
           "中国新闻网"
         ],
-        "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726100.shtml"
+        "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726168.shtml"
+      },
+      {
+        "time": "11-04",
+        "title": "国台办回应“介选”说、明道赠锦旗等热点",
+        "summary": "中新社北京11月4日电 (记者李百加徐雪莹)国务院台办4日在北京举行例行新闻发布会。发言人朱凤莲就民进党当局所谓大陆“介选”说、台湾演员明道向上海交警赠锦旗等近期热点回答记者提问。大陆即将举办纪念孙中山先生诞辰160周年活动，台陆委会称“中华民国”才是正统。对此，朱凤莲指出，民进党当局顽固坚持“台独”分裂立场，拒不承认体现一个中国原则的“九二共识”，不断扭曲台湾同胞抵御外侮的光荣历史，持续淡化、美化日本殖民侵略，对外部势力奴颜婢膝，甚至阻挠台湾同胞参与大陆举办的纪念孙中山先生诞辰160周年活动。",
+        "source": "中国新闻网",
+        "tags": [
+          "近一月回顾",
+          "中国新闻网"
+        ],
+        "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726165.shtml"
       },
       {
         "time": "11-01",
@@ -2356,17 +2365,6 @@
           "中国新闻网"
         ],
         "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724511.shtml"
-      },
-      {
-        "time": "10-29",
-        "title": "广西加快打造国内国际双循环市场经营便利地",
-        "summary": "中新网南宁10月29日电(黄艳梅杨彩虹)广西壮族自治区发展和改革委员会副主任李文纲29日介绍，广西积极推进市场化法治化国际化营商环境建设，不断擦亮“营商广西·桂在便利”服务品牌，持续提升投资、贸易、消费、资金流动、人员往来、物流畅通等便利化水平，加快打造国内国际双循环市场经营便利地。广西壮族自治区人民政府新闻办公室当日举行新闻发布会，介绍广西优化营商环境及打造国内国际双循环市场经营便利地有关情况。",
-        "source": "中国新闻网",
-        "tags": [
-          "近一月回顾",
-          "中国新闻网"
-        ],
-        "url": "https://www.chinanews.com.cn/cj/2026/10-29/10723079.shtml"
       }
     ]
   }
