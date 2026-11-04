@@ -242,7 +242,11 @@ async function check(label, fn) {
     assert.ok(items[0].heat > 0);
     assert.equal(items[0].source, '今日头条热榜');
     assert.match(items[0].url, /^https?:\/\//);
-    assert.ok(items[0].id.startsWith(`${LATEST_DATE}|hotsearch|`));
+    const validDates = new Set(lastData().dates.slice(0, 7));
+    assert.ok(
+      items.every((item) => validDates.has(item.date)),
+      '热搜条目应来自最近 7 天的快照'
+    );
   });
 
   await check('每类新闻都有分类名与日期', () => {
