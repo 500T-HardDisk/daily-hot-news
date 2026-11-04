@@ -311,6 +311,8 @@ const RSS_FEEDS = {
   cnScroll: { url: 'https://www.chinanews.com.cn/rss/scroll-news.xml', source: '中国新闻网' },
   cnLife: { url: 'https://www.chinanews.com.cn/rss/life.xml', source: '中国新闻网' },
   cnDxw: { url: 'https://www.chinanews.com.cn/rss/dxw.xml', source: '中国新闻网' },
+  gcores: { url: 'https://www.gcores.com/rss', source: '机核', referer: 'https://www.gcores.com/' },
+  chuapp: { url: 'https://www.chuapp.com/feed', source: '触乐', referer: 'https://www.chuapp.com/' },
 };
 
 const HTML_LISTS = {
@@ -589,6 +591,8 @@ const cnLife = candidatesFrom(rss.cnLife || [], ['健康']);
 const cnEdu = candidatesFrom(rss.cnEdu || [], ['教育']);
 const cnCulture = candidatesFrom(rss.cnCulture || [], ['文化']);
 const cnDxw = candidatesFrom(rss.cnDxw || [], ['文化']);
+const gcores = candidatesFrom(rss.gcores || [], ['游戏']);
+const chuapp = candidatesFrom(rss.chuapp || [], ['游戏']);
 const eastmoneyGold = candidatesFrom(lists.eastmoneyGold || [], ['黄金行情']);
 const sinaGold = candidatesFrom(lists.sinaGold || [], ['黄金行情']);
 const neteaseEnt = candidatesFrom(lists.neteaseEnt || [], ['娱乐']);
@@ -601,6 +605,8 @@ const autoPool = dedupe([
   ...filterCandidates(ifanr, KEYWORDS.auto, [KEYWORDS.autoExclude]),
 ]);
 const gamePool = dedupe([
+  ...gcores,
+  ...chuapp,
   ...filterCandidates(ithome, KEYWORDS.game, [KEYWORDS.gameExclude]),
   // 游戏硬件、VR/主机与电竞产业同样属于游戏板块，作为真实新闻补充
   ...filterCandidates(ithome, /游戏手柄|VR|头显|RTX|显卡|主机|电竞|游戏/i, [/早报|降价|促销/i]),
