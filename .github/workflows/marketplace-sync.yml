@@ -1,0 +1,45 @@
+name: Marketplace daily sync
+
+on:
+  schedule:
+    # 北京时间每天 22:00（UTC 14:00）同步当前 main 到 Marketplace
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: marketplace-sync
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 编译
+        run: npm run compile
+
+      - name: 校验数据
+        run: node scripts/validate-news.mjs --strict
+
+      - name: 运行测试
+        run: |
+          node scripts/test-webview.mjs
+          node scripts/test-host.cjs
+
+      - name: 发布到 VS Code Marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: npx @vscode/vsce publish --no-git-tag-version --skip-duplicate
