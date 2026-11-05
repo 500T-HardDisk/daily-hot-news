@@ -1,9 +1,6 @@
 name: Marketplace daily sync
 
 on:
-  schedule:
-    # 北京时间每天 22:00（UTC 14:00）同步当前 main 到 Marketplace
-    - cron: '0 14 * * *'
   workflow_dispatch:
 
 permissions:
