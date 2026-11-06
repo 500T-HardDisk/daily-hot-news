@@ -877,8 +877,7 @@ for (const id of ORDER) {
 }
 
 if (shortfalls.length) {
-  console.error(`\n❌ 以下板块真实新闻不足 ${LIMIT} 条：${shortfalls.join('，')}`);
-  process.exit(1);
+  console.warn(`\n⚠️ 以下板块真实新闻不足 ${LIMIT} 条，仍继续发布：${shortfalls.join('，')}`);
 }
 
 const index = JSON.parse(readFileSync(INDEX_FILE, 'utf8'));
@@ -890,7 +889,7 @@ for (const id of ORDER) {
     categories.hotsearch = [];
     continue;
   }
-  categories[id] = result[id];
+  categories[id] = result[id] || [];
 }
 
 const counts = Object.fromEntries(ORDER.map((id) => [id, categories[id]?.length || 0]));

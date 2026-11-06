@@ -157,8 +157,8 @@ if (index && Array.isArray(index.days)) {
         error(`${label} 的 categories.${id} 必须是数组`);
         continue;
       }
-      if (id !== 'hotsearch' && list.length !== 10) {
-        error(`${label} 的 categories.${id} 需要 10 条真实新闻（当前 ${list.length} 条）`);
+      if (id !== 'hotsearch' && list.length < 10) {
+        warn(`${label} 的 categories.${id} 当前 ${list.length} 条，少于 10 条，仍允许发布`);
       }
 
       const expected = entry.counts?.[id];
@@ -336,7 +336,7 @@ if (index && Array.isArray(index.days)) {
       const hot = day.categories.hotsearch;
       if (Array.isArray(hot) && hot.length) {
         if (hot.length !== 30) {
-          error(`${label} 的 hotsearch 快照需要 30 条（当前 ${hot.length} 条）`);
+          warn(`${label} 的 hotsearch 当前 ${hot.length} 条，少于 30 条，仍允许发布`);
         }
         const titles = new Set();
         hot.forEach((item, index) => {

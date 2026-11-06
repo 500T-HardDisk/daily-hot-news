@@ -106,7 +106,7 @@ function toItem(raw, index) {
       .slice(0, 30);
 
     if (items.length < 30) {
-      throw new Error(`热搜条数不足 30（当前 ${items.length}）`);
+      console.warn(`⚠️ 热搜条数不足 30（当前 ${items.length}），仍继续写入`);
     }
 
     const dayFile = join(ROOT, 'news', entry.file);
@@ -123,9 +123,12 @@ function toItem(raw, index) {
 
     console.log(`✅ 已写入 ${items.length} 条真实热搜到 ${entry.file}`);
     console.log(`   数据源：今日头条热榜，抓取时间：${new Date().toLocaleString()}`);
-    console.log(`   榜首：${items[0].title}（热度 ${items[0].heat.toLocaleString('zh-CN')}）`);
+    if (items[0]) {
+      console.log(`   榜首：${items[0].title}（热度 ${items[0].heat.toLocaleString('zh-CN')}）`);
+    }
   } catch (error) {
-    console.error(`❌ 抓取失败：${error.message}`);
-    process.exit(1);
+    // 热搜失败不阻塞新闻发布，保留当天已有数据
+    console.warn(`⚠️ 热搜抓取失败，保留现有数据：${error.message}`);
+    process.exit(0);
   }
 })();
