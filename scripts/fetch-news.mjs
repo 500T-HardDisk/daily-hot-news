@@ -671,6 +671,9 @@ const goldPool = dedupe([
 const geopoliticsPool = dedupe([
   ...filterCandidates(cnWorld, KEYWORDS.geopolitics),
   ...filterCandidates(cnImport, KEYWORDS.geopolitics),
+  ...filterCandidates(jiemian, KEYWORDS.geopolitics),
+  ...filterCandidates(cnScroll, KEYWORDS.geopolitics),
+  ...filterCandidates(cnFinance, KEYWORDS.geopolitics),
 ]);
 const aistockPool = dedupe([
   ...filterCandidates(ithome, KEYWORDS.ai, [KEYWORDS.aiExclude]).filter((item) =>
@@ -723,6 +726,38 @@ async function fill(categoryId, candidates, { limit = LIMIT, tag } = {}) {
     });
     if (items.length >= limit) break;
   }
+
+  // 某个来源临时不可用时，用最近历史日期的真实数据补齐，避免整个发布中断
+  if (items.length < limit && existsSync(DATA_DIR)) {
+    const historyFiles = readdirSync(DATA_DIR)
+      .filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name) && name !== `${TARGET_DATE}.json`)
+      .sort()
+      .reverse();
+    for (const file of historyFiles) {
+      if (items.length >= limit) break;
+      try {
+        const previousDay = JSON.parse(readFileSync(join(DATA_DIR, file), 'utf8'));
+        const list = previousDay?.categories?.[categoryId];
+        for (const item of Array.isArray(list) ? list : []) {
+          if (items.length >= limit) break;
+          const key = keyOf(item?.title || '');
+          if (!key || used.has(key) || (item.url && usedUrls.has(item.url))) continue;
+          used.add(key);
+          if (item.url) usedUrls.add(item.url);
+          items.push({
+            ...item,
+            tags: [...new Set([...(Array.isArray(item.tags) ? item.tags : []), '补发'])],
+          });
+        }
+      } catch {
+        // 忽略损坏的历史文件
+      }
+    }
+    if (items.length) {
+      console.warn(`  ! ${categoryId} 使用历史快照补充到 ${items.length}/${limit}`);
+    }
+  }
+
   result[categoryId] = items;
   console.log(`  ${categoryId}: ${items.length}/${limit}`);
   return items;
