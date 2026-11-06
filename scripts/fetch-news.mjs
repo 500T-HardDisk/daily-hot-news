@@ -11,7 +11,7 @@
  *   node scripts/fetch-news.mjs
  *   node scripts/fetch-news.mjs --date=2026-11-03
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -404,6 +404,7 @@ function formatPercent(value) {
 
 async function fetchStockTable() {
   const rows = [];
+  let kospiFromPrevious = false;
   try {
     const text = await fetchGbk(
       'https://qt.gtimg.cn/q=usDJI,usIXIC,usINX,hkHSI,sh000001',
@@ -439,25 +440,69 @@ async function fetchStockTable() {
   }
 
   try {
-    const response = await fetch(
-      'https://push2.eastmoney.com/api/qt/stock/get?secid=100.KS11&fields=f43,f58,f60,f170',
-      { headers: { 'User-Agent': USER_AGENT, Referer: 'https://quote.eastmoney.com/' }, signal: AbortSignal.timeout(15000) }
-    );
-    const json = await response.json();
-    const data = json?.data;
-    if (data && Number.isFinite(data.f43)) {
+    let data;
+    const hosts = ['push2.eastmoney.com', 'push2delay.eastmoney.com'];
+    for (const host of hosts) {
+      for (let attempt = 0; attempt < 3 && !data; attempt += 1) {
+        try {
+          const response = await fetch(
+            `https://${host}/api/qt/stock/get?secid=100.KS11&ut=fa5fd1943c7b386f172d6893dbfba10b&fields=f43,f58,f60,f170`,
+            {
+              headers: { 'User-Agent': USER_AGENT, Referer: 'https://quote.eastmoney.com/' },
+              signal: AbortSignal.timeout(12000),
+            }
+          );
+          const text = await response.text();
+          const json = JSON.parse(text);
+          if (json?.data && Number.isFinite(json.data.f43)) data = json.data;
+        } catch {
+          // 换下一个重试或备用域名
+        }
+      }
+      if (data) break;
+    }
+
+    if (data) {
       const current = data.f43 / 100;
       const previous = Number.isFinite(data.f60) ? data.f60 / 100 : undefined;
       const pct = Number.isFinite(data.f170) ? data.f170 / 100 : percent(current, previous);
       rows.push(['韩股', 'KOSPI', formatNumber(current), formatPercent(pct), '公开行情']);
+    } else {
+      throw new Error('东方财富 KOSPI 接口不可用');
     }
   } catch (error) {
     console.warn(`  ! 韩国 KOSPI 行情获取失败：${error.message}`);
+    if (existsSync(DATA_DIR)) {
+      const files = readdirSync(DATA_DIR)
+        .filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name))
+        .sort()
+        .reverse();
+      for (const file of files) {
+        if (file === `${TARGET_DATE}.json`) continue;
+        try {
+          const previousDay = JSON.parse(readFileSync(join(DATA_DIR, file), 'utf8'));
+          const stocks = previousDay?.categories?.stocks;
+          const row = (Array.isArray(stocks) ? stocks : [])
+            .flatMap((item) => (Array.isArray(item?.table?.rows) ? item.table.rows : []))
+            .find((cells) => cells?.[0] === '韩股');
+          if (row) {
+            rows.push([row[0], row[1], row[2], row[3], '前一交易日快照']);
+            kospiFromPrevious = true;
+            console.warn(`  ! 使用 ${file} 的韩股行情作为兜底`);
+            break;
+          }
+        } catch {
+          // 忽略损坏的历史文件
+        }
+      }
+    }
   }
 
   if (!rows.length) return undefined;
   return {
-    caption: `${TARGET_DATE} 公开行情快照（来源：腾讯行情 / 东方财富）`,
+    caption:
+      `${TARGET_DATE} 公开行情快照（来源：腾讯行情 / 东方财富）` +
+      (kospiFromPrevious ? '；韩股为前一交易日快照' : ''),
     columns: ['市场', '指数', '最新', '涨跌幅', '说明'],
     rows,
   };
