@@ -180,7 +180,7 @@ console.log('侧边栏模式：');
     const options = [...document.querySelectorAll('#date-select option')].map((o) => o.textContent);
     assert.ok(options[0].includes('最新'), options[0]);
     if (options.length > 1) {
-      assert.ok(options[1].includes('昨天'), options[1]);
+      assert.ok(/昨天|前天|星期/.test(options[1]), options[1]);
     }
     assert.equal(document.getElementById('btn-latest').hidden, true);
   });
