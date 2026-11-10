@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T12:10:53.324Z",
+  "updatedAt": "2026-11-10T20:43:55.414Z",
   "categories": [
     {
       "id": "hotsearch",
@@ -112,6 +112,30 @@
     }
   ],
   "days": [
+    {
+      "date": "2026-11-11",
+      "file": "data/2026-11-11.json",
+      "counts": {
+        "hotsearch": 30,
+        "tech": 10,
+        "ai": 10,
+        "finance": 10,
+        "stocks": 10,
+        "aistocks": 10,
+        "gold": 10,
+        "global": 10,
+        "geopolitics": 10,
+        "society": 10,
+        "sports": 10,
+        "entertainment": 10,
+        "health": 10,
+        "education": 10,
+        "auto": 10,
+        "game": 10,
+        "culture": 10,
+        "monthly": 10
+      }
+    },
     {
       "date": "2026-11-10",
       "file": "data/2026-11-10.json",
